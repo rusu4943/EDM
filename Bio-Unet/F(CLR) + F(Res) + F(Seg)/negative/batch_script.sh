@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=Negative_07
+#SBATCH --output=Negative_07.log
+#SBATCH --error=Negative_07.log
+#SBATCH --time=2-00:00:00  
+#SBATCH --partition=gpu  
+#SBATCH --cpus-per-task=31 
+#SBATCH --mem-per-cpu=8GB 
+#SBATCH --gres=gpu:a40:2  
+#SBATCH --account=rostamim_919
+
+
+source /spack/conda/miniconda3/23.3.1/bin/activate XAI
+
+/home1/ruitongs/.conda/envs/XAI/bin/python Resnet50+Unet+SIMCLR.py
+

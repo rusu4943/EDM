@@ -1,0 +1,1209 @@
+2024-06-25 19:06:50,674 - INFO - seed is: 1111
+2024-06-25 19:06:50,677 - INFO - args: Namespace(report_freq=1, tune_mode='fine-tune', backbone='resnet50', cls_type='single', hidden_dim=512, record_root_dir='./record-data', exp='default_exp', batch_size=120, num_workers=0, num_classes=1, num_epochs=100, num_steps=-1, learn_rate=1e-06, weight_decay=1e-06, resume=False, input_dir='../h5py/', save_name='Resnet50', device='cuda:0', gpu_ids=[0], seed=1111, root='/scratch/rs37890/CARC/Explainable-NN-model', sub_root='/Fold1_Bio-Unet-stage1', checkpoint_root='/F(CLR) + F(Res) + F(Seg)', shallow_network_folder='/Mel-detection_effect_of_different_lr/1e-6', csv_h5_dir='/scratch/rs37890/CARC/Explainable-NN-model/Data', record_dir='/scratch/rs37890/CARC/Explainable-NN-model/Fold1_Bio-Unet-stage1/Mel-detection_effect_of_different_lr/1e-6/record_dir')
+2024-06-25 19:06:50,685 - INFO - Starting Epoch: 1
+2024-06-25 19:06:54,352 - INFO - TRAIN Epoch: 0 Step: 0/18 Loss: 0.7172 Accuracy: 0.2333 AUC: 0.0000 Data Time: 1.7792 Batch Time: 3.6651
+2024-06-25 19:06:56,263 - INFO - TRAIN Epoch: 0 Step: 1/18 Loss: 0.7087 Accuracy: 0.3042 AUC: 0.0000 Data Time: 1.3422 Batch Time: 2.7869
+2024-06-25 19:06:58,647 - INFO - TRAIN Epoch: 0 Step: 2/18 Loss: 0.7009 Accuracy: 0.4306 AUC: 0.0000 Data Time: 1.2373 Batch Time: 2.6523
+2024-06-25 19:07:01,357 - INFO - TRAIN Epoch: 0 Step: 3/18 Loss: 0.6935 Accuracy: 0.5167 AUC: 0.0000 Data Time: 1.3651 Batch Time: 2.6658
+2024-06-25 19:07:03,539 - INFO - TRAIN Epoch: 0 Step: 4/18 Loss: 0.6850 Accuracy: 0.5833 AUC: 0.0000 Data Time: 1.2981 Batch Time: 2.5688
+2024-06-25 19:07:05,970 - INFO - TRAIN Epoch: 0 Step: 5/18 Loss: 0.6779 Accuracy: 0.6208 AUC: 0.0000 Data Time: 1.2550 Batch Time: 2.5456
+2024-06-25 19:07:08,653 - INFO - TRAIN Epoch: 0 Step: 6/18 Loss: 0.6715 Accuracy: 0.6440 AUC: 0.0000 Data Time: 1.2236 Batch Time: 2.5651
+2024-06-25 19:07:10,784 - INFO - TRAIN Epoch: 0 Step: 7/18 Loss: 0.6658 Accuracy: 0.6615 AUC: 0.0000 Data Time: 1.2001 Batch Time: 2.5107
+2024-06-25 19:07:12,722 - INFO - TRAIN Epoch: 0 Step: 8/18 Loss: 0.6618 Accuracy: 0.6704 AUC: 0.0000 Data Time: 1.1814 Batch Time: 2.4469
+2024-06-25 19:07:14,667 - INFO - TRAIN Epoch: 0 Step: 9/18 Loss: 0.6555 Accuracy: 0.6842 AUC: 0.0000 Data Time: 1.1658 Batch Time: 2.3966
+2024-06-25 19:07:16,782 - INFO - TRAIN Epoch: 0 Step: 10/18 Loss: 0.6494 Accuracy: 0.6947 AUC: 0.0000 Data Time: 1.1534 Batch Time: 2.3708
+2024-06-25 19:07:19,067 - INFO - TRAIN Epoch: 0 Step: 11/18 Loss: 0.6433 Accuracy: 0.7035 AUC: 0.0000 Data Time: 1.1431 Batch Time: 2.3635
+2024-06-25 19:07:21,580 - INFO - TRAIN Epoch: 0 Step: 12/18 Loss: 0.6405 Accuracy: 0.7058 AUC: 0.0000 Data Time: 1.1350 Batch Time: 2.3750
+2024-06-25 19:07:24,363 - INFO - TRAIN Epoch: 0 Step: 13/18 Loss: 0.6342 Accuracy: 0.7143 AUC: 0.0000 Data Time: 1.1275 Batch Time: 2.4040
+2024-06-25 19:07:27,741 - INFO - TRAIN Epoch: 0 Step: 14/18 Loss: 0.6289 Accuracy: 0.7211 AUC: 0.0000 Data Time: 1.1340 Batch Time: 2.4689
+2024-06-25 19:07:30,838 - INFO - TRAIN Epoch: 0 Step: 15/18 Loss: 0.6243 Accuracy: 0.7260 AUC: 0.0000 Data Time: 1.1323 Batch Time: 2.5080
+2024-06-25 19:07:33,320 - INFO - TRAIN Epoch: 0 Step: 16/18 Loss: 0.6202 Accuracy: 0.7299 AUC: 0.0000 Data Time: 1.1264 Batch Time: 2.5064
+2024-06-25 19:07:34,079 - INFO - TRAIN Epoch: 0 Step: 17/18 Loss: 0.6183 Accuracy: 0.7319 AUC: 0.0000 Data Time: 1.0803 Batch Time: 2.4092
+2024-06-25 19:07:34,082 - INFO - AUC Score: 0.5122
+2024-06-25 19:07:37,451 - INFO - VAL Epoch: 0 Step: 0/5 Loss: 0.5400 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.2983 Batch Time: 3.3669
+2024-06-25 19:07:40,762 - INFO - VAL Epoch: 0 Step: 1/5 Loss: 0.5287 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.2420 Batch Time: 3.3386
+2024-06-25 19:07:42,289 - INFO - VAL Epoch: 0 Step: 2/5 Loss: 0.5295 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.0388 Batch Time: 2.7340
+2024-06-25 19:07:44,113 - INFO - VAL Epoch: 0 Step: 3/5 Loss: 0.5381 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0098 Batch Time: 2.5063
+2024-06-25 19:07:45,132 - INFO - VAL Epoch: 0 Step: 4/5 Loss: 0.5439 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.8598 Batch Time: 2.2086
+2024-06-25 19:07:45,135 - INFO - AUC Score: 0.4815
+2024-06-25 19:07:45,136 - INFO - New best model at epoch: 1
+2024-06-25 19:07:45,298 - INFO - Starting Epoch: 2
+2024-06-25 19:07:47,411 - INFO - TRAIN Epoch: 1 Step: 0/18 Loss: 0.5372 Accuracy: 0.7917 AUC: 0.0000 Data Time: 1.0391 Batch Time: 2.1110
+2024-06-25 19:07:49,369 - INFO - TRAIN Epoch: 1 Step: 1/18 Loss: 0.5361 Accuracy: 0.7833 AUC: 0.0000 Data Time: 1.0346 Batch Time: 2.0336
+2024-06-25 19:07:51,315 - INFO - TRAIN Epoch: 1 Step: 2/18 Loss: 0.5374 Accuracy: 0.7861 AUC: 0.0000 Data Time: 1.0323 Batch Time: 2.0039
+2024-06-25 19:07:53,475 - INFO - TRAIN Epoch: 1 Step: 3/18 Loss: 0.5388 Accuracy: 0.7812 AUC: 0.0000 Data Time: 1.0311 Batch Time: 2.0425
+2024-06-25 19:07:56,083 - INFO - TRAIN Epoch: 1 Step: 4/18 Loss: 0.5450 Accuracy: 0.7783 AUC: 0.0000 Data Time: 1.0305 Batch Time: 2.1554
+2024-06-25 19:07:58,984 - INFO - TRAIN Epoch: 1 Step: 5/18 Loss: 0.5392 Accuracy: 0.7833 AUC: 0.0000 Data Time: 1.0450 Batch Time: 2.2794
+2024-06-25 19:08:01,366 - INFO - TRAIN Epoch: 1 Step: 6/18 Loss: 0.5322 Accuracy: 0.7893 AUC: 0.0000 Data Time: 1.0433 Batch Time: 2.2939
+2024-06-25 19:08:03,301 - INFO - TRAIN Epoch: 1 Step: 7/18 Loss: 0.5250 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.0412 Batch Time: 2.2488
+2024-06-25 19:08:05,238 - INFO - TRAIN Epoch: 1 Step: 8/18 Loss: 0.5221 Accuracy: 0.7981 AUC: 0.0000 Data Time: 1.0391 Batch Time: 2.2141
+2024-06-25 19:08:07,698 - INFO - TRAIN Epoch: 1 Step: 9/18 Loss: 0.5167 Accuracy: 0.8025 AUC: 0.0000 Data Time: 1.0383 Batch Time: 2.2385
+2024-06-25 19:08:10,582 - INFO - TRAIN Epoch: 1 Step: 10/18 Loss: 0.5155 Accuracy: 0.8023 AUC: 0.0000 Data Time: 1.0386 Batch Time: 2.2971
+2024-06-25 19:08:13,078 - INFO - TRAIN Epoch: 1 Step: 11/18 Loss: 0.5168 Accuracy: 0.8007 AUC: 0.0000 Data Time: 1.0380 Batch Time: 2.3135
+2024-06-25 19:08:15,084 - INFO - TRAIN Epoch: 1 Step: 12/18 Loss: 0.5142 Accuracy: 0.8019 AUC: 0.0000 Data Time: 1.0376 Batch Time: 2.2897
+2024-06-25 19:08:16,867 - INFO - TRAIN Epoch: 1 Step: 13/18 Loss: 0.5078 Accuracy: 0.8071 AUC: 0.0000 Data Time: 1.0241 Batch Time: 2.2535
+2024-06-25 19:08:18,991 - INFO - TRAIN Epoch: 1 Step: 14/18 Loss: 0.5103 Accuracy: 0.8028 AUC: 0.0000 Data Time: 1.0257 Batch Time: 2.2447
+2024-06-25 19:08:21,469 - INFO - TRAIN Epoch: 1 Step: 15/18 Loss: 0.5097 Accuracy: 0.8026 AUC: 0.0000 Data Time: 1.0266 Batch Time: 2.2592
+2024-06-25 19:08:24,010 - INFO - TRAIN Epoch: 1 Step: 16/18 Loss: 0.5111 Accuracy: 0.8010 AUC: 0.0000 Data Time: 1.0033 Batch Time: 2.2757
+2024-06-25 19:08:24,457 - INFO - TRAIN Epoch: 1 Step: 17/18 Loss: 0.5119 Accuracy: 0.7999 AUC: 0.0000 Data Time: 0.9573 Batch Time: 2.1741
+2024-06-25 19:08:24,461 - INFO - AUC Score: 0.5550
+2024-06-25 19:08:27,346 - INFO - VAL Epoch: 1 Step: 0/5 Loss: 0.5024 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.5968 Batch Time: 2.8844
+2024-06-25 19:08:30,116 - INFO - VAL Epoch: 1 Step: 1/5 Loss: 0.4837 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.2920 Batch Time: 2.8262
+2024-06-25 19:08:33,272 - INFO - VAL Epoch: 1 Step: 2/5 Loss: 0.4855 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.2051 Batch Time: 2.9356
+2024-06-25 19:08:35,907 - INFO - VAL Epoch: 1 Step: 3/5 Loss: 0.5016 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.1603 Batch Time: 2.8600
+2024-06-25 19:08:36,646 - INFO - VAL Epoch: 1 Step: 4/5 Loss: 0.5120 Accuracy: 0.7996 AUC: 0.0000 Data Time: 1.0073 Batch Time: 2.4357
+2024-06-25 19:08:36,650 - INFO - AUC Score: 0.4800
+2024-06-25 19:08:36,651 - INFO - New best model at epoch: 2
+2024-06-25 19:08:36,840 - INFO - Starting Epoch: 3
+2024-06-25 19:08:39,463 - INFO - TRAIN Epoch: 2 Step: 0/18 Loss: 0.4959 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.2238 Batch Time: 2.6220
+2024-06-25 19:08:42,499 - INFO - TRAIN Epoch: 2 Step: 1/18 Loss: 0.5123 Accuracy: 0.7833 AUC: 0.0000 Data Time: 1.1325 Batch Time: 2.8273
+2024-06-25 19:08:45,439 - INFO - TRAIN Epoch: 2 Step: 2/18 Loss: 0.4976 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.1012 Batch Time: 2.8647
+2024-06-25 19:08:47,909 - INFO - TRAIN Epoch: 2 Step: 3/18 Loss: 0.4964 Accuracy: 0.7979 AUC: 0.0000 Data Time: 1.0860 Batch Time: 2.7656
+2024-06-25 19:08:52,050 - INFO - TRAIN Epoch: 2 Step: 4/18 Loss: 0.4933 Accuracy: 0.8017 AUC: 0.0000 Data Time: 1.2345 Batch Time: 3.0403
+2024-06-25 19:08:54,819 - INFO - TRAIN Epoch: 2 Step: 5/18 Loss: 0.4901 Accuracy: 0.8042 AUC: 0.0000 Data Time: 1.2009 Batch Time: 2.9949
+2024-06-25 19:08:57,148 - INFO - TRAIN Epoch: 2 Step: 6/18 Loss: 0.4811 Accuracy: 0.8119 AUC: 0.0000 Data Time: 1.1772 Batch Time: 2.8996
+2024-06-25 19:08:59,270 - INFO - TRAIN Epoch: 2 Step: 7/18 Loss: 0.4875 Accuracy: 0.8073 AUC: 0.0000 Data Time: 1.1585 Batch Time: 2.8021
+2024-06-25 19:09:01,656 - INFO - TRAIN Epoch: 2 Step: 8/18 Loss: 0.4819 Accuracy: 0.8111 AUC: 0.0000 Data Time: 1.1441 Batch Time: 2.7557
+2024-06-25 19:09:04,343 - INFO - TRAIN Epoch: 2 Step: 9/18 Loss: 0.4874 Accuracy: 0.8067 AUC: 0.0000 Data Time: 1.1297 Batch Time: 2.7487
+2024-06-25 19:09:07,343 - INFO - TRAIN Epoch: 2 Step: 10/18 Loss: 0.4836 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.1208 Batch Time: 2.7714
+2024-06-25 19:09:10,276 - INFO - TRAIN Epoch: 2 Step: 11/18 Loss: 0.4820 Accuracy: 0.8097 AUC: 0.0000 Data Time: 1.1136 Batch Time: 2.7848
+2024-06-25 19:09:12,117 - INFO - TRAIN Epoch: 2 Step: 12/18 Loss: 0.4874 Accuracy: 0.8071 AUC: 0.0000 Data Time: 1.0772 Batch Time: 2.7122
+2024-06-25 19:09:14,969 - INFO - TRAIN Epoch: 2 Step: 13/18 Loss: 0.4877 Accuracy: 0.8060 AUC: 0.0000 Data Time: 1.0704 Batch Time: 2.7220
+2024-06-25 19:09:18,132 - INFO - TRAIN Epoch: 2 Step: 14/18 Loss: 0.4907 Accuracy: 0.8039 AUC: 0.0000 Data Time: 1.0675 Batch Time: 2.7513
+2024-06-25 19:09:20,823 - INFO - TRAIN Epoch: 2 Step: 15/18 Loss: 0.4938 Accuracy: 0.8016 AUC: 0.0000 Data Time: 1.0656 Batch Time: 2.7475
+2024-06-25 19:09:24,682 - INFO - TRAIN Epoch: 2 Step: 16/18 Loss: 0.4946 Accuracy: 0.8015 AUC: 0.0000 Data Time: 1.1285 Batch Time: 2.8127
+2024-06-25 19:09:25,264 - INFO - TRAIN Epoch: 2 Step: 17/18 Loss: 0.4969 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.0825 Batch Time: 2.6887
+2024-06-25 19:09:25,268 - INFO - AUC Score: 0.5678
+2024-06-25 19:09:27,548 - INFO - VAL Epoch: 2 Step: 0/5 Loss: 0.5003 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.2050 Batch Time: 2.2786
+2024-06-25 19:09:29,697 - INFO - VAL Epoch: 2 Step: 1/5 Loss: 0.4791 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.1146 Batch Time: 2.2127
+2024-06-25 19:09:32,088 - INFO - VAL Epoch: 2 Step: 2/5 Loss: 0.4813 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.0879 Batch Time: 2.2718
+2024-06-25 19:09:34,778 - INFO - VAL Epoch: 2 Step: 3/5 Loss: 0.5000 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0733 Batch Time: 2.3760
+2024-06-25 19:09:35,510 - INFO - VAL Epoch: 2 Step: 4/5 Loss: 0.5119 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.9416 Batch Time: 2.0468
+2024-06-25 19:09:35,513 - INFO - AUC Score: 0.4877
+2024-06-25 19:09:35,514 - INFO - New best model at epoch: 3
+2024-06-25 19:09:35,705 - INFO - Starting Epoch: 4
+2024-06-25 19:09:37,657 - INFO - TRAIN Epoch: 3 Step: 0/18 Loss: 0.5030 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0361 Batch Time: 1.9498
+2024-06-25 19:09:39,686 - INFO - TRAIN Epoch: 3 Step: 1/18 Loss: 0.5047 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.0369 Batch Time: 1.9889
+2024-06-25 19:09:42,087 - INFO - TRAIN Epoch: 3 Step: 2/18 Loss: 0.5120 Accuracy: 0.7889 AUC: 0.0000 Data Time: 1.0343 Batch Time: 2.1256
+2024-06-25 19:09:44,775 - INFO - TRAIN Epoch: 3 Step: 3/18 Loss: 0.5091 Accuracy: 0.7896 AUC: 0.0000 Data Time: 1.0330 Batch Time: 2.2661
+2024-06-25 19:09:47,756 - INFO - TRAIN Epoch: 3 Step: 4/18 Loss: 0.5233 Accuracy: 0.7767 AUC: 0.0000 Data Time: 1.0361 Batch Time: 2.4088
+2024-06-25 19:09:50,942 - INFO - TRAIN Epoch: 3 Step: 5/18 Loss: 0.5119 Accuracy: 0.7875 AUC: 0.0000 Data Time: 1.0363 Batch Time: 2.5380
+2024-06-25 19:09:53,602 - INFO - TRAIN Epoch: 3 Step: 6/18 Loss: 0.5094 Accuracy: 0.7881 AUC: 0.0000 Data Time: 1.0350 Batch Time: 2.5553
+2024-06-25 19:09:55,887 - INFO - TRAIN Epoch: 3 Step: 7/18 Loss: 0.5037 Accuracy: 0.7917 AUC: 0.0000 Data Time: 1.0346 Batch Time: 2.5213
+2024-06-25 19:09:57,831 - INFO - TRAIN Epoch: 3 Step: 8/18 Loss: 0.4958 Accuracy: 0.7972 AUC: 0.0000 Data Time: 1.0334 Batch Time: 2.4570
+2024-06-25 19:10:00,139 - INFO - TRAIN Epoch: 3 Step: 9/18 Loss: 0.4951 Accuracy: 0.7992 AUC: 0.0000 Data Time: 1.0332 Batch Time: 2.4419
+2024-06-25 19:10:03,419 - INFO - TRAIN Epoch: 3 Step: 10/18 Loss: 0.4944 Accuracy: 0.8008 AUC: 0.0000 Data Time: 1.0660 Batch Time: 2.5180
+2024-06-25 19:10:06,944 - INFO - TRAIN Epoch: 3 Step: 11/18 Loss: 0.4950 Accuracy: 0.7993 AUC: 0.0000 Data Time: 1.1190 Batch Time: 2.6017
+2024-06-25 19:10:10,022 - INFO - TRAIN Epoch: 3 Step: 12/18 Loss: 0.4917 Accuracy: 0.8026 AUC: 0.0000 Data Time: 1.1537 Batch Time: 2.6382
+2024-06-25 19:10:13,450 - INFO - TRAIN Epoch: 3 Step: 13/18 Loss: 0.4932 Accuracy: 0.8012 AUC: 0.0000 Data Time: 1.2199 Batch Time: 2.6945
+2024-06-25 19:10:16,474 - INFO - TRAIN Epoch: 3 Step: 14/18 Loss: 0.4975 Accuracy: 0.7989 AUC: 0.0000 Data Time: 1.2811 Batch Time: 2.7163
+2024-06-25 19:10:20,114 - INFO - TRAIN Epoch: 3 Step: 15/18 Loss: 0.4964 Accuracy: 0.7995 AUC: 0.0000 Data Time: 1.3201 Batch Time: 2.7739
+2024-06-25 19:10:23,769 - INFO - TRAIN Epoch: 3 Step: 16/18 Loss: 0.4936 Accuracy: 0.8010 AUC: 0.0000 Data Time: 1.3362 Batch Time: 2.8257
+2024-06-25 19:10:24,275 - INFO - TRAIN Epoch: 3 Step: 17/18 Loss: 0.4948 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.2756 Batch Time: 2.6967
+2024-06-25 19:10:24,280 - INFO - AUC Score: 0.5809
+2024-06-25 19:10:26,885 - INFO - VAL Epoch: 3 Step: 0/5 Loss: 0.4987 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8483 Batch Time: 2.6010
+2024-06-25 19:10:30,034 - INFO - VAL Epoch: 3 Step: 1/5 Loss: 0.4778 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.9119 Batch Time: 2.8742
+2024-06-25 19:10:32,753 - INFO - VAL Epoch: 3 Step: 2/5 Loss: 0.4796 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.9100 Batch Time: 2.8220
+2024-06-25 19:10:35,171 - INFO - VAL Epoch: 3 Step: 3/5 Loss: 0.4978 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9171 Batch Time: 2.7206
+2024-06-25 19:10:35,926 - INFO - VAL Epoch: 3 Step: 4/5 Loss: 0.5095 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.8048 Batch Time: 2.3270
+2024-06-25 19:10:35,932 - INFO - AUC Score: 0.4996
+2024-06-25 19:10:35,933 - INFO - New best model at epoch: 4
+2024-06-25 19:10:36,126 - INFO - Starting Epoch: 5
+2024-06-25 19:10:38,975 - INFO - TRAIN Epoch: 4 Step: 0/18 Loss: 0.4506 Accuracy: 0.8333 AUC: 0.0000 Data Time: 0.8706 Batch Time: 2.8467
+2024-06-25 19:10:41,801 - INFO - TRAIN Epoch: 4 Step: 1/18 Loss: 0.4842 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8671 Batch Time: 2.8349
+2024-06-25 19:10:44,626 - INFO - TRAIN Epoch: 4 Step: 2/18 Loss: 0.5104 Accuracy: 0.7889 AUC: 0.0000 Data Time: 0.8835 Batch Time: 2.8308
+2024-06-25 19:10:47,477 - INFO - TRAIN Epoch: 4 Step: 3/18 Loss: 0.4875 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8781 Batch Time: 2.8355
+2024-06-25 19:10:50,068 - INFO - TRAIN Epoch: 4 Step: 4/18 Loss: 0.5065 Accuracy: 0.7950 AUC: 0.0000 Data Time: 0.8736 Batch Time: 2.7861
+2024-06-25 19:10:52,429 - INFO - TRAIN Epoch: 4 Step: 5/18 Loss: 0.5156 Accuracy: 0.7875 AUC: 0.0000 Data Time: 0.8839 Batch Time: 2.7150
+2024-06-25 19:10:54,295 - INFO - TRAIN Epoch: 4 Step: 6/18 Loss: 0.5115 Accuracy: 0.7905 AUC: 0.0000 Data Time: 0.8913 Batch Time: 2.5933
+2024-06-25 19:10:57,064 - INFO - TRAIN Epoch: 4 Step: 7/18 Loss: 0.5041 Accuracy: 0.7958 AUC: 0.0000 Data Time: 0.9339 Batch Time: 2.6150
+2024-06-25 19:11:00,304 - INFO - TRAIN Epoch: 4 Step: 8/18 Loss: 0.5067 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.9607 Batch Time: 2.6842
+2024-06-25 19:11:02,141 - INFO - TRAIN Epoch: 4 Step: 9/18 Loss: 0.5043 Accuracy: 0.7942 AUC: 0.0000 Data Time: 0.9588 Batch Time: 2.5992
+2024-06-25 19:11:04,202 - INFO - TRAIN Epoch: 4 Step: 10/18 Loss: 0.5111 Accuracy: 0.7879 AUC: 0.0000 Data Time: 0.9454 Batch Time: 2.5500
+2024-06-25 19:11:06,762 - INFO - TRAIN Epoch: 4 Step: 11/18 Loss: 0.5047 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.9611 Batch Time: 2.5507
+2024-06-25 19:11:09,544 - INFO - TRAIN Epoch: 4 Step: 12/18 Loss: 0.5020 Accuracy: 0.7923 AUC: 0.0000 Data Time: 0.9511 Batch Time: 2.5684
+2024-06-25 19:11:12,356 - INFO - TRAIN Epoch: 4 Step: 13/18 Loss: 0.4960 Accuracy: 0.7964 AUC: 0.0000 Data Time: 0.9459 Batch Time: 2.5857
+2024-06-25 19:11:14,228 - INFO - TRAIN Epoch: 4 Step: 14/18 Loss: 0.5005 Accuracy: 0.7939 AUC: 0.0000 Data Time: 0.9435 Batch Time: 2.5379
+2024-06-25 19:11:15,872 - INFO - TRAIN Epoch: 4 Step: 15/18 Loss: 0.4960 Accuracy: 0.7974 AUC: 0.0000 Data Time: 0.9330 Batch Time: 2.4818
+2024-06-25 19:11:18,261 - INFO - TRAIN Epoch: 4 Step: 16/18 Loss: 0.4931 Accuracy: 0.7995 AUC: 0.0000 Data Time: 0.9231 Batch Time: 2.4763
+2024-06-25 19:11:18,858 - INFO - TRAIN Epoch: 4 Step: 17/18 Loss: 0.4930 Accuracy: 0.7999 AUC: 0.0000 Data Time: 0.8904 Batch Time: 2.3717
+2024-06-25 19:11:18,863 - INFO - AUC Score: 0.5912
+2024-06-25 19:11:21,034 - INFO - VAL Epoch: 4 Step: 0/5 Loss: 0.4974 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.7775 Batch Time: 2.1674
+2024-06-25 19:11:23,381 - INFO - VAL Epoch: 4 Step: 1/5 Loss: 0.4766 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.7767 Batch Time: 2.2557
+2024-06-25 19:11:26,324 - INFO - VAL Epoch: 4 Step: 2/5 Loss: 0.4782 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.7880 Batch Time: 2.4839
+2024-06-25 19:11:29,524 - INFO - VAL Epoch: 4 Step: 3/5 Loss: 0.4959 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8891 Batch Time: 2.6624
+2024-06-25 19:11:30,192 - INFO - VAL Epoch: 4 Step: 4/5 Loss: 0.5074 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.7863 Batch Time: 2.2632
+2024-06-25 19:11:30,196 - INFO - AUC Score: 0.5127
+2024-06-25 19:11:30,197 - INFO - New best model at epoch: 5
+2024-06-25 19:11:30,408 - INFO - Starting Epoch: 6
+2024-06-25 19:11:32,085 - INFO - TRAIN Epoch: 5 Step: 0/18 Loss: 0.5868 Accuracy: 0.7333 AUC: 0.0000 Data Time: 0.7882 Batch Time: 1.6750
+2024-06-25 19:11:34,374 - INFO - TRAIN Epoch: 5 Step: 1/18 Loss: 0.5329 Accuracy: 0.7625 AUC: 0.0000 Data Time: 0.7661 Batch Time: 1.9814
+2024-06-25 19:11:36,759 - INFO - TRAIN Epoch: 5 Step: 2/18 Loss: 0.5160 Accuracy: 0.7806 AUC: 0.0000 Data Time: 0.9127 Batch Time: 2.1147
+2024-06-25 19:11:38,898 - INFO - TRAIN Epoch: 5 Step: 3/18 Loss: 0.4996 Accuracy: 0.7937 AUC: 0.0000 Data Time: 0.9645 Batch Time: 2.1200
+2024-06-25 19:11:41,298 - INFO - TRAIN Epoch: 5 Step: 4/18 Loss: 0.4922 Accuracy: 0.7983 AUC: 0.0000 Data Time: 1.0000 Batch Time: 2.1758
+2024-06-25 19:11:43,864 - INFO - TRAIN Epoch: 5 Step: 5/18 Loss: 0.4920 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0262 Batch Time: 2.2405
+2024-06-25 19:11:46,087 - INFO - TRAIN Epoch: 5 Step: 6/18 Loss: 0.4870 Accuracy: 0.8024 AUC: 0.0000 Data Time: 1.0368 Batch Time: 2.2375
+2024-06-25 19:11:48,680 - INFO - TRAIN Epoch: 5 Step: 7/18 Loss: 0.4841 Accuracy: 0.8042 AUC: 0.0000 Data Time: 1.0160 Batch Time: 2.2817
+2024-06-25 19:11:51,587 - INFO - TRAIN Epoch: 5 Step: 8/18 Loss: 0.5003 Accuracy: 0.7917 AUC: 0.0000 Data Time: 1.0000 Batch Time: 2.3511
+2024-06-25 19:11:54,585 - INFO - TRAIN Epoch: 5 Step: 9/18 Loss: 0.5009 Accuracy: 0.7925 AUC: 0.0000 Data Time: 0.9879 Batch Time: 2.4155
+2024-06-25 19:11:57,189 - INFO - TRAIN Epoch: 5 Step: 10/18 Loss: 0.4951 Accuracy: 0.7977 AUC: 0.0000 Data Time: 0.9744 Batch Time: 2.4323
+2024-06-25 19:11:59,828 - INFO - TRAIN Epoch: 5 Step: 11/18 Loss: 0.5003 Accuracy: 0.7931 AUC: 0.0000 Data Time: 0.9898 Batch Time: 2.4494
+2024-06-25 19:12:02,791 - INFO - TRAIN Epoch: 5 Step: 12/18 Loss: 0.5047 Accuracy: 0.7897 AUC: 0.0000 Data Time: 1.0208 Batch Time: 2.4887
+2024-06-25 19:12:06,051 - INFO - TRAIN Epoch: 5 Step: 13/18 Loss: 0.5041 Accuracy: 0.7905 AUC: 0.0000 Data Time: 1.0311 Batch Time: 2.5436
+2024-06-25 19:12:08,839 - INFO - TRAIN Epoch: 5 Step: 14/18 Loss: 0.5003 Accuracy: 0.7933 AUC: 0.0000 Data Time: 1.0399 Batch Time: 2.5597
+2024-06-25 19:12:12,166 - INFO - TRAIN Epoch: 5 Step: 15/18 Loss: 0.4964 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.0551 Batch Time: 2.6076
+2024-06-25 19:12:15,516 - INFO - TRAIN Epoch: 5 Step: 16/18 Loss: 0.4912 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0694 Batch Time: 2.6511
+2024-06-25 19:12:16,114 - INFO - TRAIN Epoch: 5 Step: 17/18 Loss: 0.4910 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.0287 Batch Time: 2.5370
+2024-06-25 19:12:16,121 - INFO - AUC Score: 0.6025
+2024-06-25 19:12:18,722 - INFO - VAL Epoch: 5 Step: 0/5 Loss: 0.4955 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9065 Batch Time: 2.5995
+2024-06-25 19:12:21,331 - INFO - VAL Epoch: 5 Step: 1/5 Loss: 0.4746 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8973 Batch Time: 2.6036
+2024-06-25 19:12:23,982 - INFO - VAL Epoch: 5 Step: 2/5 Loss: 0.4760 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.8740 Batch Time: 2.6180
+2024-06-25 19:12:26,622 - INFO - VAL Epoch: 5 Step: 3/5 Loss: 0.4939 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9532 Batch Time: 2.6230
+2024-06-25 19:12:27,318 - INFO - VAL Epoch: 5 Step: 4/5 Loss: 0.5056 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.8430 Batch Time: 2.2371
+2024-06-25 19:12:27,323 - INFO - AUC Score: 0.5235
+2024-06-25 19:12:27,324 - INFO - New best model at epoch: 6
+2024-06-25 19:12:27,526 - INFO - Starting Epoch: 7
+2024-06-25 19:12:29,145 - INFO - TRAIN Epoch: 6 Step: 0/18 Loss: 0.5110 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.7518 Batch Time: 1.6165
+2024-06-25 19:12:31,588 - INFO - TRAIN Epoch: 6 Step: 1/18 Loss: 0.4605 Accuracy: 0.8250 AUC: 0.0000 Data Time: 0.7763 Batch Time: 2.0288
+2024-06-25 19:12:34,237 - INFO - TRAIN Epoch: 6 Step: 2/18 Loss: 0.4582 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.8231 Batch Time: 2.2349
+2024-06-25 19:12:37,251 - INFO - TRAIN Epoch: 6 Step: 3/18 Loss: 0.4606 Accuracy: 0.8187 AUC: 0.0000 Data Time: 0.9386 Batch Time: 2.4292
+2024-06-25 19:12:40,225 - INFO - TRAIN Epoch: 6 Step: 4/18 Loss: 0.4540 Accuracy: 0.8233 AUC: 0.0000 Data Time: 1.0069 Batch Time: 2.5377
+2024-06-25 19:12:42,739 - INFO - TRAIN Epoch: 6 Step: 5/18 Loss: 0.4561 Accuracy: 0.8236 AUC: 0.0000 Data Time: 1.0301 Batch Time: 2.5333
+2024-06-25 19:12:45,464 - INFO - TRAIN Epoch: 6 Step: 6/18 Loss: 0.4631 Accuracy: 0.8202 AUC: 0.0000 Data Time: 1.0633 Batch Time: 2.5602
+2024-06-25 19:12:47,790 - INFO - TRAIN Epoch: 6 Step: 7/18 Loss: 0.4726 Accuracy: 0.8125 AUC: 0.0000 Data Time: 1.0717 Batch Time: 2.5306
+2024-06-25 19:12:49,809 - INFO - TRAIN Epoch: 6 Step: 8/18 Loss: 0.4812 Accuracy: 0.8065 AUC: 0.0000 Data Time: 1.0727 Batch Time: 2.4736
+2024-06-25 19:12:52,288 - INFO - TRAIN Epoch: 6 Step: 9/18 Loss: 0.4850 Accuracy: 0.8025 AUC: 0.0000 Data Time: 1.0823 Batch Time: 2.4739
+2024-06-25 19:12:54,890 - INFO - TRAIN Epoch: 6 Step: 10/18 Loss: 0.4880 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0924 Batch Time: 2.4853
+2024-06-25 19:12:58,120 - INFO - TRAIN Epoch: 6 Step: 11/18 Loss: 0.4909 Accuracy: 0.7972 AUC: 0.0000 Data Time: 1.1031 Batch Time: 2.5472
+2024-06-25 19:13:01,265 - INFO - TRAIN Epoch: 6 Step: 12/18 Loss: 0.4885 Accuracy: 0.8006 AUC: 0.0000 Data Time: 1.1077 Batch Time: 2.5931
+2024-06-25 19:13:03,934 - INFO - TRAIN Epoch: 6 Step: 13/18 Loss: 0.4870 Accuracy: 0.8018 AUC: 0.0000 Data Time: 1.1094 Batch Time: 2.5984
+2024-06-25 19:13:06,758 - INFO - TRAIN Epoch: 6 Step: 14/18 Loss: 0.4867 Accuracy: 0.8017 AUC: 0.0000 Data Time: 1.1129 Batch Time: 2.6132
+2024-06-25 19:13:10,109 - INFO - TRAIN Epoch: 6 Step: 15/18 Loss: 0.4895 Accuracy: 0.7995 AUC: 0.0000 Data Time: 1.1212 Batch Time: 2.6593
+2024-06-25 19:13:12,977 - INFO - TRAIN Epoch: 6 Step: 16/18 Loss: 0.4896 Accuracy: 0.7995 AUC: 0.0000 Data Time: 1.1249 Batch Time: 2.6714
+2024-06-25 19:13:13,587 - INFO - TRAIN Epoch: 6 Step: 17/18 Loss: 0.4893 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.0818 Batch Time: 2.5567
+2024-06-25 19:13:13,591 - INFO - AUC Score: 0.6110
+2024-06-25 19:13:16,460 - INFO - VAL Epoch: 6 Step: 0/5 Loss: 0.4939 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.3108 Batch Time: 2.8671
+2024-06-25 19:13:18,879 - INFO - VAL Epoch: 6 Step: 1/5 Loss: 0.4724 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.0734 Batch Time: 2.6417
+2024-06-25 19:13:21,369 - INFO - VAL Epoch: 6 Step: 2/5 Loss: 0.4736 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.0072 Batch Time: 2.5901
+2024-06-25 19:13:23,542 - INFO - VAL Epoch: 6 Step: 3/5 Loss: 0.4922 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9752 Batch Time: 2.4852
+2024-06-25 19:13:24,441 - INFO - VAL Epoch: 6 Step: 4/5 Loss: 0.5042 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.8572 Batch Time: 2.1674
+2024-06-25 19:13:24,447 - INFO - AUC Score: 0.5333
+2024-06-25 19:13:24,449 - INFO - New best model at epoch: 7
+2024-06-25 19:13:24,648 - INFO - Starting Epoch: 8
+2024-06-25 19:13:27,574 - INFO - TRAIN Epoch: 7 Step: 0/18 Loss: 0.5836 Accuracy: 0.7250 AUC: 0.0000 Data Time: 0.8632 Batch Time: 2.9227
+2024-06-25 19:13:30,487 - INFO - TRAIN Epoch: 7 Step: 1/18 Loss: 0.5634 Accuracy: 0.7500 AUC: 0.0000 Data Time: 0.8712 Batch Time: 2.9166
+2024-06-25 19:13:33,749 - INFO - TRAIN Epoch: 7 Step: 2/18 Loss: 0.5095 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.9811 Batch Time: 3.0311
+2024-06-25 19:13:36,353 - INFO - TRAIN Epoch: 7 Step: 3/18 Loss: 0.4957 Accuracy: 0.7979 AUC: 0.0000 Data Time: 0.9440 Batch Time: 2.9236
+2024-06-25 19:13:39,014 - INFO - TRAIN Epoch: 7 Step: 4/18 Loss: 0.5016 Accuracy: 0.7933 AUC: 0.0000 Data Time: 0.9349 Batch Time: 2.8705
+2024-06-25 19:13:41,362 - INFO - TRAIN Epoch: 7 Step: 5/18 Loss: 0.5025 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.9244 Batch Time: 2.7833
+2024-06-25 19:13:43,248 - INFO - TRAIN Epoch: 7 Step: 6/18 Loss: 0.4877 Accuracy: 0.8024 AUC: 0.0000 Data Time: 0.9139 Batch Time: 2.6547
+2024-06-25 19:13:44,971 - INFO - TRAIN Epoch: 7 Step: 7/18 Loss: 0.4827 Accuracy: 0.8052 AUC: 0.0000 Data Time: 0.9029 Batch Time: 2.5379
+2024-06-25 19:13:47,121 - INFO - TRAIN Epoch: 7 Step: 8/18 Loss: 0.4888 Accuracy: 0.8019 AUC: 0.0000 Data Time: 0.8963 Batch Time: 2.4946
+2024-06-25 19:13:49,800 - INFO - TRAIN Epoch: 7 Step: 9/18 Loss: 0.4839 Accuracy: 0.8033 AUC: 0.0000 Data Time: 0.8973 Batch Time: 2.5127
+2024-06-25 19:13:52,777 - INFO - TRAIN Epoch: 7 Step: 10/18 Loss: 0.4807 Accuracy: 0.8061 AUC: 0.0000 Data Time: 0.9013 Batch Time: 2.5548
+2024-06-25 19:13:55,018 - INFO - TRAIN Epoch: 7 Step: 11/18 Loss: 0.4874 Accuracy: 0.8021 AUC: 0.0000 Data Time: 0.9021 Batch Time: 2.5286
+2024-06-25 19:13:56,720 - INFO - TRAIN Epoch: 7 Step: 12/18 Loss: 0.4844 Accuracy: 0.8032 AUC: 0.0000 Data Time: 0.8970 Batch Time: 2.4648
+2024-06-25 19:13:58,414 - INFO - TRAIN Epoch: 7 Step: 13/18 Loss: 0.4869 Accuracy: 0.8012 AUC: 0.0000 Data Time: 0.8902 Batch Time: 2.4096
+2024-06-25 19:14:00,928 - INFO - TRAIN Epoch: 7 Step: 14/18 Loss: 0.4879 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.8911 Batch Time: 2.4163
+2024-06-25 19:14:03,452 - INFO - TRAIN Epoch: 7 Step: 15/18 Loss: 0.4886 Accuracy: 0.7995 AUC: 0.0000 Data Time: 0.8857 Batch Time: 2.4230
+2024-06-25 19:14:05,344 - INFO - TRAIN Epoch: 7 Step: 16/18 Loss: 0.4871 Accuracy: 0.8005 AUC: 0.0000 Data Time: 0.8923 Batch Time: 2.3916
+2024-06-25 19:14:06,269 - INFO - TRAIN Epoch: 7 Step: 17/18 Loss: 0.4872 Accuracy: 0.7999 AUC: 0.0000 Data Time: 0.8588 Batch Time: 2.3100
+2024-06-25 19:14:06,273 - INFO - AUC Score: 0.6228
+2024-06-25 19:14:08,736 - INFO - VAL Epoch: 7 Step: 0/5 Loss: 0.4921 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0003 Batch Time: 2.4604
+2024-06-25 19:14:11,195 - INFO - VAL Epoch: 7 Step: 1/5 Loss: 0.4709 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.9478 Batch Time: 2.4589
+2024-06-25 19:14:13,230 - INFO - VAL Epoch: 7 Step: 2/5 Loss: 0.4717 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.9212 Batch Time: 2.3168
+2024-06-25 19:14:16,230 - INFO - VAL Epoch: 7 Step: 3/5 Loss: 0.4900 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9938 Batch Time: 2.4870
+2024-06-25 19:14:16,945 - INFO - VAL Epoch: 7 Step: 4/5 Loss: 0.5021 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.8793 Batch Time: 2.1321
+2024-06-25 19:14:16,950 - INFO - AUC Score: 0.5447
+2024-06-25 19:14:16,953 - INFO - New best model at epoch: 8
+2024-06-25 19:14:17,153 - INFO - Starting Epoch: 9
+2024-06-25 19:14:19,172 - INFO - TRAIN Epoch: 8 Step: 0/18 Loss: 0.4786 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.7347 Batch Time: 2.0166
+2024-06-25 19:14:21,978 - INFO - TRAIN Epoch: 8 Step: 1/18 Loss: 0.5194 Accuracy: 0.7708 AUC: 0.0000 Data Time: 0.8079 Batch Time: 2.4097
+2024-06-25 19:14:24,827 - INFO - TRAIN Epoch: 8 Step: 2/18 Loss: 0.5140 Accuracy: 0.7778 AUC: 0.0000 Data Time: 0.8333 Batch Time: 2.5557
+2024-06-25 19:14:27,392 - INFO - TRAIN Epoch: 8 Step: 3/18 Loss: 0.4999 Accuracy: 0.7875 AUC: 0.0000 Data Time: 0.8411 Batch Time: 2.5576
+2024-06-25 19:14:29,656 - INFO - TRAIN Epoch: 8 Step: 4/18 Loss: 0.4942 Accuracy: 0.7933 AUC: 0.0000 Data Time: 0.8482 Batch Time: 2.4984
+2024-06-25 19:14:31,454 - INFO - TRAIN Epoch: 8 Step: 5/18 Loss: 0.4990 Accuracy: 0.7903 AUC: 0.0000 Data Time: 0.8578 Batch Time: 2.3814
+2024-06-25 19:14:34,076 - INFO - TRAIN Epoch: 8 Step: 6/18 Loss: 0.4952 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.9098 Batch Time: 2.4154
+2024-06-25 19:14:37,341 - INFO - TRAIN Epoch: 8 Step: 7/18 Loss: 0.4835 Accuracy: 0.8010 AUC: 0.0000 Data Time: 0.9523 Batch Time: 2.5212
+2024-06-25 19:14:40,686 - INFO - TRAIN Epoch: 8 Step: 8/18 Loss: 0.4861 Accuracy: 0.8009 AUC: 0.0000 Data Time: 0.9922 Batch Time: 2.6125
+2024-06-25 19:14:43,537 - INFO - TRAIN Epoch: 8 Step: 9/18 Loss: 0.4901 Accuracy: 0.7975 AUC: 0.0000 Data Time: 0.9744 Batch Time: 2.6361
+2024-06-25 19:14:46,238 - INFO - TRAIN Epoch: 8 Step: 10/18 Loss: 0.4884 Accuracy: 0.7992 AUC: 0.0000 Data Time: 0.9639 Batch Time: 2.6419
+2024-06-25 19:14:48,902 - INFO - TRAIN Epoch: 8 Step: 11/18 Loss: 0.4883 Accuracy: 0.7993 AUC: 0.0000 Data Time: 0.9575 Batch Time: 2.6436
+2024-06-25 19:14:50,849 - INFO - TRAIN Epoch: 8 Step: 12/18 Loss: 0.4894 Accuracy: 0.7981 AUC: 0.0000 Data Time: 0.9648 Batch Time: 2.5898
+2024-06-25 19:14:52,948 - INFO - TRAIN Epoch: 8 Step: 13/18 Loss: 0.4875 Accuracy: 0.7988 AUC: 0.0000 Data Time: 0.9815 Batch Time: 2.5546
+2024-06-25 19:14:54,937 - INFO - TRAIN Epoch: 8 Step: 14/18 Loss: 0.4864 Accuracy: 0.7989 AUC: 0.0000 Data Time: 0.9895 Batch Time: 2.5167
+2024-06-25 19:14:57,017 - INFO - TRAIN Epoch: 8 Step: 15/18 Loss: 0.4877 Accuracy: 0.7979 AUC: 0.0000 Data Time: 1.0034 Batch Time: 2.4893
+2024-06-25 19:14:59,432 - INFO - TRAIN Epoch: 8 Step: 16/18 Loss: 0.4867 Accuracy: 0.7990 AUC: 0.0000 Data Time: 1.0090 Batch Time: 2.4848
+2024-06-25 19:15:00,048 - INFO - TRAIN Epoch: 8 Step: 17/18 Loss: 0.4853 Accuracy: 0.7999 AUC: 0.0000 Data Time: 0.9726 Batch Time: 2.3808
+2024-06-25 19:15:00,054 - INFO - AUC Score: 0.6335
+2024-06-25 19:15:02,284 - INFO - VAL Epoch: 8 Step: 0/5 Loss: 0.4904 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9042 Batch Time: 2.2262
+2024-06-25 19:15:04,949 - INFO - VAL Epoch: 8 Step: 1/5 Loss: 0.4691 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.0001 Batch Time: 2.4446
+2024-06-25 19:15:07,759 - INFO - VAL Epoch: 8 Step: 2/5 Loss: 0.4696 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.0240 Batch Time: 2.5657
+2024-06-25 19:15:10,676 - INFO - VAL Epoch: 8 Step: 3/5 Loss: 0.4879 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0575 Batch Time: 2.6532
+2024-06-25 19:15:11,347 - INFO - VAL Epoch: 8 Step: 4/5 Loss: 0.5000 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.9214 Batch Time: 2.2561
+2024-06-25 19:15:11,350 - INFO - AUC Score: 0.5561
+2024-06-25 19:15:11,351 - INFO - New best model at epoch: 9
+2024-06-25 19:15:11,552 - INFO - Starting Epoch: 10
+2024-06-25 19:15:13,451 - INFO - TRAIN Epoch: 9 Step: 0/18 Loss: 0.5038 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.7723 Batch Time: 1.8968
+2024-06-25 19:15:16,192 - INFO - TRAIN Epoch: 9 Step: 1/18 Loss: 0.5058 Accuracy: 0.7875 AUC: 0.0000 Data Time: 1.0870 Batch Time: 2.3177
+2024-06-25 19:15:19,825 - INFO - TRAIN Epoch: 9 Step: 2/18 Loss: 0.4854 Accuracy: 0.8028 AUC: 0.0000 Data Time: 1.2615 Batch Time: 2.7520
+2024-06-25 19:15:24,728 - INFO - TRAIN Epoch: 9 Step: 3/18 Loss: 0.4904 Accuracy: 0.7979 AUC: 0.0000 Data Time: 1.7335 Batch Time: 3.2894
+2024-06-25 19:15:29,104 - INFO - TRAIN Epoch: 9 Step: 4/18 Loss: 0.4878 Accuracy: 0.7983 AUC: 0.0000 Data Time: 1.9053 Batch Time: 3.5058
+2024-06-25 19:15:31,999 - INFO - TRAIN Epoch: 9 Step: 5/18 Loss: 0.4908 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.9181 Batch Time: 3.4037
+2024-06-25 19:15:35,122 - INFO - TRAIN Epoch: 9 Step: 6/18 Loss: 0.4839 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.9593 Batch Time: 3.3630
+2024-06-25 19:15:38,597 - INFO - TRAIN Epoch: 9 Step: 7/18 Loss: 0.4876 Accuracy: 0.7958 AUC: 0.0000 Data Time: 2.0342 Batch Time: 3.3766
+2024-06-25 19:15:42,116 - INFO - TRAIN Epoch: 9 Step: 8/18 Loss: 0.4847 Accuracy: 0.7991 AUC: 0.0000 Data Time: 2.0982 Batch Time: 3.3921
+2024-06-25 19:15:46,459 - INFO - TRAIN Epoch: 9 Step: 9/18 Loss: 0.4900 Accuracy: 0.7958 AUC: 0.0000 Data Time: 2.1908 Batch Time: 3.4869
+2024-06-25 19:15:49,056 - INFO - TRAIN Epoch: 9 Step: 10/18 Loss: 0.4875 Accuracy: 0.7970 AUC: 0.0000 Data Time: 2.1445 Batch Time: 3.4059
+2024-06-25 19:15:51,137 - INFO - TRAIN Epoch: 9 Step: 11/18 Loss: 0.4904 Accuracy: 0.7951 AUC: 0.0000 Data Time: 2.0654 Batch Time: 3.2949
+2024-06-25 19:15:53,556 - INFO - TRAIN Epoch: 9 Step: 12/18 Loss: 0.4878 Accuracy: 0.7974 AUC: 0.0000 Data Time: 1.9970 Batch Time: 3.2274
+2024-06-25 19:15:57,330 - INFO - TRAIN Epoch: 9 Step: 13/18 Loss: 0.4843 Accuracy: 0.7994 AUC: 0.0000 Data Time: 2.0307 Batch Time: 3.2662
+2024-06-25 19:15:59,810 - INFO - TRAIN Epoch: 9 Step: 14/18 Loss: 0.4833 Accuracy: 0.7994 AUC: 0.0000 Data Time: 1.9884 Batch Time: 3.2137
+2024-06-25 19:16:03,599 - INFO - TRAIN Epoch: 9 Step: 15/18 Loss: 0.4873 Accuracy: 0.7974 AUC: 0.0000 Data Time: 1.9922 Batch Time: 3.2496
+2024-06-25 19:16:07,003 - INFO - TRAIN Epoch: 9 Step: 16/18 Loss: 0.4834 Accuracy: 0.7995 AUC: 0.0000 Data Time: 1.9625 Batch Time: 3.2586
+2024-06-25 19:16:08,802 - INFO - TRAIN Epoch: 9 Step: 17/18 Loss: 0.4833 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.9382 Batch Time: 3.1774
+2024-06-25 19:16:08,806 - INFO - AUC Score: 0.6428
+2024-06-25 19:16:11,104 - INFO - VAL Epoch: 9 Step: 0/5 Loss: 0.4887 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.4326 Batch Time: 2.2946
+2024-06-25 19:16:13,516 - INFO - VAL Epoch: 9 Step: 1/5 Loss: 0.4671 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.4607 Batch Time: 2.3526
+2024-06-25 19:16:15,920 - INFO - VAL Epoch: 9 Step: 2/5 Loss: 0.4672 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.4802 Batch Time: 2.3692
+2024-06-25 19:16:18,364 - INFO - VAL Epoch: 9 Step: 3/5 Loss: 0.4860 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.4870 Batch Time: 2.3868
+2024-06-25 19:16:19,545 - INFO - VAL Epoch: 9 Step: 4/5 Loss: 0.4984 Accuracy: 0.7996 AUC: 0.0000 Data Time: 1.3355 Batch Time: 2.1454
+2024-06-25 19:16:19,548 - INFO - AUC Score: 0.5650
+2024-06-25 19:16:19,549 - INFO - New best model at epoch: 10
+2024-06-25 19:16:19,748 - INFO - Starting Epoch: 11
+2024-06-25 19:16:28,108 - INFO - TRAIN Epoch: 10 Step: 0/18 Loss: 0.4812 Accuracy: 0.8000 AUC: 0.0000 Data Time: 6.7089 Batch Time: 8.3572
+2024-06-25 19:16:36,257 - INFO - TRAIN Epoch: 10 Step: 1/18 Loss: 0.4656 Accuracy: 0.8125 AUC: 0.0000 Data Time: 6.5438 Batch Time: 8.2521
+2024-06-25 19:16:42,269 - INFO - TRAIN Epoch: 10 Step: 2/18 Loss: 0.4546 Accuracy: 0.8194 AUC: 0.0000 Data Time: 6.0576 Batch Time: 7.5049
+2024-06-25 19:16:48,681 - INFO - TRAIN Epoch: 10 Step: 3/18 Loss: 0.4741 Accuracy: 0.8021 AUC: 0.0000 Data Time: 5.9146 Batch Time: 7.2314
+2024-06-25 19:16:54,225 - INFO - TRAIN Epoch: 10 Step: 4/18 Loss: 0.4635 Accuracy: 0.8117 AUC: 0.0000 Data Time: 5.6532 Batch Time: 6.8935
+2024-06-25 19:16:59,597 - INFO - TRAIN Epoch: 10 Step: 5/18 Loss: 0.4683 Accuracy: 0.8083 AUC: 0.0000 Data Time: 5.4521 Batch Time: 6.6397
+2024-06-25 19:17:04,231 - INFO - TRAIN Epoch: 10 Step: 6/18 Loss: 0.4715 Accuracy: 0.8071 AUC: 0.0000 Data Time: 5.2092 Batch Time: 6.3528
+2024-06-25 19:17:09,208 - INFO - TRAIN Epoch: 10 Step: 7/18 Loss: 0.4724 Accuracy: 0.8052 AUC: 0.0000 Data Time: 5.0659 Batch Time: 6.1806
+2024-06-25 19:17:13,778 - INFO - TRAIN Epoch: 10 Step: 8/18 Loss: 0.4872 Accuracy: 0.7944 AUC: 0.0000 Data Time: 4.8802 Batch Time: 6.0015
+2024-06-25 19:17:17,151 - INFO - TRAIN Epoch: 10 Step: 9/18 Loss: 0.4895 Accuracy: 0.7933 AUC: 0.0000 Data Time: 4.6197 Batch Time: 5.7385
+2024-06-25 19:17:20,353 - INFO - TRAIN Epoch: 10 Step: 10/18 Loss: 0.4897 Accuracy: 0.7932 AUC: 0.0000 Data Time: 4.3817 Batch Time: 5.5078
+2024-06-25 19:17:24,971 - INFO - TRAIN Epoch: 10 Step: 11/18 Loss: 0.4885 Accuracy: 0.7951 AUC: 0.0000 Data Time: 4.2217 Batch Time: 5.4335
+2024-06-25 19:17:28,696 - INFO - TRAIN Epoch: 10 Step: 12/18 Loss: 0.4876 Accuracy: 0.7955 AUC: 0.0000 Data Time: 4.0545 Batch Time: 5.3020
+2024-06-25 19:17:31,678 - INFO - TRAIN Epoch: 10 Step: 13/18 Loss: 0.4921 Accuracy: 0.7911 AUC: 0.0000 Data Time: 3.9127 Batch Time: 5.1362
+2024-06-25 19:17:34,687 - INFO - TRAIN Epoch: 10 Step: 14/18 Loss: 0.4925 Accuracy: 0.7917 AUC: 0.0000 Data Time: 3.7923 Batch Time: 4.9943
+2024-06-25 19:17:37,831 - INFO - TRAIN Epoch: 10 Step: 15/18 Loss: 0.4833 Accuracy: 0.7984 AUC: 0.0000 Data Time: 3.6936 Batch Time: 4.8782
+2024-06-25 19:17:40,768 - INFO - TRAIN Epoch: 10 Step: 16/18 Loss: 0.4820 Accuracy: 0.7995 AUC: 0.0000 Data Time: 3.5968 Batch Time: 4.7639
+2024-06-25 19:17:41,569 - INFO - TRAIN Epoch: 10 Step: 17/18 Loss: 0.4816 Accuracy: 0.7999 AUC: 0.0000 Data Time: 3.4265 Batch Time: 4.5437
+2024-06-25 19:17:41,574 - INFO - AUC Score: 0.6500
+2024-06-25 19:17:44,881 - INFO - VAL Epoch: 10 Step: 0/5 Loss: 0.4868 Accuracy: 0.8083 AUC: 0.0000 Data Time: 2.2525 Batch Time: 3.3040
+2024-06-25 19:17:47,396 - INFO - VAL Epoch: 10 Step: 1/5 Loss: 0.4654 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.8744 Batch Time: 2.9090
+2024-06-25 19:17:50,073 - INFO - VAL Epoch: 10 Step: 2/5 Loss: 0.4652 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.7596 Batch Time: 2.8306
+2024-06-25 19:17:53,339 - INFO - VAL Epoch: 10 Step: 3/5 Loss: 0.4839 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.9046 Batch Time: 2.9389
+2024-06-25 19:17:54,566 - INFO - VAL Epoch: 10 Step: 4/5 Loss: 0.4963 Accuracy: 0.7996 AUC: 0.0000 Data Time: 1.6260 Batch Time: 2.5961
+2024-06-25 19:17:54,570 - INFO - AUC Score: 0.5741
+2024-06-25 19:17:54,572 - INFO - New best model at epoch: 11
+2024-06-25 19:17:54,844 - INFO - Starting Epoch: 12
+2024-06-25 19:17:56,716 - INFO - TRAIN Epoch: 11 Step: 0/18 Loss: 0.5650 Accuracy: 0.7333 AUC: 0.0000 Data Time: 0.9963 Batch Time: 1.8673
+2024-06-25 19:17:59,867 - INFO - TRAIN Epoch: 11 Step: 1/18 Loss: 0.5351 Accuracy: 0.7583 AUC: 0.0000 Data Time: 1.5737 Batch Time: 2.5077
+2024-06-25 19:18:02,504 - INFO - TRAIN Epoch: 11 Step: 2/18 Loss: 0.5076 Accuracy: 0.7806 AUC: 0.0000 Data Time: 1.5373 Batch Time: 2.5500
+2024-06-25 19:18:04,813 - INFO - TRAIN Epoch: 11 Step: 3/18 Loss: 0.5017 Accuracy: 0.7875 AUC: 0.0000 Data Time: 1.4949 Batch Time: 2.4893
+2024-06-25 19:18:06,909 - INFO - TRAIN Epoch: 11 Step: 4/18 Loss: 0.4943 Accuracy: 0.7933 AUC: 0.0000 Data Time: 1.3658 Batch Time: 2.4104
+2024-06-25 19:18:10,023 - INFO - TRAIN Epoch: 11 Step: 5/18 Loss: 0.4894 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.3237 Batch Time: 2.5271
+2024-06-25 19:18:12,772 - INFO - TRAIN Epoch: 11 Step: 6/18 Loss: 0.4728 Accuracy: 0.8071 AUC: 0.0000 Data Time: 1.3001 Batch Time: 2.5586
+2024-06-25 19:18:16,066 - INFO - TRAIN Epoch: 11 Step: 7/18 Loss: 0.4742 Accuracy: 0.8052 AUC: 0.0000 Data Time: 1.3027 Batch Time: 2.6504
+2024-06-25 19:18:19,525 - INFO - TRAIN Epoch: 11 Step: 8/18 Loss: 0.4738 Accuracy: 0.8046 AUC: 0.0000 Data Time: 1.3449 Batch Time: 2.7400
+2024-06-25 19:18:22,414 - INFO - TRAIN Epoch: 11 Step: 9/18 Loss: 0.4687 Accuracy: 0.8075 AUC: 0.0000 Data Time: 1.3898 Batch Time: 2.7543
+2024-06-25 19:18:24,608 - INFO - TRAIN Epoch: 11 Step: 10/18 Loss: 0.4783 Accuracy: 0.8015 AUC: 0.0000 Data Time: 1.3818 Batch Time: 2.7032
+2024-06-25 19:18:28,121 - INFO - TRAIN Epoch: 11 Step: 11/18 Loss: 0.4846 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.4388 Batch Time: 2.7707
+2024-06-25 19:18:31,134 - INFO - TRAIN Epoch: 11 Step: 12/18 Loss: 0.4837 Accuracy: 0.7974 AUC: 0.0000 Data Time: 1.4163 Batch Time: 2.7892
+2024-06-25 19:18:35,040 - INFO - TRAIN Epoch: 11 Step: 13/18 Loss: 0.4796 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.4439 Batch Time: 2.8689
+2024-06-25 19:18:38,831 - INFO - TRAIN Epoch: 11 Step: 14/18 Loss: 0.4799 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.4885 Batch Time: 2.9304
+2024-06-25 19:18:42,244 - INFO - TRAIN Epoch: 11 Step: 15/18 Loss: 0.4785 Accuracy: 0.8010 AUC: 0.0000 Data Time: 1.5163 Batch Time: 2.9603
+2024-06-25 19:18:45,074 - INFO - TRAIN Epoch: 11 Step: 16/18 Loss: 0.4791 Accuracy: 0.8005 AUC: 0.0000 Data Time: 1.4774 Batch Time: 2.9525
+2024-06-25 19:18:45,587 - INFO - TRAIN Epoch: 11 Step: 17/18 Loss: 0.4795 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.4093 Batch Time: 2.8169
+2024-06-25 19:18:45,591 - INFO - AUC Score: 0.6605
+2024-06-25 19:18:47,796 - INFO - VAL Epoch: 11 Step: 0/5 Loss: 0.4851 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8356 Batch Time: 2.2018
+2024-06-25 19:18:50,211 - INFO - VAL Epoch: 11 Step: 1/5 Loss: 0.4633 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.7983 Batch Time: 2.3073
+2024-06-25 19:18:52,894 - INFO - VAL Epoch: 11 Step: 2/5 Loss: 0.4628 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.8193 Batch Time: 2.4318
+2024-06-25 19:18:55,187 - INFO - VAL Epoch: 11 Step: 3/5 Loss: 0.4820 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8405 Batch Time: 2.3967
+2024-06-25 19:18:56,052 - INFO - VAL Epoch: 11 Step: 4/5 Loss: 0.4945 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.7253 Batch Time: 2.0899
+2024-06-25 19:18:56,056 - INFO - AUC Score: 0.5812
+2024-06-25 19:18:56,059 - INFO - New best model at epoch: 12
+2024-06-25 19:18:56,255 - INFO - Starting Epoch: 13
+2024-06-25 19:18:58,851 - INFO - TRAIN Epoch: 12 Step: 0/18 Loss: 0.5473 Accuracy: 0.7500 AUC: 0.0000 Data Time: 0.8462 Batch Time: 2.5937
+2024-06-25 19:19:01,517 - INFO - TRAIN Epoch: 12 Step: 1/18 Loss: 0.5618 Accuracy: 0.7417 AUC: 0.0000 Data Time: 0.8490 Batch Time: 2.6289
+2024-06-25 19:19:04,246 - INFO - TRAIN Epoch: 12 Step: 2/18 Loss: 0.5285 Accuracy: 0.7611 AUC: 0.0000 Data Time: 0.8395 Batch Time: 2.6615
+2024-06-25 19:19:07,053 - INFO - TRAIN Epoch: 12 Step: 3/18 Loss: 0.5296 Accuracy: 0.7604 AUC: 0.0000 Data Time: 0.8343 Batch Time: 2.6973
+2024-06-25 19:19:09,930 - INFO - TRAIN Epoch: 12 Step: 4/18 Loss: 0.5147 Accuracy: 0.7750 AUC: 0.0000 Data Time: 0.8322 Batch Time: 2.7326
+2024-06-25 19:19:12,850 - INFO - TRAIN Epoch: 12 Step: 5/18 Loss: 0.5088 Accuracy: 0.7764 AUC: 0.0000 Data Time: 0.8309 Batch Time: 2.7636
+2024-06-25 19:19:15,780 - INFO - TRAIN Epoch: 12 Step: 6/18 Loss: 0.4922 Accuracy: 0.7893 AUC: 0.0000 Data Time: 0.8331 Batch Time: 2.7871
+2024-06-25 19:19:18,731 - INFO - TRAIN Epoch: 12 Step: 7/18 Loss: 0.4917 Accuracy: 0.7906 AUC: 0.0000 Data Time: 0.8345 Batch Time: 2.8074
+2024-06-25 19:19:21,669 - INFO - TRAIN Epoch: 12 Step: 8/18 Loss: 0.4950 Accuracy: 0.7870 AUC: 0.0000 Data Time: 0.8379 Batch Time: 2.8217
+2024-06-25 19:19:24,644 - INFO - TRAIN Epoch: 12 Step: 9/18 Loss: 0.4967 Accuracy: 0.7858 AUC: 0.0000 Data Time: 0.8377 Batch Time: 2.8368
+2024-06-25 19:19:27,594 - INFO - TRAIN Epoch: 12 Step: 10/18 Loss: 0.4967 Accuracy: 0.7848 AUC: 0.0000 Data Time: 0.8392 Batch Time: 2.8469
+2024-06-25 19:19:30,522 - INFO - TRAIN Epoch: 12 Step: 11/18 Loss: 0.4950 Accuracy: 0.7868 AUC: 0.0000 Data Time: 0.8399 Batch Time: 2.8534
+2024-06-25 19:19:33,500 - INFO - TRAIN Epoch: 12 Step: 12/18 Loss: 0.4846 Accuracy: 0.7955 AUC: 0.0000 Data Time: 0.8399 Batch Time: 2.8629
+2024-06-25 19:19:36,483 - INFO - TRAIN Epoch: 12 Step: 13/18 Loss: 0.4818 Accuracy: 0.7976 AUC: 0.0000 Data Time: 0.8403 Batch Time: 2.8714
+2024-06-25 19:19:39,489 - INFO - TRAIN Epoch: 12 Step: 14/18 Loss: 0.4817 Accuracy: 0.7972 AUC: 0.0000 Data Time: 0.8437 Batch Time: 2.8802
+2024-06-25 19:19:42,439 - INFO - TRAIN Epoch: 12 Step: 15/18 Loss: 0.4796 Accuracy: 0.7984 AUC: 0.0000 Data Time: 0.8463 Batch Time: 2.8844
+2024-06-25 19:19:44,968 - INFO - TRAIN Epoch: 12 Step: 16/18 Loss: 0.4764 Accuracy: 0.8010 AUC: 0.0000 Data Time: 0.8533 Batch Time: 2.8634
+2024-06-25 19:19:45,644 - INFO - TRAIN Epoch: 12 Step: 17/18 Loss: 0.4780 Accuracy: 0.7999 AUC: 0.0000 Data Time: 0.8190 Batch Time: 2.7417
+2024-06-25 19:19:45,648 - INFO - AUC Score: 0.6678
+2024-06-25 19:19:48,434 - INFO - VAL Epoch: 12 Step: 0/5 Loss: 0.4835 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8431 Batch Time: 2.7840
+2024-06-25 19:19:51,292 - INFO - VAL Epoch: 12 Step: 1/5 Loss: 0.4618 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8400 Batch Time: 2.8191
+2024-06-25 19:19:54,142 - INFO - VAL Epoch: 12 Step: 2/5 Loss: 0.4610 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.8381 Batch Time: 2.8288
+2024-06-25 19:19:56,229 - INFO - VAL Epoch: 12 Step: 3/5 Loss: 0.4799 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8527 Batch Time: 2.6429
+2024-06-25 19:19:57,200 - INFO - VAL Epoch: 12 Step: 4/5 Loss: 0.4925 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.7343 Batch Time: 2.3080
+2024-06-25 19:19:57,205 - INFO - AUC Score: 0.5913
+2024-06-25 19:19:57,206 - INFO - New best model at epoch: 13
+2024-06-25 19:19:57,398 - INFO - Starting Epoch: 14
+2024-06-25 19:20:00,247 - INFO - TRAIN Epoch: 13 Step: 0/18 Loss: 0.5221 Accuracy: 0.7667 AUC: 0.0000 Data Time: 0.8947 Batch Time: 2.8465
+2024-06-25 19:20:03,096 - INFO - TRAIN Epoch: 13 Step: 1/18 Loss: 0.5139 Accuracy: 0.7708 AUC: 0.0000 Data Time: 0.8831 Batch Time: 2.8467
+2024-06-25 19:20:06,013 - INFO - TRAIN Epoch: 13 Step: 2/18 Loss: 0.4696 Accuracy: 0.8056 AUC: 0.0000 Data Time: 0.8846 Batch Time: 2.8692
+2024-06-25 19:20:08,951 - INFO - TRAIN Epoch: 13 Step: 3/18 Loss: 0.4638 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8837 Batch Time: 2.8861
+2024-06-25 19:20:11,894 - INFO - TRAIN Epoch: 13 Step: 4/18 Loss: 0.4538 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8859 Batch Time: 2.8971
+2024-06-25 19:20:14,828 - INFO - TRAIN Epoch: 13 Step: 5/18 Loss: 0.4707 Accuracy: 0.8042 AUC: 0.0000 Data Time: 0.8882 Batch Time: 2.9029
+2024-06-25 19:20:17,768 - INFO - TRAIN Epoch: 13 Step: 6/18 Loss: 0.4886 Accuracy: 0.7905 AUC: 0.0000 Data Time: 0.8878 Batch Time: 2.9080
+2024-06-25 19:20:20,708 - INFO - TRAIN Epoch: 13 Step: 7/18 Loss: 0.4823 Accuracy: 0.7937 AUC: 0.0000 Data Time: 0.8903 Batch Time: 2.9118
+2024-06-25 19:20:23,650 - INFO - TRAIN Epoch: 13 Step: 8/18 Loss: 0.4736 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.8907 Batch Time: 2.9148
+2024-06-25 19:20:26,593 - INFO - TRAIN Epoch: 13 Step: 9/18 Loss: 0.4701 Accuracy: 0.8025 AUC: 0.0000 Data Time: 0.8900 Batch Time: 2.9174
+2024-06-25 19:20:29,535 - INFO - TRAIN Epoch: 13 Step: 10/18 Loss: 0.4774 Accuracy: 0.7977 AUC: 0.0000 Data Time: 0.8886 Batch Time: 2.9195
+2024-06-25 19:20:32,398 - INFO - TRAIN Epoch: 13 Step: 11/18 Loss: 0.4759 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.8932 Batch Time: 2.9146
+2024-06-25 19:20:35,331 - INFO - TRAIN Epoch: 13 Step: 12/18 Loss: 0.4737 Accuracy: 0.8019 AUC: 0.0000 Data Time: 0.8971 Batch Time: 2.9159
+2024-06-25 19:20:38,369 - INFO - TRAIN Epoch: 13 Step: 13/18 Loss: 0.4748 Accuracy: 0.8018 AUC: 0.0000 Data Time: 0.8997 Batch Time: 2.9245
+2024-06-25 19:20:41,373 - INFO - TRAIN Epoch: 13 Step: 14/18 Loss: 0.4806 Accuracy: 0.7972 AUC: 0.0000 Data Time: 0.8990 Batch Time: 2.9297
+2024-06-25 19:20:44,312 - INFO - TRAIN Epoch: 13 Step: 15/18 Loss: 0.4775 Accuracy: 0.7990 AUC: 0.0000 Data Time: 0.8984 Batch Time: 2.9302
+2024-06-25 19:20:46,864 - INFO - TRAIN Epoch: 13 Step: 16/18 Loss: 0.4788 Accuracy: 0.7975 AUC: 0.0000 Data Time: 0.9049 Batch Time: 2.9078
+2024-06-25 19:20:47,586 - INFO - TRAIN Epoch: 13 Step: 17/18 Loss: 0.4758 Accuracy: 0.7999 AUC: 0.0000 Data Time: 0.8676 Batch Time: 2.7863
+2024-06-25 19:20:47,591 - INFO - AUC Score: 0.6751
+2024-06-25 19:20:50,466 - INFO - VAL Epoch: 13 Step: 0/5 Loss: 0.4819 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8989 Batch Time: 2.8727
+2024-06-25 19:20:53,369 - INFO - VAL Epoch: 13 Step: 1/5 Loss: 0.4596 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8878 Batch Time: 2.8871
+2024-06-25 19:20:56,240 - INFO - VAL Epoch: 13 Step: 2/5 Loss: 0.4586 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.8827 Batch Time: 2.8807
+2024-06-25 19:20:58,391 - INFO - VAL Epoch: 13 Step: 3/5 Loss: 0.4782 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8917 Batch Time: 2.6980
+2024-06-25 19:20:59,370 - INFO - VAL Epoch: 13 Step: 4/5 Loss: 0.4911 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.7651 Batch Time: 2.3539
+2024-06-25 19:20:59,374 - INFO - AUC Score: 0.5978
+2024-06-25 19:20:59,376 - INFO - New best model at epoch: 14
+2024-06-25 19:20:59,574 - INFO - Starting Epoch: 15
+2024-06-25 19:21:02,382 - INFO - TRAIN Epoch: 14 Step: 0/18 Loss: 0.4669 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.8525 Batch Time: 2.8052
+2024-06-25 19:21:05,128 - INFO - TRAIN Epoch: 14 Step: 1/18 Loss: 0.4708 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.8634 Batch Time: 2.7751
+2024-06-25 19:21:07,816 - INFO - TRAIN Epoch: 14 Step: 2/18 Loss: 0.4826 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.8612 Batch Time: 2.7455
+2024-06-25 19:21:10,063 - INFO - TRAIN Epoch: 14 Step: 3/18 Loss: 0.5025 Accuracy: 0.7792 AUC: 0.0000 Data Time: 0.8549 Batch Time: 2.6203
+2024-06-25 19:21:12,523 - INFO - TRAIN Epoch: 14 Step: 4/18 Loss: 0.4926 Accuracy: 0.7867 AUC: 0.0000 Data Time: 0.9048 Batch Time: 2.5879
+2024-06-25 19:21:15,127 - INFO - TRAIN Epoch: 14 Step: 5/18 Loss: 0.4868 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.9533 Batch Time: 2.5902
+2024-06-25 19:21:17,165 - INFO - TRAIN Epoch: 14 Step: 6/18 Loss: 0.4802 Accuracy: 0.7976 AUC: 0.0000 Data Time: 0.9523 Batch Time: 2.5108
+2024-06-25 19:21:19,931 - INFO - TRAIN Epoch: 14 Step: 7/18 Loss: 0.4791 Accuracy: 0.7979 AUC: 0.0000 Data Time: 0.9782 Batch Time: 2.5424
+2024-06-25 19:21:23,216 - INFO - TRAIN Epoch: 14 Step: 8/18 Loss: 0.4771 Accuracy: 0.7991 AUC: 0.0000 Data Time: 0.9971 Batch Time: 2.6247
+2024-06-25 19:21:26,425 - INFO - TRAIN Epoch: 14 Step: 9/18 Loss: 0.4796 Accuracy: 0.7975 AUC: 0.0000 Data Time: 1.0138 Batch Time: 2.6828
+2024-06-25 19:21:29,241 - INFO - TRAIN Epoch: 14 Step: 10/18 Loss: 0.4840 Accuracy: 0.7947 AUC: 0.0000 Data Time: 1.0218 Batch Time: 2.6948
+2024-06-25 19:21:31,817 - INFO - TRAIN Epoch: 14 Step: 11/18 Loss: 0.4794 Accuracy: 0.7993 AUC: 0.0000 Data Time: 1.0333 Batch Time: 2.6846
+2024-06-25 19:21:34,174 - INFO - TRAIN Epoch: 14 Step: 12/18 Loss: 0.4778 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0361 Batch Time: 2.6593
+2024-06-25 19:21:36,372 - INFO - TRAIN Epoch: 14 Step: 13/18 Loss: 0.4756 Accuracy: 0.8006 AUC: 0.0000 Data Time: 1.0497 Batch Time: 2.6262
+2024-06-25 19:21:38,937 - INFO - TRAIN Epoch: 14 Step: 14/18 Loss: 0.4781 Accuracy: 0.7978 AUC: 0.0000 Data Time: 1.0339 Batch Time: 2.6220
+2024-06-25 19:21:41,650 - INFO - TRAIN Epoch: 14 Step: 15/18 Loss: 0.4754 Accuracy: 0.7995 AUC: 0.0000 Data Time: 1.0338 Batch Time: 2.6275
+2024-06-25 19:21:44,574 - INFO - TRAIN Epoch: 14 Step: 16/18 Loss: 0.4753 Accuracy: 0.7985 AUC: 0.0000 Data Time: 1.0271 Batch Time: 2.6449
+2024-06-25 19:21:45,117 - INFO - TRAIN Epoch: 14 Step: 17/18 Loss: 0.4739 Accuracy: 0.7999 AUC: 0.0000 Data Time: 0.9857 Batch Time: 2.5280
+2024-06-25 19:21:45,123 - INFO - AUC Score: 0.6821
+2024-06-25 19:21:47,422 - INFO - VAL Epoch: 14 Step: 0/5 Loss: 0.4800 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8059 Batch Time: 2.2976
+2024-06-25 19:21:49,640 - INFO - VAL Epoch: 14 Step: 1/5 Loss: 0.4578 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.9265 Batch Time: 2.2566
+2024-06-25 19:21:52,285 - INFO - VAL Epoch: 14 Step: 2/5 Loss: 0.4564 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.0250 Batch Time: 2.3853
+2024-06-25 19:21:54,970 - INFO - VAL Epoch: 14 Step: 3/5 Loss: 0.4762 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0486 Batch Time: 2.4599
+2024-06-25 19:21:55,555 - INFO - VAL Epoch: 14 Step: 4/5 Loss: 0.4892 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.8968 Batch Time: 2.0840
+2024-06-25 19:21:55,559 - INFO - AUC Score: 0.6057
+2024-06-25 19:21:55,562 - INFO - New best model at epoch: 15
+2024-06-25 19:21:55,757 - INFO - Starting Epoch: 16
+2024-06-25 19:21:57,593 - INFO - TRAIN Epoch: 15 Step: 0/18 Loss: 0.4738 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.7689 Batch Time: 1.8333
+2024-06-25 19:21:59,655 - INFO - TRAIN Epoch: 15 Step: 1/18 Loss: 0.4926 Accuracy: 0.7750 AUC: 0.0000 Data Time: 0.9133 Batch Time: 1.9459
+2024-06-25 19:22:01,702 - INFO - TRAIN Epoch: 15 Step: 2/18 Loss: 0.4988 Accuracy: 0.7833 AUC: 0.0000 Data Time: 0.9837 Batch Time: 1.9789
+2024-06-25 19:22:03,971 - INFO - TRAIN Epoch: 15 Step: 3/18 Loss: 0.4937 Accuracy: 0.7875 AUC: 0.0000 Data Time: 1.0029 Batch Time: 2.0507
+2024-06-25 19:22:06,470 - INFO - TRAIN Epoch: 15 Step: 4/18 Loss: 0.5001 Accuracy: 0.7800 AUC: 0.0000 Data Time: 1.0162 Batch Time: 2.1401
+2024-06-25 19:22:09,159 - INFO - TRAIN Epoch: 15 Step: 5/18 Loss: 0.5058 Accuracy: 0.7764 AUC: 0.0000 Data Time: 1.0529 Batch Time: 2.2311
+2024-06-25 19:22:11,985 - INFO - TRAIN Epoch: 15 Step: 6/18 Loss: 0.4880 Accuracy: 0.7893 AUC: 0.0000 Data Time: 1.0259 Batch Time: 2.3157
+2024-06-25 19:22:14,592 - INFO - TRAIN Epoch: 15 Step: 7/18 Loss: 0.4903 Accuracy: 0.7885 AUC: 0.0000 Data Time: 1.0053 Batch Time: 2.3519
+2024-06-25 19:22:17,455 - INFO - TRAIN Epoch: 15 Step: 8/18 Loss: 0.4788 Accuracy: 0.7944 AUC: 0.0000 Data Time: 0.9997 Batch Time: 2.4085
+2024-06-25 19:22:20,089 - INFO - TRAIN Epoch: 15 Step: 9/18 Loss: 0.4825 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.9962 Batch Time: 2.4308
+2024-06-25 19:22:22,413 - INFO - TRAIN Epoch: 15 Step: 10/18 Loss: 0.4813 Accuracy: 0.7924 AUC: 0.0000 Data Time: 0.9938 Batch Time: 2.4208
+2024-06-25 19:22:24,235 - INFO - TRAIN Epoch: 15 Step: 11/18 Loss: 0.4816 Accuracy: 0.7931 AUC: 0.0000 Data Time: 0.9882 Batch Time: 2.3708
+2024-06-25 19:22:25,947 - INFO - TRAIN Epoch: 15 Step: 12/18 Loss: 0.4740 Accuracy: 0.7994 AUC: 0.0000 Data Time: 0.9751 Batch Time: 2.3199
+2024-06-25 19:22:28,292 - INFO - TRAIN Epoch: 15 Step: 13/18 Loss: 0.4744 Accuracy: 0.7994 AUC: 0.0000 Data Time: 0.9622 Batch Time: 2.3216
+2024-06-25 19:22:30,791 - INFO - TRAIN Epoch: 15 Step: 14/18 Loss: 0.4755 Accuracy: 0.7983 AUC: 0.0000 Data Time: 0.9490 Batch Time: 2.3332
+2024-06-25 19:22:33,675 - INFO - TRAIN Epoch: 15 Step: 15/18 Loss: 0.4755 Accuracy: 0.7979 AUC: 0.0000 Data Time: 0.9483 Batch Time: 2.3675
+2024-06-25 19:22:37,192 - INFO - TRAIN Epoch: 15 Step: 16/18 Loss: 0.4726 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.9942 Batch Time: 2.4350
+2024-06-25 19:22:37,799 - INFO - TRAIN Epoch: 15 Step: 17/18 Loss: 0.4723 Accuracy: 0.7999 AUC: 0.0000 Data Time: 0.9581 Batch Time: 2.3333
+2024-06-25 19:22:37,804 - INFO - AUC Score: 0.6894
+2024-06-25 19:22:40,480 - INFO - VAL Epoch: 15 Step: 0/5 Loss: 0.4780 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.2562 Batch Time: 2.6736
+2024-06-25 19:22:42,437 - INFO - VAL Epoch: 15 Step: 1/5 Loss: 0.4560 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.1599 Batch Time: 2.3139
+2024-06-25 19:22:44,732 - INFO - VAL Epoch: 15 Step: 2/5 Loss: 0.4542 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.0767 Batch Time: 2.3049
+2024-06-25 19:22:47,571 - INFO - VAL Epoch: 15 Step: 3/5 Loss: 0.4740 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.1808 Batch Time: 2.4378
+2024-06-25 19:22:48,374 - INFO - VAL Epoch: 15 Step: 4/5 Loss: 0.4870 Accuracy: 0.7996 AUC: 0.0000 Data Time: 1.0441 Batch Time: 2.1096
+2024-06-25 19:22:48,384 - INFO - AUC Score: 0.6142
+2024-06-25 19:22:48,387 - INFO - New best model at epoch: 16
+2024-06-25 19:22:48,659 - INFO - Starting Epoch: 17
+2024-06-25 19:22:50,638 - INFO - TRAIN Epoch: 16 Step: 0/18 Loss: 0.4908 Accuracy: 0.7833 AUC: 0.0000 Data Time: 0.8164 Batch Time: 1.9752
+2024-06-25 19:22:52,585 - INFO - TRAIN Epoch: 16 Step: 1/18 Loss: 0.4748 Accuracy: 0.7958 AUC: 0.0000 Data Time: 0.9269 Batch Time: 1.9603
+2024-06-25 19:22:54,903 - INFO - TRAIN Epoch: 16 Step: 2/18 Loss: 0.4733 Accuracy: 0.7972 AUC: 0.0000 Data Time: 1.0932 Batch Time: 2.0787
+2024-06-25 19:22:57,233 - INFO - TRAIN Epoch: 16 Step: 3/18 Loss: 0.4582 Accuracy: 0.8063 AUC: 0.0000 Data Time: 1.1278 Batch Time: 2.1395
+2024-06-25 19:23:00,119 - INFO - TRAIN Epoch: 16 Step: 4/18 Loss: 0.4430 Accuracy: 0.8183 AUC: 0.0000 Data Time: 1.1594 Batch Time: 2.2882
+2024-06-25 19:23:03,046 - INFO - TRAIN Epoch: 16 Step: 5/18 Loss: 0.4436 Accuracy: 0.8181 AUC: 0.0000 Data Time: 1.1099 Batch Time: 2.3943
+2024-06-25 19:23:05,848 - INFO - TRAIN Epoch: 16 Step: 6/18 Loss: 0.4390 Accuracy: 0.8226 AUC: 0.0000 Data Time: 1.1169 Batch Time: 2.4522
+2024-06-25 19:23:08,318 - INFO - TRAIN Epoch: 16 Step: 7/18 Loss: 0.4448 Accuracy: 0.8177 AUC: 0.0000 Data Time: 1.1208 Batch Time: 2.4541
+2024-06-25 19:23:10,938 - INFO - TRAIN Epoch: 16 Step: 8/18 Loss: 0.4536 Accuracy: 0.8111 AUC: 0.0000 Data Time: 1.1258 Batch Time: 2.4723
+2024-06-25 19:23:13,542 - INFO - TRAIN Epoch: 16 Step: 9/18 Loss: 0.4607 Accuracy: 0.8067 AUC: 0.0000 Data Time: 1.1029 Batch Time: 2.4852
+2024-06-25 19:23:16,048 - INFO - TRAIN Epoch: 16 Step: 10/18 Loss: 0.4673 Accuracy: 0.8023 AUC: 0.0000 Data Time: 1.0916 Batch Time: 2.4870
+2024-06-25 19:23:18,881 - INFO - TRAIN Epoch: 16 Step: 11/18 Loss: 0.4685 Accuracy: 0.8014 AUC: 0.0000 Data Time: 1.1064 Batch Time: 2.5156
+2024-06-25 19:23:21,244 - INFO - TRAIN Epoch: 16 Step: 12/18 Loss: 0.4674 Accuracy: 0.8019 AUC: 0.0000 Data Time: 1.1164 Batch Time: 2.5037
+2024-06-25 19:23:23,454 - INFO - TRAIN Epoch: 16 Step: 13/18 Loss: 0.4659 Accuracy: 0.8024 AUC: 0.0000 Data Time: 1.0911 Batch Time: 2.4825
+2024-06-25 19:23:26,333 - INFO - TRAIN Epoch: 16 Step: 14/18 Loss: 0.4699 Accuracy: 0.7994 AUC: 0.0000 Data Time: 1.0766 Batch Time: 2.5088
+2024-06-25 19:23:29,082 - INFO - TRAIN Epoch: 16 Step: 15/18 Loss: 0.4660 Accuracy: 0.8026 AUC: 0.0000 Data Time: 1.0862 Batch Time: 2.5236
+2024-06-25 19:23:31,522 - INFO - TRAIN Epoch: 16 Step: 16/18 Loss: 0.4706 Accuracy: 0.7995 AUC: 0.0000 Data Time: 1.0931 Batch Time: 2.5186
+2024-06-25 19:23:32,045 - INFO - TRAIN Epoch: 16 Step: 17/18 Loss: 0.4706 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.0468 Batch Time: 2.4075
+2024-06-25 19:23:32,050 - INFO - AUC Score: 0.6936
+2024-06-25 19:23:34,076 - INFO - VAL Epoch: 16 Step: 0/5 Loss: 0.4767 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.7765 Batch Time: 2.0240
+2024-06-25 19:23:36,903 - INFO - VAL Epoch: 16 Step: 1/5 Loss: 0.4542 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.9627 Batch Time: 2.4247
+2024-06-25 19:23:40,071 - INFO - VAL Epoch: 16 Step: 2/5 Loss: 0.4521 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.2220 Batch Time: 2.6713
+2024-06-25 19:23:42,388 - INFO - VAL Epoch: 16 Step: 3/5 Loss: 0.4722 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.2223 Batch Time: 2.5823
+2024-06-25 19:23:43,356 - INFO - VAL Epoch: 16 Step: 4/5 Loss: 0.4855 Accuracy: 0.7996 AUC: 0.0000 Data Time: 1.0357 Batch Time: 2.2589
+2024-06-25 19:23:43,361 - INFO - AUC Score: 0.6214
+2024-06-25 19:23:43,362 - INFO - New best model at epoch: 17
+2024-06-25 19:23:43,548 - INFO - Starting Epoch: 18
+2024-06-25 19:23:46,131 - INFO - TRAIN Epoch: 17 Step: 0/18 Loss: 0.5604 Accuracy: 0.7417 AUC: 0.0000 Data Time: 0.8994 Batch Time: 2.5801
+2024-06-25 19:23:48,576 - INFO - TRAIN Epoch: 17 Step: 1/18 Loss: 0.5400 Accuracy: 0.7583 AUC: 0.0000 Data Time: 1.0938 Batch Time: 2.5111
+2024-06-25 19:23:51,180 - INFO - TRAIN Epoch: 17 Step: 2/18 Loss: 0.5095 Accuracy: 0.7778 AUC: 0.0000 Data Time: 1.1624 Batch Time: 2.5414
+2024-06-25 19:23:54,404 - INFO - TRAIN Epoch: 17 Step: 3/18 Loss: 0.4932 Accuracy: 0.7875 AUC: 0.0000 Data Time: 1.1846 Batch Time: 2.7112
+2024-06-25 19:23:57,340 - INFO - TRAIN Epoch: 17 Step: 4/18 Loss: 0.4871 Accuracy: 0.7900 AUC: 0.0000 Data Time: 1.2088 Batch Time: 2.7558
+2024-06-25 19:23:59,997 - INFO - TRAIN Epoch: 17 Step: 5/18 Loss: 0.4749 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.1576 Batch Time: 2.7386
+2024-06-25 19:24:02,447 - INFO - TRAIN Epoch: 17 Step: 6/18 Loss: 0.4710 Accuracy: 0.8012 AUC: 0.0000 Data Time: 1.1509 Batch Time: 2.6970
+2024-06-25 19:24:04,699 - INFO - TRAIN Epoch: 17 Step: 7/18 Loss: 0.4737 Accuracy: 0.8010 AUC: 0.0000 Data Time: 1.1487 Batch Time: 2.6410
+2024-06-25 19:24:06,819 - INFO - TRAIN Epoch: 17 Step: 8/18 Loss: 0.4754 Accuracy: 0.7991 AUC: 0.0000 Data Time: 1.1423 Batch Time: 2.5830
+2024-06-25 19:24:08,965 - INFO - TRAIN Epoch: 17 Step: 9/18 Loss: 0.4713 Accuracy: 0.8025 AUC: 0.0000 Data Time: 1.1035 Batch Time: 2.5390
+2024-06-25 19:24:11,811 - INFO - TRAIN Epoch: 17 Step: 10/18 Loss: 0.4709 Accuracy: 0.8015 AUC: 0.0000 Data Time: 1.0824 Batch Time: 2.5667
+2024-06-25 19:24:14,568 - INFO - TRAIN Epoch: 17 Step: 11/18 Loss: 0.4684 Accuracy: 0.8014 AUC: 0.0000 Data Time: 1.0941 Batch Time: 2.5824
+2024-06-25 19:24:16,963 - INFO - TRAIN Epoch: 17 Step: 12/18 Loss: 0.4707 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0848 Batch Time: 2.5677
+2024-06-25 19:24:19,780 - INFO - TRAIN Epoch: 17 Step: 13/18 Loss: 0.4729 Accuracy: 0.7982 AUC: 0.0000 Data Time: 1.0670 Batch Time: 2.5854
+2024-06-25 19:24:22,416 - INFO - TRAIN Epoch: 17 Step: 14/18 Loss: 0.4682 Accuracy: 0.8011 AUC: 0.0000 Data Time: 1.0549 Batch Time: 2.5886
+2024-06-25 19:24:25,196 - INFO - TRAIN Epoch: 17 Step: 15/18 Loss: 0.4662 Accuracy: 0.8021 AUC: 0.0000 Data Time: 1.0459 Batch Time: 2.6005
+2024-06-25 19:24:27,808 - INFO - TRAIN Epoch: 17 Step: 16/18 Loss: 0.4680 Accuracy: 0.8010 AUC: 0.0000 Data Time: 1.0412 Batch Time: 2.6010
+2024-06-25 19:24:28,399 - INFO - TRAIN Epoch: 17 Step: 17/18 Loss: 0.4687 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.0007 Batch Time: 2.4892
+2024-06-25 19:24:28,403 - INFO - AUC Score: 0.7017
+2024-06-25 19:24:31,259 - INFO - VAL Epoch: 17 Step: 0/5 Loss: 0.4751 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8875 Batch Time: 2.8527
+2024-06-25 19:24:33,014 - INFO - VAL Epoch: 17 Step: 1/5 Loss: 0.4530 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8882 Batch Time: 2.3026
+2024-06-25 19:24:35,154 - INFO - VAL Epoch: 17 Step: 2/5 Loss: 0.4505 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.0072 Batch Time: 2.2468
+2024-06-25 19:24:37,228 - INFO - VAL Epoch: 17 Step: 3/5 Loss: 0.4703 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0570 Batch Time: 2.2025
+2024-06-25 19:24:38,184 - INFO - VAL Epoch: 17 Step: 4/5 Loss: 0.4833 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.9283 Batch Time: 1.9525
+2024-06-25 19:24:38,188 - INFO - AUC Score: 0.6304
+2024-06-25 19:24:38,190 - INFO - New best model at epoch: 18
+2024-06-25 19:24:38,373 - INFO - Starting Epoch: 19
+2024-06-25 19:24:40,684 - INFO - TRAIN Epoch: 18 Step: 0/18 Loss: 0.4099 Accuracy: 0.8417 AUC: 0.0000 Data Time: 0.8493 Batch Time: 2.3074
+2024-06-25 19:24:42,694 - INFO - TRAIN Epoch: 18 Step: 1/18 Loss: 0.4116 Accuracy: 0.8417 AUC: 0.0000 Data Time: 0.8467 Batch Time: 2.1573
+2024-06-25 19:24:45,050 - INFO - TRAIN Epoch: 18 Step: 2/18 Loss: 0.4556 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8370 Batch Time: 2.2225
+2024-06-25 19:24:47,886 - INFO - TRAIN Epoch: 18 Step: 3/18 Loss: 0.4841 Accuracy: 0.7875 AUC: 0.0000 Data Time: 0.9381 Batch Time: 2.3751
+2024-06-25 19:24:50,686 - INFO - TRAIN Epoch: 18 Step: 4/18 Loss: 0.4712 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.9750 Batch Time: 2.4595
+2024-06-25 19:24:53,624 - INFO - TRAIN Epoch: 18 Step: 5/18 Loss: 0.4837 Accuracy: 0.7903 AUC: 0.0000 Data Time: 1.0252 Batch Time: 2.5388
+2024-06-25 19:24:56,093 - INFO - TRAIN Epoch: 18 Step: 6/18 Loss: 0.4862 Accuracy: 0.7881 AUC: 0.0000 Data Time: 1.0416 Batch Time: 2.5286
+2024-06-25 19:24:58,384 - INFO - TRAIN Epoch: 18 Step: 7/18 Loss: 0.4793 Accuracy: 0.7927 AUC: 0.0000 Data Time: 1.0538 Batch Time: 2.4985
+2024-06-25 19:25:00,929 - INFO - TRAIN Epoch: 18 Step: 8/18 Loss: 0.4728 Accuracy: 0.7954 AUC: 0.0000 Data Time: 1.0708 Batch Time: 2.5035
+2024-06-25 19:25:03,161 - INFO - TRAIN Epoch: 18 Step: 9/18 Loss: 0.4674 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0771 Batch Time: 2.4761
+2024-06-25 19:25:05,179 - INFO - TRAIN Epoch: 18 Step: 10/18 Loss: 0.4708 Accuracy: 0.7955 AUC: 0.0000 Data Time: 1.0754 Batch Time: 2.4342
+2024-06-25 19:25:07,195 - INFO - TRAIN Epoch: 18 Step: 11/18 Loss: 0.4676 Accuracy: 0.7979 AUC: 0.0000 Data Time: 1.0816 Batch Time: 2.3992
+2024-06-25 19:25:09,512 - INFO - TRAIN Epoch: 18 Step: 12/18 Loss: 0.4714 Accuracy: 0.7942 AUC: 0.0000 Data Time: 1.0831 Batch Time: 2.3927
+2024-06-25 19:25:12,211 - INFO - TRAIN Epoch: 18 Step: 13/18 Loss: 0.4720 Accuracy: 0.7952 AUC: 0.0000 Data Time: 1.1009 Batch Time: 2.4144
+2024-06-25 19:25:14,571 - INFO - TRAIN Epoch: 18 Step: 14/18 Loss: 0.4694 Accuracy: 0.7983 AUC: 0.0000 Data Time: 1.1046 Batch Time: 2.4106
+2024-06-25 19:25:16,634 - INFO - TRAIN Epoch: 18 Step: 15/18 Loss: 0.4690 Accuracy: 0.7984 AUC: 0.0000 Data Time: 1.1036 Batch Time: 2.3888
+2024-06-25 19:25:19,083 - INFO - TRAIN Epoch: 18 Step: 16/18 Loss: 0.4680 Accuracy: 0.7990 AUC: 0.0000 Data Time: 1.1046 Batch Time: 2.3922
+2024-06-25 19:25:19,796 - INFO - TRAIN Epoch: 18 Step: 17/18 Loss: 0.4669 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.0614 Batch Time: 2.2988
+2024-06-25 19:25:19,799 - INFO - AUC Score: 0.7071
+2024-06-25 19:25:21,719 - INFO - VAL Epoch: 18 Step: 0/5 Loss: 0.4737 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9141 Batch Time: 1.9176
+2024-06-25 19:25:23,694 - INFO - VAL Epoch: 18 Step: 1/5 Loss: 0.4513 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8267 Batch Time: 1.9456
+2024-06-25 19:25:26,487 - INFO - VAL Epoch: 18 Step: 2/5 Loss: 0.4486 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.8502 Batch Time: 2.2272
+2024-06-25 19:25:29,249 - INFO - VAL Epoch: 18 Step: 3/5 Loss: 0.4685 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8448 Batch Time: 2.3605
+2024-06-25 19:25:29,936 - INFO - VAL Epoch: 18 Step: 4/5 Loss: 0.4817 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.7547 Batch Time: 2.0256
+2024-06-25 19:25:29,942 - INFO - AUC Score: 0.6366
+2024-06-25 19:25:29,944 - INFO - New best model at epoch: 19
+2024-06-25 19:25:30,145 - INFO - Starting Epoch: 20
+2024-06-25 19:25:32,040 - INFO - TRAIN Epoch: 19 Step: 0/18 Loss: 0.5048 Accuracy: 0.7750 AUC: 0.0000 Data Time: 0.7877 Batch Time: 1.8918
+2024-06-25 19:25:34,469 - INFO - TRAIN Epoch: 19 Step: 1/18 Loss: 0.4656 Accuracy: 0.8042 AUC: 0.0000 Data Time: 0.9202 Batch Time: 2.1590
+2024-06-25 19:25:37,708 - INFO - TRAIN Epoch: 19 Step: 2/18 Loss: 0.4677 Accuracy: 0.8028 AUC: 0.0000 Data Time: 1.0191 Batch Time: 2.5186
+2024-06-25 19:25:40,436 - INFO - TRAIN Epoch: 19 Step: 3/18 Loss: 0.4556 Accuracy: 0.8104 AUC: 0.0000 Data Time: 1.0371 Batch Time: 2.5705
+2024-06-25 19:25:42,863 - INFO - TRAIN Epoch: 19 Step: 4/18 Loss: 0.4527 Accuracy: 0.8133 AUC: 0.0000 Data Time: 1.0619 Batch Time: 2.5412
+2024-06-25 19:25:45,052 - INFO - TRAIN Epoch: 19 Step: 5/18 Loss: 0.4630 Accuracy: 0.8042 AUC: 0.0000 Data Time: 1.0743 Batch Time: 2.4823
+2024-06-25 19:25:47,514 - INFO - TRAIN Epoch: 19 Step: 6/18 Loss: 0.4604 Accuracy: 0.8060 AUC: 0.0000 Data Time: 1.0850 Batch Time: 2.4790
+2024-06-25 19:25:50,122 - INFO - TRAIN Epoch: 19 Step: 7/18 Loss: 0.4715 Accuracy: 0.7979 AUC: 0.0000 Data Time: 1.0909 Batch Time: 2.4947
+2024-06-25 19:25:52,929 - INFO - TRAIN Epoch: 19 Step: 8/18 Loss: 0.4663 Accuracy: 0.8019 AUC: 0.0000 Data Time: 1.0979 Batch Time: 2.5292
+2024-06-25 19:25:55,811 - INFO - TRAIN Epoch: 19 Step: 9/18 Loss: 0.4659 Accuracy: 0.8025 AUC: 0.0000 Data Time: 1.1090 Batch Time: 2.5642
+2024-06-25 19:25:58,700 - INFO - TRAIN Epoch: 19 Step: 10/18 Loss: 0.4676 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.1132 Batch Time: 2.5934
+2024-06-25 19:26:01,621 - INFO - TRAIN Epoch: 19 Step: 11/18 Loss: 0.4695 Accuracy: 0.7986 AUC: 0.0000 Data Time: 1.1224 Batch Time: 2.6205
+2024-06-25 19:26:04,070 - INFO - TRAIN Epoch: 19 Step: 12/18 Loss: 0.4683 Accuracy: 0.7994 AUC: 0.0000 Data Time: 1.1213 Batch Time: 2.6071
+2024-06-25 19:26:06,370 - INFO - TRAIN Epoch: 19 Step: 13/18 Loss: 0.4708 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.1208 Batch Time: 2.5851
+2024-06-25 19:26:08,993 - INFO - TRAIN Epoch: 19 Step: 14/18 Loss: 0.4667 Accuracy: 0.7994 AUC: 0.0000 Data Time: 1.1180 Batch Time: 2.5874
+2024-06-25 19:26:11,769 - INFO - TRAIN Epoch: 19 Step: 15/18 Loss: 0.4653 Accuracy: 0.8005 AUC: 0.0000 Data Time: 1.1194 Batch Time: 2.5991
+2024-06-25 19:26:14,714 - INFO - TRAIN Epoch: 19 Step: 16/18 Loss: 0.4676 Accuracy: 0.7980 AUC: 0.0000 Data Time: 1.1308 Batch Time: 2.6193
+2024-06-25 19:26:15,289 - INFO - TRAIN Epoch: 19 Step: 17/18 Loss: 0.4651 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.0854 Batch Time: 2.5056
+2024-06-25 19:26:15,293 - INFO - AUC Score: 0.7106
+2024-06-25 19:26:16,988 - INFO - VAL Epoch: 19 Step: 0/5 Loss: 0.4723 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8253 Batch Time: 1.6937
+2024-06-25 19:26:19,299 - INFO - VAL Epoch: 19 Step: 1/5 Loss: 0.4492 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8036 Batch Time: 2.0013
+2024-06-25 19:26:22,684 - INFO - VAL Epoch: 19 Step: 2/5 Loss: 0.4463 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.9587 Batch Time: 2.4618
+2024-06-25 19:26:25,859 - INFO - VAL Epoch: 19 Step: 3/5 Loss: 0.4669 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0142 Batch Time: 2.6392
+2024-06-25 19:26:26,532 - INFO - VAL Epoch: 19 Step: 4/5 Loss: 0.4805 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.8876 Batch Time: 2.2456
+2024-06-25 19:26:26,536 - INFO - AUC Score: 0.6410
+2024-06-25 19:26:26,538 - INFO - New best model at epoch: 20
+2024-06-25 19:26:26,729 - INFO - Starting Epoch: 21
+2024-06-25 19:26:28,816 - INFO - TRAIN Epoch: 20 Step: 0/18 Loss: 0.5178 Accuracy: 0.7583 AUC: 0.0000 Data Time: 0.8183 Batch Time: 2.0837
+2024-06-25 19:26:31,591 - INFO - TRAIN Epoch: 20 Step: 1/18 Loss: 0.4889 Accuracy: 0.7833 AUC: 0.0000 Data Time: 0.8771 Batch Time: 2.4285
+2024-06-25 19:26:34,030 - INFO - TRAIN Epoch: 20 Step: 2/18 Loss: 0.4756 Accuracy: 0.7861 AUC: 0.0000 Data Time: 0.9007 Batch Time: 2.4311
+2024-06-25 19:26:36,519 - INFO - TRAIN Epoch: 20 Step: 3/18 Loss: 0.4600 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.9432 Batch Time: 2.4448
+2024-06-25 19:26:38,450 - INFO - TRAIN Epoch: 20 Step: 4/18 Loss: 0.4635 Accuracy: 0.7967 AUC: 0.0000 Data Time: 0.9429 Batch Time: 2.3416
+2024-06-25 19:26:40,069 - INFO - TRAIN Epoch: 20 Step: 5/18 Loss: 0.4746 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.9108 Batch Time: 2.2207
+2024-06-25 19:26:42,083 - INFO - TRAIN Epoch: 20 Step: 6/18 Loss: 0.4690 Accuracy: 0.7976 AUC: 0.0000 Data Time: 0.8909 Batch Time: 2.1904
+2024-06-25 19:26:44,411 - INFO - TRAIN Epoch: 20 Step: 7/18 Loss: 0.4642 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.8809 Batch Time: 2.2072
+2024-06-25 19:26:47,304 - INFO - TRAIN Epoch: 20 Step: 8/18 Loss: 0.4639 Accuracy: 0.8009 AUC: 0.0000 Data Time: 0.8815 Batch Time: 2.2832
+2024-06-25 19:26:50,212 - INFO - TRAIN Epoch: 20 Step: 9/18 Loss: 0.4678 Accuracy: 0.7983 AUC: 0.0000 Data Time: 0.8803 Batch Time: 2.3455
+2024-06-25 19:26:53,148 - INFO - TRAIN Epoch: 20 Step: 10/18 Loss: 0.4754 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.8802 Batch Time: 2.3990
+2024-06-25 19:26:56,087 - INFO - TRAIN Epoch: 20 Step: 11/18 Loss: 0.4734 Accuracy: 0.7937 AUC: 0.0000 Data Time: 0.8795 Batch Time: 2.4439
+2024-06-25 19:26:58,793 - INFO - TRAIN Epoch: 20 Step: 12/18 Loss: 0.4733 Accuracy: 0.7942 AUC: 0.0000 Data Time: 0.8824 Batch Time: 2.4638
+2024-06-25 19:27:01,906 - INFO - TRAIN Epoch: 20 Step: 13/18 Loss: 0.4713 Accuracy: 0.7958 AUC: 0.0000 Data Time: 0.8988 Batch Time: 2.5100
+2024-06-25 19:27:04,726 - INFO - TRAIN Epoch: 20 Step: 14/18 Loss: 0.4675 Accuracy: 0.7978 AUC: 0.0000 Data Time: 0.9229 Batch Time: 2.5305
+2024-06-25 19:27:07,516 - INFO - TRAIN Epoch: 20 Step: 15/18 Loss: 0.4679 Accuracy: 0.7974 AUC: 0.0000 Data Time: 0.9380 Batch Time: 2.5465
+2024-06-25 19:27:09,982 - INFO - TRAIN Epoch: 20 Step: 16/18 Loss: 0.4674 Accuracy: 0.7971 AUC: 0.0000 Data Time: 0.9457 Batch Time: 2.5415
+2024-06-25 19:27:10,662 - INFO - TRAIN Epoch: 20 Step: 17/18 Loss: 0.4635 Accuracy: 0.7999 AUC: 0.0000 Data Time: 0.9109 Batch Time: 2.4380
+2024-06-25 19:27:10,665 - INFO - AUC Score: 0.7147
+2024-06-25 19:27:12,430 - INFO - VAL Epoch: 20 Step: 0/5 Loss: 0.4709 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8690 Batch Time: 1.7631
+2024-06-25 19:27:14,558 - INFO - VAL Epoch: 20 Step: 1/5 Loss: 0.4476 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.0391 Batch Time: 1.9445
+2024-06-25 19:27:16,961 - INFO - VAL Epoch: 20 Step: 2/5 Loss: 0.4444 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.0814 Batch Time: 2.0967
+2024-06-25 19:27:19,570 - INFO - VAL Epoch: 20 Step: 3/5 Loss: 0.4651 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0810 Batch Time: 2.2239
+2024-06-25 19:27:20,337 - INFO - VAL Epoch: 20 Step: 4/5 Loss: 0.4789 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.9593 Batch Time: 1.9318
+2024-06-25 19:27:20,342 - INFO - AUC Score: 0.6465
+2024-06-25 19:27:20,343 - INFO - New best model at epoch: 21
+2024-06-25 19:27:20,564 - INFO - Starting Epoch: 22
+2024-06-25 19:27:22,208 - INFO - TRAIN Epoch: 21 Step: 0/18 Loss: 0.4785 Accuracy: 0.7833 AUC: 0.0000 Data Time: 0.7784 Batch Time: 1.6428
+2024-06-25 19:27:24,332 - INFO - TRAIN Epoch: 21 Step: 1/18 Loss: 0.4734 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.8109 Batch Time: 1.8817
+2024-06-25 19:27:26,667 - INFO - TRAIN Epoch: 21 Step: 2/18 Loss: 0.4499 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8091 Batch Time: 2.0321
+2024-06-25 19:27:29,122 - INFO - TRAIN Epoch: 21 Step: 3/18 Loss: 0.4630 Accuracy: 0.7979 AUC: 0.0000 Data Time: 0.8309 Batch Time: 2.1373
+2024-06-25 19:27:31,312 - INFO - TRAIN Epoch: 21 Step: 4/18 Loss: 0.4591 Accuracy: 0.8017 AUC: 0.0000 Data Time: 0.8570 Batch Time: 2.1474
+2024-06-25 19:27:33,447 - INFO - TRAIN Epoch: 21 Step: 5/18 Loss: 0.4527 Accuracy: 0.8042 AUC: 0.0000 Data Time: 0.8639 Batch Time: 2.1450
+2024-06-25 19:27:35,681 - INFO - TRAIN Epoch: 21 Step: 6/18 Loss: 0.4532 Accuracy: 0.8048 AUC: 0.0000 Data Time: 0.8737 Batch Time: 2.1573
+2024-06-25 19:27:37,948 - INFO - TRAIN Epoch: 21 Step: 7/18 Loss: 0.4590 Accuracy: 0.8021 AUC: 0.0000 Data Time: 0.8793 Batch Time: 2.1707
+2024-06-25 19:27:40,163 - INFO - TRAIN Epoch: 21 Step: 8/18 Loss: 0.4651 Accuracy: 0.7972 AUC: 0.0000 Data Time: 0.8783 Batch Time: 2.1753
+2024-06-25 19:27:43,385 - INFO - TRAIN Epoch: 21 Step: 9/18 Loss: 0.4620 Accuracy: 0.7992 AUC: 0.0000 Data Time: 0.9113 Batch Time: 2.2797
+2024-06-25 19:27:46,320 - INFO - TRAIN Epoch: 21 Step: 10/18 Loss: 0.4613 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.9322 Batch Time: 2.3390
+2024-06-25 19:27:49,396 - INFO - TRAIN Epoch: 21 Step: 11/18 Loss: 0.4648 Accuracy: 0.7958 AUC: 0.0000 Data Time: 0.9498 Batch Time: 2.4002
+2024-06-25 19:27:52,629 - INFO - TRAIN Epoch: 21 Step: 12/18 Loss: 0.4723 Accuracy: 0.7904 AUC: 0.0000 Data Time: 0.9715 Batch Time: 2.4641
+2024-06-25 19:27:55,426 - INFO - TRAIN Epoch: 21 Step: 13/18 Loss: 0.4704 Accuracy: 0.7929 AUC: 0.0000 Data Time: 0.9919 Batch Time: 2.4877
+2024-06-25 19:27:58,293 - INFO - TRAIN Epoch: 21 Step: 14/18 Loss: 0.4663 Accuracy: 0.7961 AUC: 0.0000 Data Time: 1.0078 Batch Time: 2.5128
+2024-06-25 19:28:00,724 - INFO - TRAIN Epoch: 21 Step: 15/18 Loss: 0.4642 Accuracy: 0.7974 AUC: 0.0000 Data Time: 1.0138 Batch Time: 2.5075
+2024-06-25 19:28:02,926 - INFO - TRAIN Epoch: 21 Step: 16/18 Loss: 0.4623 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0177 Batch Time: 2.4895
+2024-06-25 19:28:03,791 - INFO - TRAIN Epoch: 21 Step: 17/18 Loss: 0.4620 Accuracy: 0.7999 AUC: 0.0000 Data Time: 0.9781 Batch Time: 2.3991
+2024-06-25 19:28:03,796 - INFO - AUC Score: 0.7179
+2024-06-25 19:28:05,767 - INFO - VAL Epoch: 21 Step: 0/5 Loss: 0.4695 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9466 Batch Time: 1.9693
+2024-06-25 19:28:08,628 - INFO - VAL Epoch: 21 Step: 1/5 Loss: 0.4460 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.1356 Batch Time: 2.4140
+2024-06-25 19:28:10,953 - INFO - VAL Epoch: 21 Step: 2/5 Loss: 0.4425 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.1755 Batch Time: 2.3835
+2024-06-25 19:28:13,732 - INFO - VAL Epoch: 21 Step: 3/5 Loss: 0.4634 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.1815 Batch Time: 2.4819
+2024-06-25 19:28:14,428 - INFO - VAL Epoch: 21 Step: 4/5 Loss: 0.4773 Accuracy: 0.7996 AUC: 0.0000 Data Time: 1.0257 Batch Time: 2.1242
+2024-06-25 19:28:14,435 - INFO - AUC Score: 0.6517
+2024-06-25 19:28:14,437 - INFO - New best model at epoch: 22
+2024-06-25 19:28:14,634 - INFO - Starting Epoch: 23
+2024-06-25 19:28:16,992 - INFO - TRAIN Epoch: 22 Step: 0/18 Loss: 0.5192 Accuracy: 0.7500 AUC: 0.0000 Data Time: 0.7751 Batch Time: 2.3547
+2024-06-25 19:28:19,652 - INFO - TRAIN Epoch: 22 Step: 1/18 Loss: 0.4883 Accuracy: 0.7750 AUC: 0.0000 Data Time: 0.8197 Batch Time: 2.5067
+2024-06-25 19:28:21,603 - INFO - TRAIN Epoch: 22 Step: 2/18 Loss: 0.4757 Accuracy: 0.7833 AUC: 0.0000 Data Time: 0.8383 Batch Time: 2.3209
+2024-06-25 19:28:23,312 - INFO - TRAIN Epoch: 22 Step: 3/18 Loss: 0.4734 Accuracy: 0.7854 AUC: 0.0000 Data Time: 0.8325 Batch Time: 2.1674
+2024-06-25 19:28:25,317 - INFO - TRAIN Epoch: 22 Step: 4/18 Loss: 0.4744 Accuracy: 0.7833 AUC: 0.0000 Data Time: 0.8932 Batch Time: 2.1342
+2024-06-25 19:28:27,275 - INFO - TRAIN Epoch: 22 Step: 5/18 Loss: 0.4617 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.9260 Batch Time: 2.1041
+2024-06-25 19:28:29,460 - INFO - TRAIN Epoch: 22 Step: 6/18 Loss: 0.4686 Accuracy: 0.7869 AUC: 0.0000 Data Time: 0.9641 Batch Time: 2.1150
+2024-06-25 19:28:31,505 - INFO - TRAIN Epoch: 22 Step: 7/18 Loss: 0.4579 Accuracy: 0.7969 AUC: 0.0000 Data Time: 0.9779 Batch Time: 2.1057
+2024-06-25 19:28:33,632 - INFO - TRAIN Epoch: 22 Step: 8/18 Loss: 0.4512 Accuracy: 0.8028 AUC: 0.0000 Data Time: 1.0006 Batch Time: 2.1076
+2024-06-25 19:28:35,814 - INFO - TRAIN Epoch: 22 Step: 9/18 Loss: 0.4556 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0192 Batch Time: 2.1148
+2024-06-25 19:28:37,932 - INFO - TRAIN Epoch: 22 Step: 10/18 Loss: 0.4583 Accuracy: 0.8008 AUC: 0.0000 Data Time: 1.0268 Batch Time: 2.1149
+2024-06-25 19:28:40,062 - INFO - TRAIN Epoch: 22 Step: 11/18 Loss: 0.4598 Accuracy: 0.7986 AUC: 0.0000 Data Time: 1.0389 Batch Time: 2.1159
+2024-06-25 19:28:42,271 - INFO - TRAIN Epoch: 22 Step: 12/18 Loss: 0.4547 Accuracy: 0.8038 AUC: 0.0000 Data Time: 1.0500 Batch Time: 2.1227
+2024-06-25 19:28:44,392 - INFO - TRAIN Epoch: 22 Step: 13/18 Loss: 0.4565 Accuracy: 0.8036 AUC: 0.0000 Data Time: 1.0618 Batch Time: 2.1224
+2024-06-25 19:28:46,516 - INFO - TRAIN Epoch: 22 Step: 14/18 Loss: 0.4583 Accuracy: 0.8022 AUC: 0.0000 Data Time: 1.0465 Batch Time: 2.1223
+2024-06-25 19:28:48,998 - INFO - TRAIN Epoch: 22 Step: 15/18 Loss: 0.4625 Accuracy: 0.7990 AUC: 0.0000 Data Time: 1.0296 Batch Time: 2.1447
+2024-06-25 19:28:51,766 - INFO - TRAIN Epoch: 22 Step: 16/18 Loss: 0.4583 Accuracy: 0.8015 AUC: 0.0000 Data Time: 1.0216 Batch Time: 2.1811
+2024-06-25 19:28:52,260 - INFO - TRAIN Epoch: 22 Step: 17/18 Loss: 0.4601 Accuracy: 0.7999 AUC: 0.0000 Data Time: 0.9778 Batch Time: 2.0872
+2024-06-25 19:28:52,264 - INFO - AUC Score: 0.7228
+2024-06-25 19:28:54,470 - INFO - VAL Epoch: 22 Step: 0/5 Loss: 0.4682 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.7772 Batch Time: 2.2036
+2024-06-25 19:28:57,067 - INFO - VAL Epoch: 22 Step: 1/5 Loss: 0.4447 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8123 Batch Time: 2.3991
+2024-06-25 19:28:59,844 - INFO - VAL Epoch: 22 Step: 2/5 Loss: 0.4409 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.8273 Batch Time: 2.5245
+2024-06-25 19:29:02,314 - INFO - VAL Epoch: 22 Step: 3/5 Loss: 0.4617 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8654 Batch Time: 2.5106
+2024-06-25 19:29:03,115 - INFO - VAL Epoch: 22 Step: 4/5 Loss: 0.4756 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.7409 Batch Time: 2.1681
+2024-06-25 19:29:03,120 - INFO - AUC Score: 0.6579
+2024-06-25 19:29:03,121 - INFO - New best model at epoch: 23
+2024-06-25 19:29:03,313 - INFO - Starting Epoch: 24
+2024-06-25 19:29:05,996 - INFO - TRAIN Epoch: 23 Step: 0/18 Loss: 0.4828 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.8623 Batch Time: 2.6783
+2024-06-25 19:29:08,749 - INFO - TRAIN Epoch: 23 Step: 1/18 Loss: 0.4584 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0027 Batch Time: 2.7149
+2024-06-25 19:29:11,367 - INFO - TRAIN Epoch: 23 Step: 2/18 Loss: 0.4589 Accuracy: 0.8028 AUC: 0.0000 Data Time: 1.0418 Batch Time: 2.6815
+2024-06-25 19:29:14,628 - INFO - TRAIN Epoch: 23 Step: 3/18 Loss: 0.4598 Accuracy: 0.8021 AUC: 0.0000 Data Time: 1.1004 Batch Time: 2.8261
+2024-06-25 19:29:17,669 - INFO - TRAIN Epoch: 23 Step: 4/18 Loss: 0.4646 Accuracy: 0.7967 AUC: 0.0000 Data Time: 1.1464 Batch Time: 2.8686
+2024-06-25 19:29:20,228 - INFO - TRAIN Epoch: 23 Step: 5/18 Loss: 0.4628 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.1597 Batch Time: 2.8164
+2024-06-25 19:29:22,670 - INFO - TRAIN Epoch: 23 Step: 6/18 Loss: 0.4602 Accuracy: 0.7976 AUC: 0.0000 Data Time: 1.1599 Batch Time: 2.7627
+2024-06-25 19:29:25,163 - INFO - TRAIN Epoch: 23 Step: 7/18 Loss: 0.4537 Accuracy: 0.8021 AUC: 0.0000 Data Time: 1.1122 Batch Time: 2.7288
+2024-06-25 19:29:27,761 - INFO - TRAIN Epoch: 23 Step: 8/18 Loss: 0.4538 Accuracy: 0.8037 AUC: 0.0000 Data Time: 1.1177 Batch Time: 2.7140
+2024-06-25 19:29:30,199 - INFO - TRAIN Epoch: 23 Step: 9/18 Loss: 0.4526 Accuracy: 0.8042 AUC: 0.0000 Data Time: 1.1242 Batch Time: 2.6862
+2024-06-25 19:29:32,587 - INFO - TRAIN Epoch: 23 Step: 10/18 Loss: 0.4556 Accuracy: 0.8023 AUC: 0.0000 Data Time: 1.1089 Batch Time: 2.6588
+2024-06-25 19:29:35,013 - INFO - TRAIN Epoch: 23 Step: 11/18 Loss: 0.4536 Accuracy: 0.8056 AUC: 0.0000 Data Time: 1.1105 Batch Time: 2.6392
+2024-06-25 19:29:37,329 - INFO - TRAIN Epoch: 23 Step: 12/18 Loss: 0.4526 Accuracy: 0.8064 AUC: 0.0000 Data Time: 1.1042 Batch Time: 2.6141
+2024-06-25 19:29:39,661 - INFO - TRAIN Epoch: 23 Step: 13/18 Loss: 0.4530 Accuracy: 0.8060 AUC: 0.0000 Data Time: 1.1086 Batch Time: 2.5938
+2024-06-25 19:29:41,916 - INFO - TRAIN Epoch: 23 Step: 14/18 Loss: 0.4516 Accuracy: 0.8072 AUC: 0.0000 Data Time: 1.1137 Batch Time: 2.5710
+2024-06-25 19:29:44,055 - INFO - TRAIN Epoch: 23 Step: 15/18 Loss: 0.4556 Accuracy: 0.8036 AUC: 0.0000 Data Time: 1.1076 Batch Time: 2.5439
+2024-06-25 19:29:46,260 - INFO - TRAIN Epoch: 23 Step: 16/18 Loss: 0.4574 Accuracy: 0.8015 AUC: 0.0000 Data Time: 1.1111 Batch Time: 2.5237
+2024-06-25 19:29:47,140 - INFO - TRAIN Epoch: 23 Step: 17/18 Loss: 0.4586 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.0675 Batch Time: 2.4323
+2024-06-25 19:29:47,143 - INFO - AUC Score: 0.7272
+2024-06-25 19:29:49,028 - INFO - VAL Epoch: 23 Step: 0/5 Loss: 0.4663 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8930 Batch Time: 1.8827
+2024-06-25 19:29:50,653 - INFO - VAL Epoch: 23 Step: 1/5 Loss: 0.4432 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8271 Batch Time: 1.7532
+2024-06-25 19:29:53,118 - INFO - VAL Epoch: 23 Step: 2/5 Loss: 0.4389 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.9272 Batch Time: 1.9896
+2024-06-25 19:29:55,899 - INFO - VAL Epoch: 23 Step: 3/5 Loss: 0.4596 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9702 Batch Time: 2.1871
+2024-06-25 19:29:56,569 - INFO - VAL Epoch: 23 Step: 4/5 Loss: 0.4734 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.8506 Batch Time: 1.8830
+2024-06-25 19:29:56,571 - INFO - AUC Score: 0.6645
+2024-06-25 19:29:56,573 - INFO - New best model at epoch: 24
+2024-06-25 19:29:56,756 - INFO - Starting Epoch: 25
+2024-06-25 19:29:58,666 - INFO - TRAIN Epoch: 24 Step: 0/18 Loss: 0.5205 Accuracy: 0.7667 AUC: 0.0000 Data Time: 0.9131 Batch Time: 1.9057
+2024-06-25 19:30:00,258 - INFO - TRAIN Epoch: 24 Step: 1/18 Loss: 0.4974 Accuracy: 0.7875 AUC: 0.0000 Data Time: 0.8190 Batch Time: 1.7475
+2024-06-25 19:30:02,684 - INFO - TRAIN Epoch: 24 Step: 2/18 Loss: 0.4977 Accuracy: 0.7833 AUC: 0.0000 Data Time: 0.9259 Batch Time: 1.9728
+2024-06-25 19:30:05,567 - INFO - TRAIN Epoch: 24 Step: 3/18 Loss: 0.4704 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.0095 Batch Time: 2.2001
+2024-06-25 19:30:08,129 - INFO - TRAIN Epoch: 24 Step: 4/18 Loss: 0.4750 Accuracy: 0.7900 AUC: 0.0000 Data Time: 1.0524 Batch Time: 2.2720
+2024-06-25 19:30:10,411 - INFO - TRAIN Epoch: 24 Step: 5/18 Loss: 0.4624 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.0619 Batch Time: 2.2732
+2024-06-25 19:30:13,072 - INFO - TRAIN Epoch: 24 Step: 6/18 Loss: 0.4533 Accuracy: 0.8060 AUC: 0.0000 Data Time: 1.0381 Batch Time: 2.3284
+2024-06-25 19:30:15,825 - INFO - TRAIN Epoch: 24 Step: 7/18 Loss: 0.4552 Accuracy: 0.8052 AUC: 0.0000 Data Time: 1.0120 Batch Time: 2.3812
+2024-06-25 19:30:18,772 - INFO - TRAIN Epoch: 24 Step: 8/18 Loss: 0.4619 Accuracy: 0.8009 AUC: 0.0000 Data Time: 0.9943 Batch Time: 2.4437
+2024-06-25 19:30:21,757 - INFO - TRAIN Epoch: 24 Step: 9/18 Loss: 0.4585 Accuracy: 0.8025 AUC: 0.0000 Data Time: 0.9844 Batch Time: 2.4976
+2024-06-25 19:30:24,669 - INFO - TRAIN Epoch: 24 Step: 10/18 Loss: 0.4605 Accuracy: 0.8023 AUC: 0.0000 Data Time: 0.9724 Batch Time: 2.5350
+2024-06-25 19:30:27,610 - INFO - TRAIN Epoch: 24 Step: 11/18 Loss: 0.4574 Accuracy: 0.8028 AUC: 0.0000 Data Time: 0.9655 Batch Time: 2.5687
+2024-06-25 19:30:30,674 - INFO - TRAIN Epoch: 24 Step: 12/18 Loss: 0.4594 Accuracy: 0.7994 AUC: 0.0000 Data Time: 0.9869 Batch Time: 2.6067
+2024-06-25 19:30:33,431 - INFO - TRAIN Epoch: 24 Step: 13/18 Loss: 0.4576 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0004 Batch Time: 2.6172
+2024-06-25 19:30:36,025 - INFO - TRAIN Epoch: 24 Step: 14/18 Loss: 0.4547 Accuracy: 0.8017 AUC: 0.0000 Data Time: 1.0060 Batch Time: 2.6156
+2024-06-25 19:30:38,500 - INFO - TRAIN Epoch: 24 Step: 15/18 Loss: 0.4516 Accuracy: 0.8047 AUC: 0.0000 Data Time: 1.0161 Batch Time: 2.6067
+2024-06-25 19:30:40,988 - INFO - TRAIN Epoch: 24 Step: 16/18 Loss: 0.4556 Accuracy: 0.8010 AUC: 0.0000 Data Time: 1.0022 Batch Time: 2.5995
+2024-06-25 19:30:41,494 - INFO - TRAIN Epoch: 24 Step: 17/18 Loss: 0.4570 Accuracy: 0.7999 AUC: 0.0000 Data Time: 0.9602 Batch Time: 2.4831
+2024-06-25 19:30:41,498 - INFO - AUC Score: 0.7313
+2024-06-25 19:30:43,720 - INFO - VAL Epoch: 24 Step: 0/5 Loss: 0.4650 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8331 Batch Time: 2.2184
+2024-06-25 19:30:46,286 - INFO - VAL Epoch: 24 Step: 1/5 Loss: 0.4416 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8276 Batch Time: 2.3908
+2024-06-25 19:30:49,112 - INFO - VAL Epoch: 24 Step: 2/5 Loss: 0.4370 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.8300 Batch Time: 2.5351
+2024-06-25 19:30:52,157 - INFO - VAL Epoch: 24 Step: 3/5 Loss: 0.4580 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9363 Batch Time: 2.6620
+2024-06-25 19:30:52,849 - INFO - VAL Epoch: 24 Step: 4/5 Loss: 0.4720 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.8288 Batch Time: 2.2676
+2024-06-25 19:30:52,853 - INFO - AUC Score: 0.6692
+2024-06-25 19:30:52,854 - INFO - New best model at epoch: 25
+2024-06-25 19:30:53,056 - INFO - Starting Epoch: 26
+2024-06-25 19:30:55,268 - INFO - TRAIN Epoch: 25 Step: 0/18 Loss: 0.4514 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8019 Batch Time: 2.2105
+2024-06-25 19:30:57,607 - INFO - TRAIN Epoch: 25 Step: 1/18 Loss: 0.4597 Accuracy: 0.8042 AUC: 0.0000 Data Time: 0.9499 Batch Time: 2.2741
+2024-06-25 19:31:00,214 - INFO - TRAIN Epoch: 25 Step: 2/18 Loss: 0.4627 Accuracy: 0.7972 AUC: 0.0000 Data Time: 1.0142 Batch Time: 2.3839
+2024-06-25 19:31:03,386 - INFO - TRAIN Epoch: 25 Step: 3/18 Loss: 0.4630 Accuracy: 0.8021 AUC: 0.0000 Data Time: 1.0652 Batch Time: 2.5804
+2024-06-25 19:31:06,195 - INFO - TRAIN Epoch: 25 Step: 4/18 Loss: 0.4711 Accuracy: 0.7950 AUC: 0.0000 Data Time: 1.0833 Batch Time: 2.6256
+2024-06-25 19:31:08,817 - INFO - TRAIN Epoch: 25 Step: 5/18 Loss: 0.4624 Accuracy: 0.8014 AUC: 0.0000 Data Time: 1.1075 Batch Time: 2.6247
+2024-06-25 19:31:11,149 - INFO - TRAIN Epoch: 25 Step: 6/18 Loss: 0.4644 Accuracy: 0.7988 AUC: 0.0000 Data Time: 1.1058 Batch Time: 2.5825
+2024-06-25 19:31:13,481 - INFO - TRAIN Epoch: 25 Step: 7/18 Loss: 0.4669 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.1114 Batch Time: 2.5507
+2024-06-25 19:31:15,746 - INFO - TRAIN Epoch: 25 Step: 8/18 Loss: 0.4640 Accuracy: 0.7963 AUC: 0.0000 Data Time: 1.1117 Batch Time: 2.5187
+2024-06-25 19:31:17,992 - INFO - TRAIN Epoch: 25 Step: 9/18 Loss: 0.4610 Accuracy: 0.7967 AUC: 0.0000 Data Time: 1.1191 Batch Time: 2.4913
+2024-06-25 19:31:20,165 - INFO - TRAIN Epoch: 25 Step: 10/18 Loss: 0.4642 Accuracy: 0.7955 AUC: 0.0000 Data Time: 1.1272 Batch Time: 2.4621
+2024-06-25 19:31:22,444 - INFO - TRAIN Epoch: 25 Step: 11/18 Loss: 0.4663 Accuracy: 0.7910 AUC: 0.0000 Data Time: 1.1340 Batch Time: 2.4466
+2024-06-25 19:31:24,670 - INFO - TRAIN Epoch: 25 Step: 12/18 Loss: 0.4618 Accuracy: 0.7968 AUC: 0.0000 Data Time: 1.1336 Batch Time: 2.4295
+2024-06-25 19:31:26,870 - INFO - TRAIN Epoch: 25 Step: 13/18 Loss: 0.4607 Accuracy: 0.7970 AUC: 0.0000 Data Time: 1.1392 Batch Time: 2.4129
+2024-06-25 19:31:28,985 - INFO - TRAIN Epoch: 25 Step: 14/18 Loss: 0.4556 Accuracy: 0.8006 AUC: 0.0000 Data Time: 1.1320 Batch Time: 2.3928
+2024-06-25 19:31:31,200 - INFO - TRAIN Epoch: 25 Step: 15/18 Loss: 0.4573 Accuracy: 0.7990 AUC: 0.0000 Data Time: 1.1307 Batch Time: 2.3816
+2024-06-25 19:31:33,377 - INFO - TRAIN Epoch: 25 Step: 16/18 Loss: 0.4568 Accuracy: 0.7985 AUC: 0.0000 Data Time: 1.1262 Batch Time: 2.3694
+2024-06-25 19:31:34,159 - INFO - TRAIN Epoch: 25 Step: 17/18 Loss: 0.4554 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.0840 Batch Time: 2.2810
+2024-06-25 19:31:34,163 - INFO - AUC Score: 0.7339
+2024-06-25 19:31:35,874 - INFO - VAL Epoch: 25 Step: 0/5 Loss: 0.4638 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8172 Batch Time: 1.7091
+2024-06-25 19:31:37,934 - INFO - VAL Epoch: 25 Step: 1/5 Loss: 0.4403 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8308 Batch Time: 1.8820
+2024-06-25 19:31:40,374 - INFO - VAL Epoch: 25 Step: 2/5 Loss: 0.4354 Accuracy: 0.8222 AUC: 0.0000 Data Time: 0.8300 Batch Time: 2.0669
+2024-06-25 19:31:43,101 - INFO - VAL Epoch: 25 Step: 3/5 Loss: 0.4565 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8713 Batch Time: 2.2314
+2024-06-25 19:31:43,831 - INFO - VAL Epoch: 25 Step: 4/5 Loss: 0.4706 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.7846 Batch Time: 1.9308
+2024-06-25 19:31:43,835 - INFO - AUC Score: 0.6727
+2024-06-25 19:31:43,836 - INFO - New best model at epoch: 26
+2024-06-25 19:31:44,033 - INFO - Starting Epoch: 27
+2024-06-25 19:31:46,251 - INFO - TRAIN Epoch: 26 Step: 0/18 Loss: 0.3989 Accuracy: 0.8417 AUC: 0.0000 Data Time: 0.7826 Batch Time: 2.2159
+2024-06-25 19:31:48,835 - INFO - TRAIN Epoch: 26 Step: 1/18 Loss: 0.3874 Accuracy: 0.8417 AUC: 0.0000 Data Time: 0.7988 Batch Time: 2.3990
+2024-06-25 19:31:51,769 - INFO - TRAIN Epoch: 26 Step: 2/18 Loss: 0.4312 Accuracy: 0.8139 AUC: 0.0000 Data Time: 0.8357 Batch Time: 2.5765
+2024-06-25 19:31:53,639 - INFO - TRAIN Epoch: 26 Step: 3/18 Loss: 0.4137 Accuracy: 0.8250 AUC: 0.0000 Data Time: 0.8706 Batch Time: 2.3996
+2024-06-25 19:31:55,319 - INFO - TRAIN Epoch: 26 Step: 4/18 Loss: 0.4216 Accuracy: 0.8183 AUC: 0.0000 Data Time: 0.8554 Batch Time: 2.2553
+2024-06-25 19:31:57,694 - INFO - TRAIN Epoch: 26 Step: 5/18 Loss: 0.4221 Accuracy: 0.8194 AUC: 0.0000 Data Time: 0.9090 Batch Time: 2.2750
+2024-06-25 19:31:59,898 - INFO - TRAIN Epoch: 26 Step: 6/18 Loss: 0.4231 Accuracy: 0.8202 AUC: 0.0000 Data Time: 0.9395 Batch Time: 2.2643
+2024-06-25 19:32:02,009 - INFO - TRAIN Epoch: 26 Step: 7/18 Loss: 0.4252 Accuracy: 0.8198 AUC: 0.0000 Data Time: 0.9556 Batch Time: 2.2449
+2024-06-25 19:32:04,196 - INFO - TRAIN Epoch: 26 Step: 8/18 Loss: 0.4221 Accuracy: 0.8231 AUC: 0.0000 Data Time: 0.9739 Batch Time: 2.2381
+2024-06-25 19:32:07,240 - INFO - TRAIN Epoch: 26 Step: 9/18 Loss: 0.4222 Accuracy: 0.8233 AUC: 0.0000 Data Time: 1.0764 Batch Time: 2.3183
+2024-06-25 19:32:11,080 - INFO - TRAIN Epoch: 26 Step: 10/18 Loss: 0.4205 Accuracy: 0.8235 AUC: 0.0000 Data Time: 1.1540 Batch Time: 2.4565
+2024-06-25 19:32:14,235 - INFO - TRAIN Epoch: 26 Step: 11/18 Loss: 0.4297 Accuracy: 0.8187 AUC: 0.0000 Data Time: 1.2106 Batch Time: 2.5145
+2024-06-25 19:32:17,134 - INFO - TRAIN Epoch: 26 Step: 12/18 Loss: 0.4402 Accuracy: 0.8115 AUC: 0.0000 Data Time: 1.2584 Batch Time: 2.5439
+2024-06-25 19:32:19,687 - INFO - TRAIN Epoch: 26 Step: 13/18 Loss: 0.4398 Accuracy: 0.8107 AUC: 0.0000 Data Time: 1.2880 Batch Time: 2.5443
+2024-06-25 19:32:22,593 - INFO - TRAIN Epoch: 26 Step: 14/18 Loss: 0.4431 Accuracy: 0.8094 AUC: 0.0000 Data Time: 1.3332 Batch Time: 2.5683
+2024-06-25 19:32:25,158 - INFO - TRAIN Epoch: 26 Step: 15/18 Loss: 0.4482 Accuracy: 0.8063 AUC: 0.0000 Data Time: 1.3501 Batch Time: 2.5679
+2024-06-25 19:32:27,309 - INFO - TRAIN Epoch: 26 Step: 16/18 Loss: 0.4548 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.3436 Batch Time: 2.5432
+2024-06-25 19:32:27,912 - INFO - TRAIN Epoch: 26 Step: 17/18 Loss: 0.4550 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.2845 Batch Time: 2.4352
+2024-06-25 19:32:27,918 - INFO - AUC Score: 0.7315
+2024-06-25 19:32:30,261 - INFO - VAL Epoch: 26 Step: 0/5 Loss: 0.4633 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.4374 Batch Time: 2.3405
+2024-06-25 19:32:32,741 - INFO - VAL Epoch: 26 Step: 1/5 Loss: 0.4386 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.5284 Batch Time: 2.4091
+2024-06-25 19:32:35,919 - INFO - VAL Epoch: 26 Step: 2/5 Loss: 0.4335 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.6555 Batch Time: 2.6644
+2024-06-25 19:32:39,209 - INFO - VAL Epoch: 26 Step: 3/5 Loss: 0.4555 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.6614 Batch Time: 2.8201
+2024-06-25 19:32:39,832 - INFO - VAL Epoch: 26 Step: 4/5 Loss: 0.4703 Accuracy: 0.7996 AUC: 0.0000 Data Time: 1.3937 Batch Time: 2.3804
+2024-06-25 19:32:39,836 - INFO - AUC Score: 0.6732
+2024-06-25 19:32:39,838 - INFO - New best model at epoch: 27
+2024-06-25 19:32:40,031 - INFO - Starting Epoch: 28
+2024-06-25 19:32:42,705 - INFO - TRAIN Epoch: 27 Step: 0/18 Loss: 0.4408 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.1723 Batch Time: 2.6706
+2024-06-25 19:32:45,656 - INFO - TRAIN Epoch: 27 Step: 1/18 Loss: 0.4684 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0678 Batch Time: 2.8100
+2024-06-25 19:32:48,168 - INFO - TRAIN Epoch: 27 Step: 2/18 Loss: 0.4705 Accuracy: 0.7917 AUC: 0.0000 Data Time: 1.1165 Batch Time: 2.7100
+2024-06-25 19:32:51,123 - INFO - TRAIN Epoch: 27 Step: 3/18 Loss: 0.4658 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.3560 Batch Time: 2.7711
+2024-06-25 19:32:53,870 - INFO - TRAIN Epoch: 27 Step: 4/18 Loss: 0.4602 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.4454 Batch Time: 2.7657
+2024-06-25 19:32:56,108 - INFO - TRAIN Epoch: 27 Step: 5/18 Loss: 0.4593 Accuracy: 0.7986 AUC: 0.0000 Data Time: 1.4248 Batch Time: 2.6775
+2024-06-25 19:33:00,047 - INFO - TRAIN Epoch: 27 Step: 6/18 Loss: 0.4612 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.4807 Batch Time: 2.8570
+2024-06-25 19:33:03,814 - INFO - TRAIN Epoch: 27 Step: 7/18 Loss: 0.4550 Accuracy: 0.8063 AUC: 0.0000 Data Time: 1.5382 Batch Time: 2.9706
+2024-06-25 19:33:07,603 - INFO - TRAIN Epoch: 27 Step: 8/18 Loss: 0.4587 Accuracy: 0.8019 AUC: 0.0000 Data Time: 1.5852 Batch Time: 3.0614
+2024-06-25 19:33:10,431 - INFO - TRAIN Epoch: 27 Step: 9/18 Loss: 0.4587 Accuracy: 0.8008 AUC: 0.0000 Data Time: 1.5668 Batch Time: 3.0379
+2024-06-25 19:33:12,993 - INFO - TRAIN Epoch: 27 Step: 10/18 Loss: 0.4580 Accuracy: 0.7985 AUC: 0.0000 Data Time: 1.5228 Batch Time: 2.9945
+2024-06-25 19:33:16,726 - INFO - TRAIN Epoch: 27 Step: 11/18 Loss: 0.4568 Accuracy: 0.7993 AUC: 0.0000 Data Time: 1.5327 Batch Time: 3.0559
+2024-06-25 19:33:20,508 - INFO - TRAIN Epoch: 27 Step: 12/18 Loss: 0.4596 Accuracy: 0.7955 AUC: 0.0000 Data Time: 1.6360 Batch Time: 3.1115
+2024-06-25 19:33:23,160 - INFO - TRAIN Epoch: 27 Step: 13/18 Loss: 0.4574 Accuracy: 0.7976 AUC: 0.0000 Data Time: 1.6271 Batch Time: 3.0786
+2024-06-25 19:33:26,269 - INFO - TRAIN Epoch: 27 Step: 14/18 Loss: 0.4547 Accuracy: 0.7983 AUC: 0.0000 Data Time: 1.6555 Batch Time: 3.0806
+2024-06-25 19:33:29,432 - INFO - TRAIN Epoch: 27 Step: 15/18 Loss: 0.4534 Accuracy: 0.7990 AUC: 0.0000 Data Time: 1.6934 Batch Time: 3.0857
+2024-06-25 19:33:34,701 - INFO - TRAIN Epoch: 27 Step: 16/18 Loss: 0.4548 Accuracy: 0.7980 AUC: 0.0000 Data Time: 1.7957 Batch Time: 3.2140
+2024-06-25 19:33:35,693 - INFO - TRAIN Epoch: 27 Step: 17/18 Loss: 0.4526 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.7357 Batch Time: 3.0905
+2024-06-25 19:33:35,704 - INFO - AUC Score: 0.7384
+2024-06-25 19:33:38,372 - INFO - VAL Epoch: 27 Step: 0/5 Loss: 0.4611 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.5929 Batch Time: 2.6634
+2024-06-25 19:33:41,773 - INFO - VAL Epoch: 27 Step: 1/5 Loss: 0.4380 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.7997 Batch Time: 3.0306
+2024-06-25 19:33:46,217 - INFO - VAL Epoch: 27 Step: 2/5 Loss: 0.4327 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.9839 Batch Time: 3.5016
+2024-06-25 19:33:50,650 - INFO - VAL Epoch: 27 Step: 3/5 Loss: 0.4534 Accuracy: 0.8083 AUC: 0.0000 Data Time: 2.0633 Batch Time: 3.7341
+2024-06-25 19:33:51,787 - INFO - VAL Epoch: 27 Step: 4/5 Loss: 0.4672 Accuracy: 0.7996 AUC: 0.0000 Data Time: 1.8169 Batch Time: 3.2143
+2024-06-25 19:33:51,791 - INFO - AUC Score: 0.6843
+2024-06-25 19:33:51,795 - INFO - New best model at epoch: 28
+2024-06-25 19:33:52,194 - INFO - Starting Epoch: 29
+2024-06-25 19:33:54,496 - INFO - TRAIN Epoch: 28 Step: 0/18 Loss: 0.3804 Accuracy: 0.8417 AUC: 0.0000 Data Time: 1.3833 Batch Time: 2.2999
+2024-06-25 19:33:57,934 - INFO - TRAIN Epoch: 28 Step: 1/18 Loss: 0.4461 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.7428 Batch Time: 2.8640
+2024-06-25 19:34:00,909 - INFO - TRAIN Epoch: 28 Step: 2/18 Loss: 0.4596 Accuracy: 0.7917 AUC: 0.0000 Data Time: 1.5399 Batch Time: 2.9006
+2024-06-25 19:34:03,865 - INFO - TRAIN Epoch: 28 Step: 3/18 Loss: 0.4500 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.4384 Batch Time: 2.9133
+2024-06-25 19:34:06,197 - INFO - TRAIN Epoch: 28 Step: 4/18 Loss: 0.4513 Accuracy: 0.7967 AUC: 0.0000 Data Time: 1.3770 Batch Time: 2.7968
+2024-06-25 19:34:08,552 - INFO - TRAIN Epoch: 28 Step: 5/18 Loss: 0.4615 Accuracy: 0.7931 AUC: 0.0000 Data Time: 1.3335 Batch Time: 2.7229
+2024-06-25 19:34:10,934 - INFO - TRAIN Epoch: 28 Step: 6/18 Loss: 0.4608 Accuracy: 0.7917 AUC: 0.0000 Data Time: 1.3013 Batch Time: 2.6739
+2024-06-25 19:34:13,221 - INFO - TRAIN Epoch: 28 Step: 7/18 Loss: 0.4562 Accuracy: 0.7948 AUC: 0.0000 Data Time: 1.2782 Batch Time: 2.6253
+2024-06-25 19:34:15,215 - INFO - TRAIN Epoch: 28 Step: 8/18 Loss: 0.4452 Accuracy: 0.8037 AUC: 0.0000 Data Time: 1.2570 Batch Time: 2.5550
+2024-06-25 19:34:17,294 - INFO - TRAIN Epoch: 28 Step: 9/18 Loss: 0.4470 Accuracy: 0.8017 AUC: 0.0000 Data Time: 1.2474 Batch Time: 2.5072
+2024-06-25 19:34:19,795 - INFO - TRAIN Epoch: 28 Step: 10/18 Loss: 0.4485 Accuracy: 0.8023 AUC: 0.0000 Data Time: 1.2781 Batch Time: 2.5064
+2024-06-25 19:34:22,209 - INFO - TRAIN Epoch: 28 Step: 11/18 Loss: 0.4409 Accuracy: 0.8069 AUC: 0.0000 Data Time: 1.2264 Batch Time: 2.4985
+2024-06-25 19:34:25,642 - INFO - TRAIN Epoch: 28 Step: 12/18 Loss: 0.4387 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.2242 Batch Time: 2.5704
+2024-06-25 19:34:28,925 - INFO - TRAIN Epoch: 28 Step: 13/18 Loss: 0.4472 Accuracy: 0.8036 AUC: 0.0000 Data Time: 1.2565 Batch Time: 2.6211
+2024-06-25 19:34:32,194 - INFO - TRAIN Epoch: 28 Step: 14/18 Loss: 0.4523 Accuracy: 0.7983 AUC: 0.0000 Data Time: 1.2486 Batch Time: 2.6642
+2024-06-25 19:34:34,643 - INFO - TRAIN Epoch: 28 Step: 15/18 Loss: 0.4486 Accuracy: 0.8010 AUC: 0.0000 Data Time: 1.2422 Batch Time: 2.6507
+2024-06-25 19:34:36,659 - INFO - TRAIN Epoch: 28 Step: 16/18 Loss: 0.4517 Accuracy: 0.7995 AUC: 0.0000 Data Time: 1.2343 Batch Time: 2.6132
+2024-06-25 19:34:37,703 - INFO - TRAIN Epoch: 28 Step: 17/18 Loss: 0.4512 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.1837 Batch Time: 2.5259
+2024-06-25 19:34:37,706 - INFO - AUC Score: 0.7396
+2024-06-25 19:34:40,136 - INFO - VAL Epoch: 28 Step: 0/5 Loss: 0.4609 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.2762 Batch Time: 2.4281
+2024-06-25 19:34:42,119 - INFO - VAL Epoch: 28 Step: 1/5 Loss: 0.4359 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.1788 Batch Time: 2.2051
+2024-06-25 19:34:44,094 - INFO - VAL Epoch: 28 Step: 2/5 Loss: 0.4302 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.1422 Batch Time: 2.1279
+2024-06-25 19:34:46,862 - INFO - VAL Epoch: 28 Step: 3/5 Loss: 0.4523 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.1252 Batch Time: 2.2874
+2024-06-25 19:34:47,730 - INFO - VAL Epoch: 28 Step: 4/5 Loss: 0.4673 Accuracy: 0.7996 AUC: 0.0000 Data Time: 1.0082 Batch Time: 2.0031
+2024-06-25 19:34:47,734 - INFO - AUC Score: 0.6818
+2024-06-25 19:34:47,834 - INFO - Starting Epoch: 30
+2024-06-25 19:34:50,335 - INFO - TRAIN Epoch: 29 Step: 0/18 Loss: 0.3985 Accuracy: 0.8333 AUC: 0.0000 Data Time: 1.0995 Batch Time: 2.4980
+2024-06-25 19:34:53,550 - INFO - TRAIN Epoch: 29 Step: 1/18 Loss: 0.4459 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.1215 Batch Time: 2.8551
+2024-06-25 19:34:56,175 - INFO - TRAIN Epoch: 29 Step: 2/18 Loss: 0.4478 Accuracy: 0.8139 AUC: 0.0000 Data Time: 1.1264 Batch Time: 2.7780
+2024-06-25 19:34:58,538 - INFO - TRAIN Epoch: 29 Step: 3/18 Loss: 0.4533 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.1246 Batch Time: 2.6739
+2024-06-25 19:35:00,646 - INFO - TRAIN Epoch: 29 Step: 4/18 Loss: 0.4516 Accuracy: 0.8033 AUC: 0.0000 Data Time: 1.1198 Batch Time: 2.5605
+2024-06-25 19:35:03,170 - INFO - TRAIN Epoch: 29 Step: 5/18 Loss: 0.4637 Accuracy: 0.7944 AUC: 0.0000 Data Time: 1.1166 Batch Time: 2.5540
+2024-06-25 19:35:06,386 - INFO - TRAIN Epoch: 29 Step: 6/18 Loss: 0.4674 Accuracy: 0.7905 AUC: 0.0000 Data Time: 1.1222 Batch Time: 2.6482
+2024-06-25 19:35:09,386 - INFO - TRAIN Epoch: 29 Step: 7/18 Loss: 0.4646 Accuracy: 0.7917 AUC: 0.0000 Data Time: 1.1239 Batch Time: 2.6919
+2024-06-25 19:35:12,325 - INFO - TRAIN Epoch: 29 Step: 8/18 Loss: 0.4639 Accuracy: 0.7926 AUC: 0.0000 Data Time: 1.1253 Batch Time: 2.7193
+2024-06-25 19:35:15,030 - INFO - TRAIN Epoch: 29 Step: 9/18 Loss: 0.4592 Accuracy: 0.7950 AUC: 0.0000 Data Time: 1.1266 Batch Time: 2.7176
+2024-06-25 19:35:17,094 - INFO - TRAIN Epoch: 29 Step: 10/18 Loss: 0.4558 Accuracy: 0.7977 AUC: 0.0000 Data Time: 1.1261 Batch Time: 2.6581
+2024-06-25 19:35:19,167 - INFO - TRAIN Epoch: 29 Step: 11/18 Loss: 0.4565 Accuracy: 0.7965 AUC: 0.0000 Data Time: 1.1239 Batch Time: 2.6091
+2024-06-25 19:35:21,288 - INFO - TRAIN Epoch: 29 Step: 12/18 Loss: 0.4517 Accuracy: 0.8006 AUC: 0.0000 Data Time: 1.1207 Batch Time: 2.5715
+2024-06-25 19:35:23,454 - INFO - TRAIN Epoch: 29 Step: 13/18 Loss: 0.4537 Accuracy: 0.7970 AUC: 0.0000 Data Time: 1.1183 Batch Time: 2.5423
+2024-06-25 19:35:25,743 - INFO - TRAIN Epoch: 29 Step: 14/18 Loss: 0.4516 Accuracy: 0.7978 AUC: 0.0000 Data Time: 1.1161 Batch Time: 2.5252
+2024-06-25 19:35:27,816 - INFO - TRAIN Epoch: 29 Step: 15/18 Loss: 0.4475 Accuracy: 0.8016 AUC: 0.0000 Data Time: 1.1142 Batch Time: 2.4968
+2024-06-25 19:35:30,754 - INFO - TRAIN Epoch: 29 Step: 16/18 Loss: 0.4481 Accuracy: 0.8010 AUC: 0.0000 Data Time: 1.1163 Batch Time: 2.5226
+2024-06-25 19:35:31,375 - INFO - TRAIN Epoch: 29 Step: 17/18 Loss: 0.4496 Accuracy: 0.7999 AUC: 0.0000 Data Time: 1.0729 Batch Time: 2.4168
+2024-06-25 19:35:31,380 - INFO - AUC Score: 0.7431
+2024-06-25 19:35:33,600 - INFO - VAL Epoch: 29 Step: 0/5 Loss: 0.4593 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.2015 Batch Time: 2.2176
+2024-06-25 19:35:35,988 - INFO - VAL Epoch: 29 Step: 1/5 Loss: 0.4349 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.1351 Batch Time: 2.3015
+2024-06-25 19:35:38,925 - INFO - VAL Epoch: 29 Step: 2/5 Loss: 0.4291 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.1277 Batch Time: 2.5120
+2024-06-25 19:35:42,070 - INFO - VAL Epoch: 29 Step: 3/5 Loss: 0.4505 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.1210 Batch Time: 2.6697
+2024-06-25 19:35:42,752 - INFO - VAL Epoch: 29 Step: 4/5 Loss: 0.4650 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.9701 Batch Time: 2.2720
+2024-06-25 19:35:42,756 - INFO - AUC Score: 0.6885
+2024-06-25 19:35:42,757 - INFO - New best model at epoch: 30
+2024-06-25 19:35:42,954 - INFO - Starting Epoch: 31
+2024-06-25 19:35:45,712 - INFO - TRAIN Epoch: 30 Step: 0/18 Loss: 0.3822 Accuracy: 0.8417 AUC: 0.0000 Data Time: 1.1265 Batch Time: 2.7548
+2024-06-25 19:35:48,714 - INFO - TRAIN Epoch: 30 Step: 1/18 Loss: 0.4218 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0515 Batch Time: 2.8768
+2024-06-25 19:35:50,500 - INFO - TRAIN Epoch: 30 Step: 2/18 Loss: 0.4143 Accuracy: 0.8139 AUC: 0.0000 Data Time: 0.9960 Batch Time: 2.5128
+2024-06-25 19:35:53,031 - INFO - TRAIN Epoch: 30 Step: 3/18 Loss: 0.4102 Accuracy: 0.8187 AUC: 0.0000 Data Time: 1.0258 Batch Time: 2.5168
+2024-06-25 19:35:56,310 - INFO - TRAIN Epoch: 30 Step: 4/18 Loss: 0.4207 Accuracy: 0.8150 AUC: 0.0000 Data Time: 1.0507 Batch Time: 2.6689
+2024-06-25 19:35:58,719 - INFO - TRAIN Epoch: 30 Step: 5/18 Loss: 0.4271 Accuracy: 0.8111 AUC: 0.0000 Data Time: 1.0187 Batch Time: 2.6253
+2024-06-25 19:36:01,571 - INFO - TRAIN Epoch: 30 Step: 6/18 Loss: 0.4309 Accuracy: 0.8095 AUC: 0.0000 Data Time: 1.0354 Batch Time: 2.6574
+2024-06-25 19:36:03,572 - INFO - TRAIN Epoch: 30 Step: 7/18 Loss: 0.4320 Accuracy: 0.8104 AUC: 0.0000 Data Time: 1.0369 Batch Time: 2.5753
+2024-06-25 19:36:05,532 - INFO - TRAIN Epoch: 30 Step: 8/18 Loss: 0.4380 Accuracy: 0.8074 AUC: 0.0000 Data Time: 1.0347 Batch Time: 2.5067
+2024-06-25 19:36:07,901 - INFO - TRAIN Epoch: 30 Step: 9/18 Loss: 0.4580 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.0392 Batch Time: 2.4926
+2024-06-25 19:36:10,034 - INFO - TRAIN Epoch: 30 Step: 10/18 Loss: 0.4540 Accuracy: 0.7985 AUC: 0.0000 Data Time: 1.0547 Batch Time: 2.4597
+2024-06-25 19:36:13,766 - INFO - TRAIN Epoch: 30 Step: 11/18 Loss: 0.4510 Accuracy: 0.8014 AUC: 0.0000 Data Time: 1.1283 Batch Time: 2.5654
+2024-06-25 19:36:15,500 - INFO - TRAIN Epoch: 30 Step: 12/18 Loss: 0.4502 Accuracy: 0.8006 AUC: 0.0000 Data Time: 1.1044 Batch Time: 2.5014
+2024-06-25 19:36:17,560 - INFO - TRAIN Epoch: 30 Step: 13/18 Loss: 0.4468 Accuracy: 0.8036 AUC: 0.0000 Data Time: 1.1075 Batch Time: 2.4696
+2024-06-25 19:36:19,633 - INFO - TRAIN Epoch: 30 Step: 14/18 Loss: 0.4460 Accuracy: 0.8044 AUC: 0.0000 Data Time: 1.1060 Batch Time: 2.4430
+2024-06-25 19:36:21,776 - INFO - TRAIN Epoch: 30 Step: 15/18 Loss: 0.4480 Accuracy: 0.8021 AUC: 0.0000 Data Time: 1.1051 Batch Time: 2.4241
+2024-06-25 19:36:24,328 - INFO - TRAIN Epoch: 30 Step: 16/18 Loss: 0.4465 Accuracy: 0.8020 AUC: 0.0000 Data Time: 1.1045 Batch Time: 2.4314
+2024-06-25 19:36:24,957 - INFO - TRAIN Epoch: 30 Step: 17/18 Loss: 0.4482 Accuracy: 0.8004 AUC: 0.0000 Data Time: 1.0619 Batch Time: 2.3311
+2024-06-25 19:36:24,962 - INFO - AUC Score: 0.7460
+2024-06-25 19:36:27,290 - INFO - VAL Epoch: 30 Step: 0/5 Loss: 0.4580 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.2321 Batch Time: 2.3258
+2024-06-25 19:36:30,013 - INFO - VAL Epoch: 30 Step: 1/5 Loss: 0.4334 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.1498 Batch Time: 2.5233
+2024-06-25 19:36:32,662 - INFO - VAL Epoch: 30 Step: 2/5 Loss: 0.4273 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.3047 Batch Time: 2.5642
+2024-06-25 19:36:34,835 - INFO - VAL Epoch: 30 Step: 3/5 Loss: 0.4489 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.2348 Batch Time: 2.4659
+2024-06-25 19:36:35,352 - INFO - VAL Epoch: 30 Step: 4/5 Loss: 0.4635 Accuracy: 0.7996 AUC: 0.0000 Data Time: 1.0308 Batch Time: 2.0760
+2024-06-25 19:36:35,355 - INFO - AUC Score: 0.6919
+2024-06-25 19:36:35,356 - INFO - New best model at epoch: 31
+2024-06-25 19:36:35,551 - INFO - Starting Epoch: 32
+2024-06-25 19:36:38,601 - INFO - TRAIN Epoch: 31 Step: 0/18 Loss: 0.4500 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.5804 Batch Time: 3.0482
+2024-06-25 19:36:40,655 - INFO - TRAIN Epoch: 31 Step: 1/18 Loss: 0.4219 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.3190 Batch Time: 2.5502
+2024-06-25 19:36:42,607 - INFO - TRAIN Epoch: 31 Step: 2/18 Loss: 0.4183 Accuracy: 0.8278 AUC: 0.0000 Data Time: 1.2278 Batch Time: 2.3504
+2024-06-25 19:36:44,596 - INFO - TRAIN Epoch: 31 Step: 3/18 Loss: 0.4208 Accuracy: 0.8250 AUC: 0.0000 Data Time: 1.1892 Batch Time: 2.2595
+2024-06-25 19:36:47,150 - INFO - TRAIN Epoch: 31 Step: 4/18 Loss: 0.4189 Accuracy: 0.8267 AUC: 0.0000 Data Time: 1.1648 Batch Time: 2.3182
+2024-06-25 19:36:49,378 - INFO - TRAIN Epoch: 31 Step: 5/18 Loss: 0.4260 Accuracy: 0.8236 AUC: 0.0000 Data Time: 1.1741 Batch Time: 2.3028
+2024-06-25 19:36:51,525 - INFO - TRAIN Epoch: 31 Step: 6/18 Loss: 0.4302 Accuracy: 0.8190 AUC: 0.0000 Data Time: 1.1814 Batch Time: 2.2803
+2024-06-25 19:36:53,488 - INFO - TRAIN Epoch: 31 Step: 7/18 Loss: 0.4430 Accuracy: 0.8094 AUC: 0.0000 Data Time: 1.1660 Batch Time: 2.2405
+2024-06-25 19:36:55,689 - INFO - TRAIN Epoch: 31 Step: 8/18 Loss: 0.4527 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.1797 Batch Time: 2.2358
+2024-06-25 19:36:58,512 - INFO - TRAIN Epoch: 31 Step: 9/18 Loss: 0.4478 Accuracy: 0.8025 AUC: 0.0000 Data Time: 1.1602 Batch Time: 2.2944
+2024-06-25 19:37:00,493 - INFO - TRAIN Epoch: 31 Step: 10/18 Loss: 0.4412 Accuracy: 0.8061 AUC: 0.0000 Data Time: 1.1515 Batch Time: 2.2658
+2024-06-25 19:37:02,500 - INFO - TRAIN Epoch: 31 Step: 11/18 Loss: 0.4429 Accuracy: 0.8035 AUC: 0.0000 Data Time: 1.1433 Batch Time: 2.2441
+2024-06-25 19:37:05,574 - INFO - TRAIN Epoch: 31 Step: 12/18 Loss: 0.4487 Accuracy: 0.7994 AUC: 0.0000 Data Time: 1.1548 Batch Time: 2.3078
+2024-06-25 19:37:08,572 - INFO - TRAIN Epoch: 31 Step: 13/18 Loss: 0.4489 Accuracy: 0.7994 AUC: 0.0000 Data Time: 1.1489 Batch Time: 2.3570
+2024-06-25 19:37:11,090 - INFO - TRAIN Epoch: 31 Step: 14/18 Loss: 0.4516 Accuracy: 0.7972 AUC: 0.0000 Data Time: 1.1432 Batch Time: 2.3676
+2024-06-25 19:37:13,239 - INFO - TRAIN Epoch: 31 Step: 15/18 Loss: 0.4509 Accuracy: 0.7979 AUC: 0.0000 Data Time: 1.1390 Batch Time: 2.3539
+2024-06-25 19:37:15,213 - INFO - TRAIN Epoch: 31 Step: 16/18 Loss: 0.4462 Accuracy: 0.8005 AUC: 0.0000 Data Time: 1.1345 Batch Time: 2.3314
+2024-06-25 19:37:16,223 - INFO - TRAIN Epoch: 31 Step: 17/18 Loss: 0.4468 Accuracy: 0.8004 AUC: 0.0000 Data Time: 1.0885 Batch Time: 2.2580
+2024-06-25 19:37:16,227 - INFO - AUC Score: 0.7488
+2024-06-25 19:37:18,885 - INFO - VAL Epoch: 31 Step: 0/5 Loss: 0.4570 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.2172 Batch Time: 2.6559
+2024-06-25 19:37:20,820 - INFO - VAL Epoch: 31 Step: 1/5 Loss: 0.4325 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.1247 Batch Time: 2.2948
+2024-06-25 19:37:22,672 - INFO - VAL Epoch: 31 Step: 2/5 Loss: 0.4262 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.0455 Batch Time: 2.1469
+2024-06-25 19:37:24,825 - INFO - VAL Epoch: 31 Step: 3/5 Loss: 0.4475 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0440 Batch Time: 2.1478
+2024-06-25 19:37:25,504 - INFO - VAL Epoch: 31 Step: 4/5 Loss: 0.4620 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.9067 Batch Time: 1.8538
+2024-06-25 19:37:25,507 - INFO - AUC Score: 0.6961
+2024-06-25 19:37:25,507 - INFO - New best model at epoch: 32
+2024-06-25 19:37:25,700 - INFO - Starting Epoch: 33
+2024-06-25 19:37:27,744 - INFO - TRAIN Epoch: 32 Step: 0/18 Loss: 0.4733 Accuracy: 0.7667 AUC: 0.0000 Data Time: 1.1296 Batch Time: 2.0422
+2024-06-25 19:37:29,766 - INFO - TRAIN Epoch: 32 Step: 1/18 Loss: 0.4569 Accuracy: 0.7833 AUC: 0.0000 Data Time: 1.1226 Batch Time: 2.0310
+2024-06-25 19:37:32,053 - INFO - TRAIN Epoch: 32 Step: 2/18 Loss: 0.4566 Accuracy: 0.7861 AUC: 0.0000 Data Time: 1.1185 Batch Time: 2.1158
+2024-06-25 19:37:34,443 - INFO - TRAIN Epoch: 32 Step: 3/18 Loss: 0.4704 Accuracy: 0.7812 AUC: 0.0000 Data Time: 1.1133 Batch Time: 2.1837
+2024-06-25 19:37:36,868 - INFO - TRAIN Epoch: 32 Step: 4/18 Loss: 0.4750 Accuracy: 0.7800 AUC: 0.0000 Data Time: 1.1137 Batch Time: 2.2316
+2024-06-25 19:37:39,827 - INFO - TRAIN Epoch: 32 Step: 5/18 Loss: 0.4604 Accuracy: 0.7903 AUC: 0.0000 Data Time: 1.1184 Batch Time: 2.3524
+2024-06-25 19:37:42,950 - INFO - TRAIN Epoch: 32 Step: 6/18 Loss: 0.4546 Accuracy: 0.7929 AUC: 0.0000 Data Time: 1.1220 Batch Time: 2.4622
+2024-06-25 19:37:45,173 - INFO - TRAIN Epoch: 32 Step: 7/18 Loss: 0.4494 Accuracy: 0.7927 AUC: 0.0000 Data Time: 1.0976 Batch Time: 2.4322
+2024-06-25 19:37:47,320 - INFO - TRAIN Epoch: 32 Step: 8/18 Loss: 0.4505 Accuracy: 0.7944 AUC: 0.0000 Data Time: 1.1079 Batch Time: 2.4003
+2024-06-25 19:37:49,687 - INFO - TRAIN Epoch: 32 Step: 9/18 Loss: 0.4509 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.1360 Batch Time: 2.3967
+2024-06-25 19:37:51,698 - INFO - TRAIN Epoch: 32 Step: 10/18 Loss: 0.4571 Accuracy: 0.7909 AUC: 0.0000 Data Time: 1.1314 Batch Time: 2.3614
+2024-06-25 19:37:54,362 - INFO - TRAIN Epoch: 32 Step: 11/18 Loss: 0.4574 Accuracy: 0.7903 AUC: 0.0000 Data Time: 1.1296 Batch Time: 2.3865
+2024-06-25 19:37:57,180 - INFO - TRAIN Epoch: 32 Step: 12/18 Loss: 0.4489 Accuracy: 0.7968 AUC: 0.0000 Data Time: 1.1255 Batch Time: 2.4195
+2024-06-25 19:37:59,202 - INFO - TRAIN Epoch: 32 Step: 13/18 Loss: 0.4443 Accuracy: 0.7994 AUC: 0.0000 Data Time: 1.0994 Batch Time: 2.3911
+2024-06-25 19:38:01,319 - INFO - TRAIN Epoch: 32 Step: 14/18 Loss: 0.4432 Accuracy: 0.8017 AUC: 0.0000 Data Time: 1.1055 Batch Time: 2.3727
+2024-06-25 19:38:04,430 - INFO - TRAIN Epoch: 32 Step: 15/18 Loss: 0.4464 Accuracy: 0.7990 AUC: 0.0000 Data Time: 1.1410 Batch Time: 2.4187
+2024-06-25 19:38:06,702 - INFO - TRAIN Epoch: 32 Step: 16/18 Loss: 0.4462 Accuracy: 0.7995 AUC: 0.0000 Data Time: 1.1455 Batch Time: 2.4100
+2024-06-25 19:38:07,521 - INFO - TRAIN Epoch: 32 Step: 17/18 Loss: 0.4454 Accuracy: 0.8004 AUC: 0.0000 Data Time: 1.0915 Batch Time: 2.3215
+2024-06-25 19:38:07,525 - INFO - AUC Score: 0.7514
+2024-06-25 19:38:11,428 - INFO - VAL Epoch: 32 Step: 0/5 Loss: 0.4563 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.7876 Batch Time: 3.9015
+2024-06-25 19:38:13,984 - INFO - VAL Epoch: 32 Step: 1/5 Loss: 0.4307 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.4202 Batch Time: 3.2283
+2024-06-25 19:38:16,060 - INFO - VAL Epoch: 32 Step: 2/5 Loss: 0.4243 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.2631 Batch Time: 2.8435
+2024-06-25 19:38:18,178 - INFO - VAL Epoch: 32 Step: 3/5 Loss: 0.4464 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.2488 Batch Time: 2.6618
+2024-06-25 19:38:19,117 - INFO - VAL Epoch: 32 Step: 4/5 Loss: 0.4614 Accuracy: 0.7996 AUC: 0.0000 Data Time: 1.0407 Batch Time: 2.3168
+2024-06-25 19:38:19,120 - INFO - AUC Score: 0.6964
+2024-06-25 19:38:19,121 - INFO - New best model at epoch: 33
+2024-06-25 19:38:19,309 - INFO - Starting Epoch: 34
+2024-06-25 19:38:22,571 - INFO - TRAIN Epoch: 33 Step: 0/18 Loss: 0.4745 Accuracy: 0.7833 AUC: 0.0000 Data Time: 1.2315 Batch Time: 3.2596
+2024-06-25 19:38:25,162 - INFO - TRAIN Epoch: 33 Step: 1/18 Loss: 0.4610 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.1472 Batch Time: 2.9248
+2024-06-25 19:38:27,365 - INFO - TRAIN Epoch: 33 Step: 2/18 Loss: 0.4283 Accuracy: 0.8194 AUC: 0.0000 Data Time: 1.1244 Batch Time: 2.6837
+2024-06-25 19:38:29,355 - INFO - TRAIN Epoch: 33 Step: 3/18 Loss: 0.4273 Accuracy: 0.8146 AUC: 0.0000 Data Time: 1.1125 Batch Time: 2.5097
+2024-06-25 19:38:31,324 - INFO - TRAIN Epoch: 33 Step: 4/18 Loss: 0.4213 Accuracy: 0.8183 AUC: 0.0000 Data Time: 1.1019 Batch Time: 2.4014
+2024-06-25 19:38:33,326 - INFO - TRAIN Epoch: 33 Step: 5/18 Loss: 0.4230 Accuracy: 0.8125 AUC: 0.0000 Data Time: 1.0948 Batch Time: 2.3346
+2024-06-25 19:38:35,956 - INFO - TRAIN Epoch: 33 Step: 6/18 Loss: 0.4337 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0891 Batch Time: 2.3766
+2024-06-25 19:38:38,784 - INFO - TRAIN Epoch: 33 Step: 7/18 Loss: 0.4271 Accuracy: 0.8104 AUC: 0.0000 Data Time: 1.0880 Batch Time: 2.4327
+2024-06-25 19:38:41,795 - INFO - TRAIN Epoch: 33 Step: 8/18 Loss: 0.4325 Accuracy: 0.8093 AUC: 0.0000 Data Time: 1.0892 Batch Time: 2.4969
+2024-06-25 19:38:44,983 - INFO - TRAIN Epoch: 33 Step: 9/18 Loss: 0.4364 Accuracy: 0.8058 AUC: 0.0000 Data Time: 1.0874 Batch Time: 2.5659
+2024-06-25 19:38:47,123 - INFO - TRAIN Epoch: 33 Step: 10/18 Loss: 0.4413 Accuracy: 0.8045 AUC: 0.0000 Data Time: 1.0850 Batch Time: 2.5270
+2024-06-25 19:38:49,108 - INFO - TRAIN Epoch: 33 Step: 11/18 Loss: 0.4424 Accuracy: 0.8035 AUC: 0.0000 Data Time: 1.0835 Batch Time: 2.4818
+2024-06-25 19:38:51,065 - INFO - TRAIN Epoch: 33 Step: 12/18 Loss: 0.4449 Accuracy: 0.8006 AUC: 0.0000 Data Time: 1.0810 Batch Time: 2.4413
+2024-06-25 19:38:53,301 - INFO - TRAIN Epoch: 33 Step: 13/18 Loss: 0.4458 Accuracy: 0.7994 AUC: 0.0000 Data Time: 1.0788 Batch Time: 2.4265
+2024-06-25 19:38:55,871 - INFO - TRAIN Epoch: 33 Step: 14/18 Loss: 0.4393 Accuracy: 0.8033 AUC: 0.0000 Data Time: 1.0780 Batch Time: 2.4360
+2024-06-25 19:38:58,098 - INFO - TRAIN Epoch: 33 Step: 15/18 Loss: 0.4389 Accuracy: 0.8052 AUC: 0.0000 Data Time: 1.0768 Batch Time: 2.4228
+2024-06-25 19:39:00,054 - INFO - TRAIN Epoch: 33 Step: 16/18 Loss: 0.4418 Accuracy: 0.8029 AUC: 0.0000 Data Time: 1.0751 Batch Time: 2.3953
+2024-06-25 19:39:01,068 - INFO - TRAIN Epoch: 33 Step: 17/18 Loss: 0.4444 Accuracy: 0.8004 AUC: 0.0000 Data Time: 1.0321 Batch Time: 2.3184
+2024-06-25 19:39:01,071 - INFO - AUC Score: 0.7511
+2024-06-25 19:39:03,811 - INFO - VAL Epoch: 33 Step: 0/5 Loss: 0.4552 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.2285 Batch Time: 2.7380
+2024-06-25 19:39:05,856 - INFO - VAL Epoch: 33 Step: 1/5 Loss: 0.4293 Accuracy: 0.8167 AUC: 0.0000 Data Time: 1.1302 Batch Time: 2.3907
+2024-06-25 19:39:07,863 - INFO - VAL Epoch: 33 Step: 2/5 Loss: 0.4227 Accuracy: 0.8222 AUC: 0.0000 Data Time: 1.0992 Batch Time: 2.2625
+2024-06-25 19:39:09,803 - INFO - VAL Epoch: 33 Step: 3/5 Loss: 0.4450 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0487 Batch Time: 2.1815
+2024-06-25 19:39:10,401 - INFO - VAL Epoch: 33 Step: 4/5 Loss: 0.4601 Accuracy: 0.7996 AUC: 0.0000 Data Time: 0.8821 Batch Time: 1.8645
+2024-06-25 19:39:10,404 - INFO - AUC Score: 0.6997
+2024-06-25 19:39:10,405 - INFO - New best model at epoch: 34
+2024-06-25 19:39:10,596 - INFO - Starting Epoch: 35
+2024-06-25 19:39:12,575 - INFO - TRAIN Epoch: 34 Step: 0/18 Loss: 0.4107 Accuracy: 0.8333 AUC: 0.0000 Data Time: 1.0623 Batch Time: 1.9777
+2024-06-25 19:39:14,580 - INFO - TRAIN Epoch: 34 Step: 1/18 Loss: 0.4077 Accuracy: 0.8333 AUC: 0.0000 Data Time: 1.0769 Batch Time: 1.9905
+2024-06-25 19:39:16,621 - INFO - TRAIN Epoch: 34 Step: 2/18 Loss: 0.4187 Accuracy: 0.8278 AUC: 0.0000 Data Time: 1.0723 Batch Time: 2.0070
+2024-06-25 19:39:18,832 - INFO - TRAIN Epoch: 34 Step: 3/18 Loss: 0.4245 Accuracy: 0.8146 AUC: 0.0000 Data Time: 1.0731 Batch Time: 2.0576
+2024-06-25 19:39:21,292 - INFO - TRAIN Epoch: 34 Step: 4/18 Loss: 0.4420 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0951 Batch Time: 2.1379
+2024-06-25 19:39:23,796 - INFO - TRAIN Epoch: 34 Step: 5/18 Loss: 0.4461 Accuracy: 0.8056 AUC: 0.0000 Data Time: 1.0869 Batch Time: 2.1986
+2024-06-25 19:39:26,625 - INFO - TRAIN Epoch: 34 Step: 6/18 Loss: 0.4506 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0823 Batch Time: 2.2885
+2024-06-25 19:39:29,821 - INFO - TRAIN Epoch: 34 Step: 7/18 Loss: 0.4432 Accuracy: 0.8021 AUC: 0.0000 Data Time: 1.0816 Batch Time: 2.4018
+2024-06-25 19:39:32,692 - INFO - TRAIN Epoch: 34 Step: 8/18 Loss: 0.4456 Accuracy: 0.7981 AUC: 0.0000 Data Time: 1.0809 Batch Time: 2.4538
+2024-06-25 19:39:35,104 - INFO - TRAIN Epoch: 34 Step: 9/18 Loss: 0.4474 Accuracy: 0.7992 AUC: 0.0000 Data Time: 1.0780 Batch Time: 2.4494
+2024-06-25 19:39:37,097 - INFO - TRAIN Epoch: 34 Step: 10/18 Loss: 0.4427 Accuracy: 0.8008 AUC: 0.0000 Data Time: 1.0752 Batch Time: 2.4078
+2024-06-25 19:39:39,065 - INFO - TRAIN Epoch: 34 Step: 11/18 Loss: 0.4414 Accuracy: 0.8007 AUC: 0.0000 Data Time: 1.0742 Batch Time: 2.3710
+2024-06-25 19:39:41,426 - INFO - TRAIN Epoch: 34 Step: 12/18 Loss: 0.4408 Accuracy: 0.8032 AUC: 0.0000 Data Time: 1.0724 Batch Time: 2.3702
+2024-06-25 19:39:44,270 - INFO - TRAIN Epoch: 34 Step: 13/18 Loss: 0.4432 Accuracy: 0.8024 AUC: 0.0000 Data Time: 1.0713 Batch Time: 2.4039
+2024-06-25 19:39:46,541 - INFO - TRAIN Epoch: 34 Step: 14/18 Loss: 0.4402 Accuracy: 0.8039 AUC: 0.0000 Data Time: 1.0703 Batch Time: 2.3949
+2024-06-25 19:39:48,738 - INFO - TRAIN Epoch: 34 Step: 15/18 Loss: 0.4372 Accuracy: 0.8063 AUC: 0.0000 Data Time: 1.0783 Batch Time: 2.3824
+2024-06-25 19:39:50,957 - INFO - TRAIN Epoch: 34 Step: 16/18 Loss: 0.4414 Accuracy: 0.8034 AUC: 0.0000 Data Time: 1.0856 Batch Time: 2.3727
+2024-06-25 19:39:51,973 - INFO - TRAIN Epoch: 34 Step: 17/18 Loss: 0.4430 Accuracy: 0.8018 AUC: 0.0000 Data Time: 1.0418 Batch Time: 2.2973
+2024-06-25 19:39:51,976 - INFO - AUC Score: 0.7547
+2024-06-25 19:39:54,047 - INFO - VAL Epoch: 34 Step: 0/5 Loss: 0.4543 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.1658 Batch Time: 2.0692
+2024-06-25 19:39:56,037 - INFO - VAL Epoch: 34 Step: 1/5 Loss: 0.4287 Accuracy: 0.8208 AUC: 0.0000 Data Time: 1.0916 Batch Time: 2.0287
+2024-06-25 19:39:58,189 - INFO - VAL Epoch: 34 Step: 2/5 Loss: 0.4220 Accuracy: 0.8250 AUC: 0.0000 Data Time: 1.0686 Batch Time: 2.0694
+2024-06-25 19:40:00,670 - INFO - VAL Epoch: 34 Step: 3/5 Loss: 0.4437 Accuracy: 0.8104 AUC: 0.0000 Data Time: 1.0586 Batch Time: 2.1720
+2024-06-25 19:40:01,335 - INFO - VAL Epoch: 34 Step: 4/5 Loss: 0.4586 Accuracy: 0.8015 AUC: 0.0000 Data Time: 0.9166 Batch Time: 1.8703
+2024-06-25 19:40:01,339 - INFO - AUC Score: 0.7029
+2024-06-25 19:40:01,340 - INFO - New best model at epoch: 35
+2024-06-25 19:40:01,536 - INFO - Starting Epoch: 36
+2024-06-25 19:40:03,511 - INFO - TRAIN Epoch: 35 Step: 0/18 Loss: 0.4823 Accuracy: 0.7750 AUC: 0.0000 Data Time: 1.0641 Batch Time: 1.9737
+2024-06-25 19:40:05,465 - INFO - TRAIN Epoch: 35 Step: 1/18 Loss: 0.4463 Accuracy: 0.7875 AUC: 0.0000 Data Time: 1.0661 Batch Time: 1.9630
+2024-06-25 19:40:07,862 - INFO - TRAIN Epoch: 35 Step: 2/18 Loss: 0.4363 Accuracy: 0.8056 AUC: 0.0000 Data Time: 1.0867 Batch Time: 2.1072
+2024-06-25 19:40:10,533 - INFO - TRAIN Epoch: 35 Step: 3/18 Loss: 0.4419 Accuracy: 0.7937 AUC: 0.0000 Data Time: 1.2562 Batch Time: 2.2478
+2024-06-25 19:40:13,144 - INFO - TRAIN Epoch: 35 Step: 4/18 Loss: 0.4353 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.3437 Batch Time: 2.3201
+2024-06-25 19:40:15,869 - INFO - TRAIN Epoch: 35 Step: 5/18 Loss: 0.4359 Accuracy: 0.8014 AUC: 0.0000 Data Time: 1.3813 Batch Time: 2.3874
+2024-06-25 19:40:17,962 - INFO - TRAIN Epoch: 35 Step: 6/18 Loss: 0.4389 Accuracy: 0.8012 AUC: 0.0000 Data Time: 1.3513 Batch Time: 2.3452
+2024-06-25 19:40:20,010 - INFO - TRAIN Epoch: 35 Step: 7/18 Loss: 0.4387 Accuracy: 0.8010 AUC: 0.0000 Data Time: 1.3293 Batch Time: 2.3079
+2024-06-25 19:40:22,588 - INFO - TRAIN Epoch: 35 Step: 8/18 Loss: 0.4375 Accuracy: 0.8009 AUC: 0.0000 Data Time: 1.3689 Batch Time: 2.3376
+2024-06-25 19:40:25,334 - INFO - TRAIN Epoch: 35 Step: 9/18 Loss: 0.4361 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.3599 Batch Time: 2.3783
+2024-06-25 19:40:28,134 - INFO - TRAIN Epoch: 35 Step: 10/18 Loss: 0.4356 Accuracy: 0.8038 AUC: 0.0000 Data Time: 1.3689 Batch Time: 2.4165
+2024-06-25 19:40:31,061 - INFO - TRAIN Epoch: 35 Step: 11/18 Loss: 0.4416 Accuracy: 0.7986 AUC: 0.0000 Data Time: 1.3530 Batch Time: 2.4588
+2024-06-25 19:40:34,270 - INFO - TRAIN Epoch: 35 Step: 12/18 Loss: 0.4368 Accuracy: 0.8032 AUC: 0.0000 Data Time: 1.4133 Batch Time: 2.5164
+2024-06-25 19:40:37,366 - INFO - TRAIN Epoch: 35 Step: 13/18 Loss: 0.4400 Accuracy: 0.8006 AUC: 0.0000 Data Time: 1.4274 Batch Time: 2.5577
+2024-06-25 19:40:40,608 - INFO - TRAIN Epoch: 35 Step: 14/18 Loss: 0.4421 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.4481 Batch Time: 2.6032
+2024-06-25 19:40:43,184 - INFO - TRAIN Epoch: 35 Step: 15/18 Loss: 0.4420 Accuracy: 0.8021 AUC: 0.0000 Data Time: 1.4360 Batch Time: 2.6013
+2024-06-25 19:40:45,595 - INFO - TRAIN Epoch: 35 Step: 16/18 Loss: 0.4417 Accuracy: 0.8025 AUC: 0.0000 Data Time: 1.4385 Batch Time: 2.5900
+2024-06-25 19:40:46,812 - INFO - TRAIN Epoch: 35 Step: 17/18 Loss: 0.4415 Accuracy: 0.8023 AUC: 0.0000 Data Time: 1.3905 Batch Time: 2.5136
+2024-06-25 19:40:46,818 - INFO - AUC Score: 0.7558
+2024-06-25 19:40:50,000 - INFO - VAL Epoch: 35 Step: 0/5 Loss: 0.4543 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.5160 Batch Time: 3.1802
+2024-06-25 19:40:53,518 - INFO - VAL Epoch: 35 Step: 1/5 Loss: 0.4273 Accuracy: 0.8208 AUC: 0.0000 Data Time: 1.4578 Batch Time: 3.3478
+2024-06-25 19:40:56,545 - INFO - VAL Epoch: 35 Step: 2/5 Loss: 0.4204 Accuracy: 0.8250 AUC: 0.0000 Data Time: 1.6863 Batch Time: 3.2404
+2024-06-25 19:40:59,745 - INFO - VAL Epoch: 35 Step: 3/5 Loss: 0.4428 Accuracy: 0.8104 AUC: 0.0000 Data Time: 1.7890 Batch Time: 3.2297
+2024-06-25 19:41:00,845 - INFO - VAL Epoch: 35 Step: 4/5 Loss: 0.4583 Accuracy: 0.8015 AUC: 0.0000 Data Time: 1.5922 Batch Time: 2.8031
+2024-06-25 19:41:00,850 - INFO - AUC Score: 0.7022
+2024-06-25 19:41:00,853 - INFO - New best model at epoch: 36
+2024-06-25 19:41:01,059 - INFO - Starting Epoch: 37
+2024-06-25 19:41:03,270 - INFO - TRAIN Epoch: 36 Step: 0/18 Loss: 0.4185 Accuracy: 0.7917 AUC: 0.0000 Data Time: 1.2899 Batch Time: 2.2075
+2024-06-25 19:41:06,098 - INFO - TRAIN Epoch: 36 Step: 1/18 Loss: 0.4211 Accuracy: 0.8042 AUC: 0.0000 Data Time: 1.3517 Batch Time: 2.5168
+2024-06-25 19:41:09,176 - INFO - TRAIN Epoch: 36 Step: 2/18 Loss: 0.4215 Accuracy: 0.8028 AUC: 0.0000 Data Time: 1.4237 Batch Time: 2.7036
+2024-06-25 19:41:11,976 - INFO - TRAIN Epoch: 36 Step: 3/18 Loss: 0.4525 Accuracy: 0.7875 AUC: 0.0000 Data Time: 1.4403 Batch Time: 2.7275
+2024-06-25 19:41:15,030 - INFO - TRAIN Epoch: 36 Step: 4/18 Loss: 0.4494 Accuracy: 0.7867 AUC: 0.0000 Data Time: 1.4085 Batch Time: 2.7924
+2024-06-25 19:41:18,270 - INFO - TRAIN Epoch: 36 Step: 5/18 Loss: 0.4439 Accuracy: 0.7917 AUC: 0.0000 Data Time: 1.3656 Batch Time: 2.8669
+2024-06-25 19:41:21,157 - INFO - TRAIN Epoch: 36 Step: 6/18 Loss: 0.4358 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.3704 Batch Time: 2.8695
+2024-06-25 19:41:23,886 - INFO - TRAIN Epoch: 36 Step: 7/18 Loss: 0.4278 Accuracy: 0.8063 AUC: 0.0000 Data Time: 1.3716 Batch Time: 2.8518
+2024-06-25 19:41:26,683 - INFO - TRAIN Epoch: 36 Step: 8/18 Loss: 0.4276 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.3475 Batch Time: 2.8455
+2024-06-25 19:41:29,604 - INFO - TRAIN Epoch: 36 Step: 9/18 Loss: 0.4328 Accuracy: 0.8067 AUC: 0.0000 Data Time: 1.3312 Batch Time: 2.8530
+2024-06-25 19:41:32,773 - INFO - TRAIN Epoch: 36 Step: 10/18 Loss: 0.4307 Accuracy: 0.8098 AUC: 0.0000 Data Time: 1.3068 Batch Time: 2.8816
+2024-06-25 19:41:36,118 - INFO - TRAIN Epoch: 36 Step: 11/18 Loss: 0.4346 Accuracy: 0.8063 AUC: 0.0000 Data Time: 1.3345 Batch Time: 2.9201
+2024-06-25 19:41:38,954 - INFO - TRAIN Epoch: 36 Step: 12/18 Loss: 0.4425 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.3297 Batch Time: 2.9135
+2024-06-25 19:41:42,483 - INFO - TRAIN Epoch: 36 Step: 13/18 Loss: 0.4376 Accuracy: 0.8036 AUC: 0.0000 Data Time: 1.3422 Batch Time: 2.9574
+2024-06-25 19:41:46,028 - INFO - TRAIN Epoch: 36 Step: 14/18 Loss: 0.4371 Accuracy: 0.8039 AUC: 0.0000 Data Time: 1.3507 Batch Time: 2.9965
+2024-06-25 19:41:49,679 - INFO - TRAIN Epoch: 36 Step: 15/18 Loss: 0.4419 Accuracy: 0.8021 AUC: 0.0000 Data Time: 1.3670 Batch Time: 3.0373
+2024-06-25 19:41:51,846 - INFO - TRAIN Epoch: 36 Step: 16/18 Loss: 0.4396 Accuracy: 0.8025 AUC: 0.0000 Data Time: 1.3633 Batch Time: 2.9860
+2024-06-25 19:41:52,555 - INFO - TRAIN Epoch: 36 Step: 17/18 Loss: 0.4405 Accuracy: 0.8023 AUC: 0.0000 Data Time: 1.3036 Batch Time: 2.8594
+2024-06-25 19:41:52,561 - INFO - AUC Score: 0.7561
+2024-06-25 19:41:54,609 - INFO - VAL Epoch: 36 Step: 0/5 Loss: 0.4532 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.1702 Batch Time: 2.0465
+2024-06-25 19:41:57,652 - INFO - VAL Epoch: 36 Step: 1/5 Loss: 0.4264 Accuracy: 0.8208 AUC: 0.0000 Data Time: 1.3339 Batch Time: 2.5431
+2024-06-25 19:42:01,055 - INFO - VAL Epoch: 36 Step: 2/5 Loss: 0.4192 Accuracy: 0.8250 AUC: 0.0000 Data Time: 1.3894 Batch Time: 2.8288
+2024-06-25 19:42:04,652 - INFO - VAL Epoch: 36 Step: 3/5 Loss: 0.4415 Accuracy: 0.8104 AUC: 0.0000 Data Time: 1.5436 Batch Time: 3.0204
+2024-06-25 19:42:05,671 - INFO - VAL Epoch: 36 Step: 4/5 Loss: 0.4571 Accuracy: 0.8035 AUC: 0.0000 Data Time: 1.3411 Batch Time: 2.6196
+2024-06-25 19:42:05,674 - INFO - AUC Score: 0.7050
+2024-06-25 19:42:05,675 - INFO - New best model at epoch: 37
+2024-06-25 19:42:05,861 - INFO - Starting Epoch: 38
+2024-06-25 19:42:09,152 - INFO - TRAIN Epoch: 37 Step: 0/18 Loss: 0.4350 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.3873 Batch Time: 3.2883
+2024-06-25 19:42:11,996 - INFO - TRAIN Epoch: 37 Step: 1/18 Loss: 0.4533 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.3701 Batch Time: 3.0655
+2024-06-25 19:42:16,051 - INFO - TRAIN Epoch: 37 Step: 2/18 Loss: 0.4670 Accuracy: 0.7861 AUC: 0.0000 Data Time: 1.6299 Batch Time: 3.3949
+2024-06-25 19:42:19,758 - INFO - TRAIN Epoch: 37 Step: 3/18 Loss: 0.4527 Accuracy: 0.7917 AUC: 0.0000 Data Time: 1.6422 Batch Time: 3.4723
+2024-06-25 19:42:22,299 - INFO - TRAIN Epoch: 37 Step: 4/18 Loss: 0.4510 Accuracy: 0.7883 AUC: 0.0000 Data Time: 1.6445 Batch Time: 3.2856
+2024-06-25 19:42:24,926 - INFO - TRAIN Epoch: 37 Step: 5/18 Loss: 0.4491 Accuracy: 0.7903 AUC: 0.0000 Data Time: 1.6598 Batch Time: 3.1753
+2024-06-25 19:42:27,919 - INFO - TRAIN Epoch: 37 Step: 6/18 Loss: 0.4629 Accuracy: 0.7774 AUC: 0.0000 Data Time: 1.5801 Batch Time: 3.1490
+2024-06-25 19:42:31,503 - INFO - TRAIN Epoch: 37 Step: 7/18 Loss: 0.4489 Accuracy: 0.7875 AUC: 0.0000 Data Time: 1.6051 Batch Time: 3.2032
+2024-06-25 19:42:33,873 - INFO - TRAIN Epoch: 37 Step: 8/18 Loss: 0.4418 Accuracy: 0.7935 AUC: 0.0000 Data Time: 1.5896 Batch Time: 3.1104
+2024-06-25 19:42:36,456 - INFO - TRAIN Epoch: 37 Step: 9/18 Loss: 0.4350 Accuracy: 0.8025 AUC: 0.0000 Data Time: 1.5956 Batch Time: 3.0575
+2024-06-25 19:42:38,806 - INFO - TRAIN Epoch: 37 Step: 10/18 Loss: 0.4361 Accuracy: 0.8038 AUC: 0.0000 Data Time: 1.5839 Batch Time: 2.9930
+2024-06-25 19:42:41,141 - INFO - TRAIN Epoch: 37 Step: 11/18 Loss: 0.4343 Accuracy: 0.8069 AUC: 0.0000 Data Time: 1.5721 Batch Time: 2.9379
+2024-06-25 19:42:44,375 - INFO - TRAIN Epoch: 37 Step: 12/18 Loss: 0.4321 Accuracy: 0.8071 AUC: 0.0000 Data Time: 1.6010 Batch Time: 2.9605
+2024-06-25 19:42:48,065 - INFO - TRAIN Epoch: 37 Step: 13/18 Loss: 0.4328 Accuracy: 0.8089 AUC: 0.0000 Data Time: 1.6867 Batch Time: 3.0123
+2024-06-25 19:42:50,646 - INFO - TRAIN Epoch: 37 Step: 14/18 Loss: 0.4360 Accuracy: 0.8050 AUC: 0.0000 Data Time: 1.6827 Batch Time: 2.9834
+2024-06-25 19:42:53,172 - INFO - TRAIN Epoch: 37 Step: 15/18 Loss: 0.4384 Accuracy: 0.8057 AUC: 0.0000 Data Time: 1.6793 Batch Time: 2.9547
+2024-06-25 19:42:56,311 - INFO - TRAIN Epoch: 37 Step: 16/18 Loss: 0.4395 Accuracy: 0.8034 AUC: 0.0000 Data Time: 1.6878 Batch Time: 2.9655
+2024-06-25 19:42:57,142 - INFO - TRAIN Epoch: 37 Step: 17/18 Loss: 0.4396 Accuracy: 0.8042 AUC: 0.0000 Data Time: 1.6252 Batch Time: 2.8467
+2024-06-25 19:42:57,146 - INFO - AUC Score: 0.7576
+2024-06-25 19:43:00,334 - INFO - VAL Epoch: 37 Step: 0/5 Loss: 0.4523 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.3630 Batch Time: 3.1858
+2024-06-25 19:43:03,496 - INFO - VAL Epoch: 37 Step: 1/5 Loss: 0.4251 Accuracy: 0.8208 AUC: 0.0000 Data Time: 1.3234 Batch Time: 3.1734
+2024-06-25 19:43:06,817 - INFO - VAL Epoch: 37 Step: 2/5 Loss: 0.4179 Accuracy: 0.8278 AUC: 0.0000 Data Time: 1.3944 Batch Time: 3.2218
+2024-06-25 19:43:11,058 - INFO - VAL Epoch: 37 Step: 3/5 Loss: 0.4404 Accuracy: 0.8146 AUC: 0.0000 Data Time: 1.6170 Batch Time: 3.4763
+2024-06-25 19:43:12,055 - INFO - VAL Epoch: 37 Step: 4/5 Loss: 0.4560 Accuracy: 0.8073 AUC: 0.0000 Data Time: 1.4328 Batch Time: 2.9802
+2024-06-25 19:43:12,058 - INFO - AUC Score: 0.7080
+2024-06-25 19:43:12,060 - INFO - New best model at epoch: 38
+2024-06-25 19:43:12,247 - INFO - Starting Epoch: 39
+2024-06-25 19:43:15,412 - INFO - TRAIN Epoch: 38 Step: 0/18 Loss: 0.4211 Accuracy: 0.7917 AUC: 0.0000 Data Time: 1.2501 Batch Time: 3.1611
+2024-06-25 19:43:18,243 - INFO - TRAIN Epoch: 38 Step: 1/18 Loss: 0.3875 Accuracy: 0.8417 AUC: 0.0000 Data Time: 1.3374 Batch Time: 2.9955
+2024-06-25 19:43:21,257 - INFO - TRAIN Epoch: 38 Step: 2/18 Loss: 0.3960 Accuracy: 0.8333 AUC: 0.0000 Data Time: 1.3882 Batch Time: 3.0011
+2024-06-25 19:43:24,607 - INFO - TRAIN Epoch: 38 Step: 3/18 Loss: 0.4167 Accuracy: 0.8187 AUC: 0.0000 Data Time: 1.4271 Batch Time: 3.0880
+2024-06-25 19:43:26,864 - INFO - TRAIN Epoch: 38 Step: 4/18 Loss: 0.4326 Accuracy: 0.8150 AUC: 0.0000 Data Time: 1.3343 Batch Time: 2.9215
+2024-06-25 19:43:29,866 - INFO - TRAIN Epoch: 38 Step: 5/18 Loss: 0.4322 Accuracy: 0.8181 AUC: 0.0000 Data Time: 1.3578 Batch Time: 2.9346
+2024-06-25 19:43:32,686 - INFO - TRAIN Epoch: 38 Step: 6/18 Loss: 0.4433 Accuracy: 0.8107 AUC: 0.0000 Data Time: 1.3928 Batch Time: 2.9182
+2024-06-25 19:43:35,373 - INFO - TRAIN Epoch: 38 Step: 7/18 Loss: 0.4381 Accuracy: 0.8094 AUC: 0.0000 Data Time: 1.4261 Batch Time: 2.8891
+2024-06-25 19:43:37,493 - INFO - TRAIN Epoch: 38 Step: 8/18 Loss: 0.4354 Accuracy: 0.8102 AUC: 0.0000 Data Time: 1.4054 Batch Time: 2.8035
+2024-06-25 19:43:39,933 - INFO - TRAIN Epoch: 38 Step: 9/18 Loss: 0.4379 Accuracy: 0.8075 AUC: 0.0000 Data Time: 1.4211 Batch Time: 2.7670
+2024-06-25 19:43:42,186 - INFO - TRAIN Epoch: 38 Step: 10/18 Loss: 0.4376 Accuracy: 0.8068 AUC: 0.0000 Data Time: 1.4183 Batch Time: 2.7202
+2024-06-25 19:43:44,545 - INFO - TRAIN Epoch: 38 Step: 11/18 Loss: 0.4416 Accuracy: 0.8028 AUC: 0.0000 Data Time: 1.4198 Batch Time: 2.6899
+2024-06-25 19:43:46,615 - INFO - TRAIN Epoch: 38 Step: 12/18 Loss: 0.4387 Accuracy: 0.8045 AUC: 0.0000 Data Time: 1.3679 Batch Time: 2.6420
+2024-06-25 19:43:49,193 - INFO - TRAIN Epoch: 38 Step: 13/18 Loss: 0.4379 Accuracy: 0.8054 AUC: 0.0000 Data Time: 1.3463 Batch Time: 2.6373
+2024-06-25 19:43:52,171 - INFO - TRAIN Epoch: 38 Step: 14/18 Loss: 0.4415 Accuracy: 0.8028 AUC: 0.0000 Data Time: 1.3442 Batch Time: 2.6598
+2024-06-25 19:43:55,080 - INFO - TRAIN Epoch: 38 Step: 15/18 Loss: 0.4441 Accuracy: 0.7995 AUC: 0.0000 Data Time: 1.3288 Batch Time: 2.6753
+2024-06-25 19:43:57,720 - INFO - TRAIN Epoch: 38 Step: 16/18 Loss: 0.4408 Accuracy: 0.8010 AUC: 0.0000 Data Time: 1.3204 Batch Time: 2.6731
+2024-06-25 19:43:58,291 - INFO - TRAIN Epoch: 38 Step: 17/18 Loss: 0.4384 Accuracy: 0.8028 AUC: 0.0000 Data Time: 1.2642 Batch Time: 2.5562
+2024-06-25 19:43:58,297 - INFO - AUC Score: 0.7585
+2024-06-25 19:44:00,393 - INFO - VAL Epoch: 38 Step: 0/5 Loss: 0.4521 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.7962 Batch Time: 2.0939
+2024-06-25 19:44:03,399 - INFO - VAL Epoch: 38 Step: 1/5 Loss: 0.4244 Accuracy: 0.8208 AUC: 0.0000 Data Time: 0.8414 Batch Time: 2.5491
+2024-06-25 19:44:06,100 - INFO - VAL Epoch: 38 Step: 2/5 Loss: 0.4172 Accuracy: 0.8278 AUC: 0.0000 Data Time: 0.8581 Batch Time: 2.5992
+2024-06-25 19:44:09,244 - INFO - VAL Epoch: 38 Step: 3/5 Loss: 0.4397 Accuracy: 0.8146 AUC: 0.0000 Data Time: 0.9357 Batch Time: 2.7349
+2024-06-25 19:44:09,930 - INFO - VAL Epoch: 38 Step: 4/5 Loss: 0.4555 Accuracy: 0.8073 AUC: 0.0000 Data Time: 0.8271 Batch Time: 2.3247
+2024-06-25 19:44:09,934 - INFO - AUC Score: 0.7083
+2024-06-25 19:44:09,935 - INFO - New best model at epoch: 39
+2024-06-25 19:44:10,141 - INFO - Starting Epoch: 40
+2024-06-25 19:44:11,806 - INFO - TRAIN Epoch: 39 Step: 0/18 Loss: 0.4726 Accuracy: 0.7750 AUC: 0.0000 Data Time: 0.7847 Batch Time: 1.6635
+2024-06-25 19:44:14,131 - INFO - TRAIN Epoch: 39 Step: 1/18 Loss: 0.4883 Accuracy: 0.7583 AUC: 0.0000 Data Time: 0.7824 Batch Time: 1.9935
+2024-06-25 19:44:16,992 - INFO - TRAIN Epoch: 39 Step: 2/18 Loss: 0.4717 Accuracy: 0.7722 AUC: 0.0000 Data Time: 0.8855 Batch Time: 2.2820
+2024-06-25 19:44:20,082 - INFO - TRAIN Epoch: 39 Step: 3/18 Loss: 0.4691 Accuracy: 0.7792 AUC: 0.0000 Data Time: 0.9879 Batch Time: 2.4835
+2024-06-25 19:44:23,118 - INFO - TRAIN Epoch: 39 Step: 4/18 Loss: 0.4575 Accuracy: 0.7867 AUC: 0.0000 Data Time: 1.0349 Batch Time: 2.5937
+2024-06-25 19:44:25,742 - INFO - TRAIN Epoch: 39 Step: 5/18 Loss: 0.4657 Accuracy: 0.7792 AUC: 0.0000 Data Time: 1.0662 Batch Time: 2.5984
+2024-06-25 19:44:28,560 - INFO - TRAIN Epoch: 39 Step: 6/18 Loss: 0.4593 Accuracy: 0.7833 AUC: 0.0000 Data Time: 1.0314 Batch Time: 2.6294
+2024-06-25 19:44:31,700 - INFO - TRAIN Epoch: 39 Step: 7/18 Loss: 0.4545 Accuracy: 0.7885 AUC: 0.0000 Data Time: 1.0482 Batch Time: 2.6930
+2024-06-25 19:44:34,355 - INFO - TRAIN Epoch: 39 Step: 8/18 Loss: 0.4509 Accuracy: 0.7898 AUC: 0.0000 Data Time: 1.0542 Batch Time: 2.6884
+2024-06-25 19:44:36,811 - INFO - TRAIN Epoch: 39 Step: 9/18 Loss: 0.4465 Accuracy: 0.7942 AUC: 0.0000 Data Time: 1.0609 Batch Time: 2.6648
+2024-06-25 19:44:39,616 - INFO - TRAIN Epoch: 39 Step: 10/18 Loss: 0.4503 Accuracy: 0.7924 AUC: 0.0000 Data Time: 1.0794 Batch Time: 2.6774
+2024-06-25 19:44:42,470 - INFO - TRAIN Epoch: 39 Step: 11/18 Loss: 0.4488 Accuracy: 0.7944 AUC: 0.0000 Data Time: 1.0824 Batch Time: 2.6920
+2024-06-25 19:44:45,127 - INFO - TRAIN Epoch: 39 Step: 12/18 Loss: 0.4486 Accuracy: 0.7955 AUC: 0.0000 Data Time: 1.0650 Batch Time: 2.6892
+2024-06-25 19:44:47,869 - INFO - TRAIN Epoch: 39 Step: 13/18 Loss: 0.4457 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.0752 Batch Time: 2.6929
+2024-06-25 19:44:50,831 - INFO - TRAIN Epoch: 39 Step: 14/18 Loss: 0.4391 Accuracy: 0.8017 AUC: 0.0000 Data Time: 1.0855 Batch Time: 2.7107
+2024-06-25 19:44:53,817 - INFO - TRAIN Epoch: 39 Step: 15/18 Loss: 0.4386 Accuracy: 0.8036 AUC: 0.0000 Data Time: 1.0733 Batch Time: 2.7278
+2024-06-25 19:44:56,555 - INFO - TRAIN Epoch: 39 Step: 16/18 Loss: 0.4358 Accuracy: 0.8064 AUC: 0.0000 Data Time: 1.0651 Batch Time: 2.7282
+2024-06-25 19:44:57,224 - INFO - TRAIN Epoch: 39 Step: 17/18 Loss: 0.4375 Accuracy: 0.8052 AUC: 0.0000 Data Time: 1.0286 Batch Time: 2.6137
+2024-06-25 19:44:57,228 - INFO - AUC Score: 0.7598
+2024-06-25 19:45:00,079 - INFO - VAL Epoch: 39 Step: 0/5 Loss: 0.4516 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8812 Batch Time: 2.8497
+2024-06-25 19:45:01,898 - INFO - VAL Epoch: 39 Step: 1/5 Loss: 0.4234 Accuracy: 0.8250 AUC: 0.0000 Data Time: 0.9033 Batch Time: 2.3337
+2024-06-25 19:45:03,969 - INFO - VAL Epoch: 39 Step: 2/5 Loss: 0.4161 Accuracy: 0.8306 AUC: 0.0000 Data Time: 0.8890 Batch Time: 2.2453
+2024-06-25 19:45:06,658 - INFO - VAL Epoch: 39 Step: 3/5 Loss: 0.4386 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8913 Batch Time: 2.3556
+2024-06-25 19:45:07,319 - INFO - VAL Epoch: 39 Step: 4/5 Loss: 0.4543 Accuracy: 0.8092 AUC: 0.0000 Data Time: 0.7866 Batch Time: 2.0162
+2024-06-25 19:45:07,322 - INFO - AUC Score: 0.7106
+2024-06-25 19:45:07,324 - INFO - New best model at epoch: 40
+2024-06-25 19:45:07,528 - INFO - Starting Epoch: 41
+2024-06-25 19:45:09,579 - INFO - TRAIN Epoch: 40 Step: 0/18 Loss: 0.4327 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.8160 Batch Time: 2.0483
+2024-06-25 19:45:12,218 - INFO - TRAIN Epoch: 40 Step: 1/18 Loss: 0.3990 Accuracy: 0.8250 AUC: 0.0000 Data Time: 1.0294 Batch Time: 2.3430
+2024-06-25 19:45:15,003 - INFO - TRAIN Epoch: 40 Step: 2/18 Loss: 0.4170 Accuracy: 0.8111 AUC: 0.0000 Data Time: 1.1106 Batch Time: 2.4897
+2024-06-25 19:45:17,250 - INFO - TRAIN Epoch: 40 Step: 3/18 Loss: 0.4223 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.1059 Batch Time: 2.4284
+2024-06-25 19:45:19,398 - INFO - TRAIN Epoch: 40 Step: 4/18 Loss: 0.4188 Accuracy: 0.8133 AUC: 0.0000 Data Time: 1.1227 Batch Time: 2.3719
+2024-06-25 19:45:21,848 - INFO - TRAIN Epoch: 40 Step: 5/18 Loss: 0.4055 Accuracy: 0.8208 AUC: 0.0000 Data Time: 1.1485 Batch Time: 2.3847
+2024-06-25 19:45:24,005 - INFO - TRAIN Epoch: 40 Step: 6/18 Loss: 0.4139 Accuracy: 0.8131 AUC: 0.0000 Data Time: 1.1440 Batch Time: 2.3517
+2024-06-25 19:45:26,018 - INFO - TRAIN Epoch: 40 Step: 7/18 Loss: 0.4188 Accuracy: 0.8115 AUC: 0.0000 Data Time: 1.1412 Batch Time: 2.3092
+2024-06-25 19:45:28,305 - INFO - TRAIN Epoch: 40 Step: 8/18 Loss: 0.4248 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.1295 Batch Time: 2.3065
+2024-06-25 19:45:30,926 - INFO - TRAIN Epoch: 40 Step: 9/18 Loss: 0.4250 Accuracy: 0.8092 AUC: 0.0000 Data Time: 1.1306 Batch Time: 2.3376
+2024-06-25 19:45:33,775 - INFO - TRAIN Epoch: 40 Step: 10/18 Loss: 0.4284 Accuracy: 0.8076 AUC: 0.0000 Data Time: 1.1351 Batch Time: 2.3838
+2024-06-25 19:45:36,826 - INFO - TRAIN Epoch: 40 Step: 11/18 Loss: 0.4328 Accuracy: 0.8049 AUC: 0.0000 Data Time: 1.1499 Batch Time: 2.4390
+2024-06-25 19:45:39,740 - INFO - TRAIN Epoch: 40 Step: 12/18 Loss: 0.4317 Accuracy: 0.8051 AUC: 0.0000 Data Time: 1.1485 Batch Time: 2.4754
+2024-06-25 19:45:42,267 - INFO - TRAIN Epoch: 40 Step: 13/18 Loss: 0.4358 Accuracy: 0.8030 AUC: 0.0000 Data Time: 1.1471 Batch Time: 2.4790
+2024-06-25 19:45:44,813 - INFO - TRAIN Epoch: 40 Step: 14/18 Loss: 0.4380 Accuracy: 0.8017 AUC: 0.0000 Data Time: 1.1369 Batch Time: 2.4833
+2024-06-25 19:45:47,705 - INFO - TRAIN Epoch: 40 Step: 15/18 Loss: 0.4370 Accuracy: 0.8036 AUC: 0.0000 Data Time: 1.1399 Batch Time: 2.5088
+2024-06-25 19:45:50,678 - INFO - TRAIN Epoch: 40 Step: 16/18 Loss: 0.4374 Accuracy: 0.8025 AUC: 0.0000 Data Time: 1.1446 Batch Time: 2.5359
+2024-06-25 19:45:51,299 - INFO - TRAIN Epoch: 40 Step: 17/18 Loss: 0.4363 Accuracy: 0.8042 AUC: 0.0000 Data Time: 1.1010 Batch Time: 2.4294
+2024-06-25 19:45:51,303 - INFO - AUC Score: 0.7608
+2024-06-25 19:45:53,575 - INFO - VAL Epoch: 40 Step: 0/5 Loss: 0.4513 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.8280 Batch Time: 2.2701
+2024-06-25 19:45:56,294 - INFO - VAL Epoch: 40 Step: 1/5 Loss: 0.4225 Accuracy: 0.8250 AUC: 0.0000 Data Time: 1.0094 Batch Time: 2.4936
+2024-06-25 19:45:58,244 - INFO - VAL Epoch: 40 Step: 2/5 Loss: 0.4152 Accuracy: 0.8306 AUC: 0.0000 Data Time: 0.9889 Batch Time: 2.3117
+2024-06-25 19:45:59,934 - INFO - VAL Epoch: 40 Step: 3/5 Loss: 0.4378 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.9429 Batch Time: 2.1558
+2024-06-25 19:46:00,757 - INFO - VAL Epoch: 40 Step: 4/5 Loss: 0.4538 Accuracy: 0.8092 AUC: 0.0000 Data Time: 0.8145 Batch Time: 1.8888
+2024-06-25 19:46:00,762 - INFO - AUC Score: 0.7111
+2024-06-25 19:46:00,763 - INFO - New best model at epoch: 41
+2024-06-25 19:46:00,951 - INFO - Starting Epoch: 42
+2024-06-25 19:46:02,695 - INFO - TRAIN Epoch: 41 Step: 0/18 Loss: 0.4109 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8431 Batch Time: 1.7415
+2024-06-25 19:46:04,336 - INFO - TRAIN Epoch: 41 Step: 1/18 Loss: 0.4135 Accuracy: 0.8125 AUC: 0.0000 Data Time: 0.8098 Batch Time: 1.6905
+2024-06-25 19:46:06,711 - INFO - TRAIN Epoch: 41 Step: 2/18 Loss: 0.4073 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8779 Batch Time: 1.9180
+2024-06-25 19:46:09,362 - INFO - TRAIN Epoch: 41 Step: 3/18 Loss: 0.4053 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.9441 Batch Time: 2.1009
+2024-06-25 19:46:11,797 - INFO - TRAIN Epoch: 41 Step: 4/18 Loss: 0.4103 Accuracy: 0.8200 AUC: 0.0000 Data Time: 0.9750 Batch Time: 2.1675
+2024-06-25 19:46:14,601 - INFO - TRAIN Epoch: 41 Step: 5/18 Loss: 0.4174 Accuracy: 0.8153 AUC: 0.0000 Data Time: 0.9507 Batch Time: 2.2731
+2024-06-25 19:46:17,248 - INFO - TRAIN Epoch: 41 Step: 6/18 Loss: 0.4168 Accuracy: 0.8131 AUC: 0.0000 Data Time: 0.9372 Batch Time: 2.3263
+2024-06-25 19:46:19,958 - INFO - TRAIN Epoch: 41 Step: 7/18 Loss: 0.4114 Accuracy: 0.8156 AUC: 0.0000 Data Time: 0.9334 Batch Time: 2.3741
+2024-06-25 19:46:22,866 - INFO - TRAIN Epoch: 41 Step: 8/18 Loss: 0.4125 Accuracy: 0.8148 AUC: 0.0000 Data Time: 0.9354 Batch Time: 2.4331
+2024-06-25 19:46:25,864 - INFO - TRAIN Epoch: 41 Step: 9/18 Loss: 0.4236 Accuracy: 0.8092 AUC: 0.0000 Data Time: 0.9631 Batch Time: 2.4893
+2024-06-25 19:46:28,390 - INFO - TRAIN Epoch: 41 Step: 10/18 Loss: 0.4300 Accuracy: 0.8061 AUC: 0.0000 Data Time: 0.9780 Batch Time: 2.4922
+2024-06-25 19:46:30,837 - INFO - TRAIN Epoch: 41 Step: 11/18 Loss: 0.4296 Accuracy: 0.8069 AUC: 0.0000 Data Time: 0.9637 Batch Time: 2.4883
+2024-06-25 19:46:33,442 - INFO - TRAIN Epoch: 41 Step: 12/18 Loss: 0.4286 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9543 Batch Time: 2.4970
+2024-06-25 19:46:36,031 - INFO - TRAIN Epoch: 41 Step: 13/18 Loss: 0.4276 Accuracy: 0.8101 AUC: 0.0000 Data Time: 0.9727 Batch Time: 2.5034
+2024-06-25 19:46:38,795 - INFO - TRAIN Epoch: 41 Step: 14/18 Loss: 0.4322 Accuracy: 0.8061 AUC: 0.0000 Data Time: 0.9908 Batch Time: 2.5206
+2024-06-25 19:46:41,444 - INFO - TRAIN Epoch: 41 Step: 15/18 Loss: 0.4301 Accuracy: 0.8068 AUC: 0.0000 Data Time: 0.9964 Batch Time: 2.5285
+2024-06-25 19:46:44,259 - INFO - TRAIN Epoch: 41 Step: 16/18 Loss: 0.4346 Accuracy: 0.8049 AUC: 0.0000 Data Time: 1.0058 Batch Time: 2.5452
+2024-06-25 19:46:44,843 - INFO - TRAIN Epoch: 41 Step: 17/18 Loss: 0.4350 Accuracy: 0.8057 AUC: 0.0000 Data Time: 0.9679 Batch Time: 2.4361
+2024-06-25 19:46:44,847 - INFO - AUC Score: 0.7630
+2024-06-25 19:46:47,099 - INFO - VAL Epoch: 41 Step: 0/5 Loss: 0.4502 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.7858 Batch Time: 2.2501
+2024-06-25 19:46:49,396 - INFO - VAL Epoch: 41 Step: 1/5 Loss: 0.4217 Accuracy: 0.8250 AUC: 0.0000 Data Time: 0.9915 Batch Time: 2.2729
+2024-06-25 19:46:51,822 - INFO - VAL Epoch: 41 Step: 2/5 Loss: 0.4142 Accuracy: 0.8333 AUC: 0.0000 Data Time: 1.0350 Batch Time: 2.3233
+2024-06-25 19:46:54,705 - INFO - VAL Epoch: 41 Step: 3/5 Loss: 0.4366 Accuracy: 0.8187 AUC: 0.0000 Data Time: 1.0757 Batch Time: 2.4629
+2024-06-25 19:46:55,391 - INFO - VAL Epoch: 41 Step: 4/5 Loss: 0.4525 Accuracy: 0.8112 AUC: 0.0000 Data Time: 0.9392 Batch Time: 2.1072
+2024-06-25 19:46:55,395 - INFO - AUC Score: 0.7141
+2024-06-25 19:46:55,396 - INFO - New best model at epoch: 42
+2024-06-25 19:46:55,665 - INFO - Starting Epoch: 43
+2024-06-25 19:46:57,319 - INFO - TRAIN Epoch: 42 Step: 0/18 Loss: 0.4582 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.7857 Batch Time: 1.6511
+2024-06-25 19:46:59,682 - INFO - TRAIN Epoch: 42 Step: 1/18 Loss: 0.4226 Accuracy: 0.8125 AUC: 0.0000 Data Time: 0.7723 Batch Time: 2.0057
+2024-06-25 19:47:02,174 - INFO - TRAIN Epoch: 42 Step: 2/18 Loss: 0.4167 Accuracy: 0.8139 AUC: 0.0000 Data Time: 0.9121 Batch Time: 2.1669
+2024-06-25 19:47:04,321 - INFO - TRAIN Epoch: 42 Step: 3/18 Loss: 0.4295 Accuracy: 0.8063 AUC: 0.0000 Data Time: 0.9695 Batch Time: 2.1617
+2024-06-25 19:47:06,713 - INFO - TRAIN Epoch: 42 Step: 4/18 Loss: 0.4287 Accuracy: 0.8117 AUC: 0.0000 Data Time: 0.9961 Batch Time: 2.2071
+2024-06-25 19:47:08,886 - INFO - TRAIN Epoch: 42 Step: 5/18 Loss: 0.4389 Accuracy: 0.8028 AUC: 0.0000 Data Time: 1.0086 Batch Time: 2.2012
+2024-06-25 19:47:11,111 - INFO - TRAIN Epoch: 42 Step: 6/18 Loss: 0.4414 Accuracy: 0.7988 AUC: 0.0000 Data Time: 0.9774 Batch Time: 2.2043
+2024-06-25 19:47:13,414 - INFO - TRAIN Epoch: 42 Step: 7/18 Loss: 0.4492 Accuracy: 0.7937 AUC: 0.0000 Data Time: 0.9985 Batch Time: 2.2163
+2024-06-25 19:47:15,985 - INFO - TRAIN Epoch: 42 Step: 8/18 Loss: 0.4458 Accuracy: 0.7935 AUC: 0.0000 Data Time: 1.0259 Batch Time: 2.2554
+2024-06-25 19:47:18,696 - INFO - TRAIN Epoch: 42 Step: 9/18 Loss: 0.4445 Accuracy: 0.7958 AUC: 0.0000 Data Time: 1.0478 Batch Time: 2.3008
+2024-06-25 19:47:21,473 - INFO - TRAIN Epoch: 42 Step: 10/18 Loss: 0.4391 Accuracy: 0.8008 AUC: 0.0000 Data Time: 1.0670 Batch Time: 2.3438
+2024-06-25 19:47:24,413 - INFO - TRAIN Epoch: 42 Step: 11/18 Loss: 0.4359 Accuracy: 0.8035 AUC: 0.0000 Data Time: 1.0503 Batch Time: 2.3933
+2024-06-25 19:47:27,361 - INFO - TRAIN Epoch: 42 Step: 12/18 Loss: 0.4355 Accuracy: 0.8038 AUC: 0.0000 Data Time: 1.0361 Batch Time: 2.4358
+2024-06-25 19:47:30,639 - INFO - TRAIN Epoch: 42 Step: 13/18 Loss: 0.4351 Accuracy: 0.8060 AUC: 0.0000 Data Time: 1.0523 Batch Time: 2.4958
+2024-06-25 19:47:33,927 - INFO - TRAIN Epoch: 42 Step: 14/18 Loss: 0.4352 Accuracy: 0.8061 AUC: 0.0000 Data Time: 1.0666 Batch Time: 2.5485
+2024-06-25 19:47:36,586 - INFO - TRAIN Epoch: 42 Step: 15/18 Loss: 0.4356 Accuracy: 0.8073 AUC: 0.0000 Data Time: 1.0561 Batch Time: 2.5553
+2024-06-25 19:47:38,500 - INFO - TRAIN Epoch: 42 Step: 16/18 Loss: 0.4347 Accuracy: 0.8074 AUC: 0.0000 Data Time: 1.0495 Batch Time: 2.5174
+2024-06-25 19:47:39,448 - INFO - TRAIN Epoch: 42 Step: 17/18 Loss: 0.4343 Accuracy: 0.8086 AUC: 0.0000 Data Time: 1.0088 Batch Time: 2.4301
+2024-06-25 19:47:39,454 - INFO - AUC Score: 0.7654
+2024-06-25 19:47:42,016 - INFO - VAL Epoch: 42 Step: 0/5 Loss: 0.4487 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9732 Batch Time: 2.5601
+2024-06-25 19:47:44,092 - INFO - VAL Epoch: 42 Step: 1/5 Loss: 0.4209 Accuracy: 0.8250 AUC: 0.0000 Data Time: 0.9475 Batch Time: 2.3164
+2024-06-25 19:47:45,805 - INFO - VAL Epoch: 42 Step: 2/5 Loss: 0.4132 Accuracy: 0.8333 AUC: 0.0000 Data Time: 0.9052 Batch Time: 2.1146
+2024-06-25 19:47:48,218 - INFO - VAL Epoch: 42 Step: 3/5 Loss: 0.4354 Accuracy: 0.8187 AUC: 0.0000 Data Time: 0.9470 Batch Time: 2.1880
+2024-06-25 19:47:48,888 - INFO - VAL Epoch: 42 Step: 4/5 Loss: 0.4511 Accuracy: 0.8112 AUC: 0.0000 Data Time: 0.8331 Batch Time: 1.8841
+2024-06-25 19:47:48,893 - INFO - AUC Score: 0.7177
+2024-06-25 19:47:48,896 - INFO - New best model at epoch: 43
+2024-06-25 19:47:49,115 - INFO - Starting Epoch: 44
+2024-06-25 19:47:50,913 - INFO - TRAIN Epoch: 43 Step: 0/18 Loss: 0.4464 Accuracy: 0.8000 AUC: 0.0000 Data Time: 0.9007 Batch Time: 1.7933
+2024-06-25 19:47:53,098 - INFO - TRAIN Epoch: 43 Step: 1/18 Loss: 0.4415 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.0559 Batch Time: 1.9876
+2024-06-25 19:47:55,451 - INFO - TRAIN Epoch: 43 Step: 2/18 Loss: 0.4498 Accuracy: 0.7833 AUC: 0.0000 Data Time: 1.0815 Batch Time: 2.1081
+2024-06-25 19:47:57,809 - INFO - TRAIN Epoch: 43 Step: 3/18 Loss: 0.4617 Accuracy: 0.7854 AUC: 0.0000 Data Time: 1.0463 Batch Time: 2.1702
+2024-06-25 19:48:00,721 - INFO - TRAIN Epoch: 43 Step: 4/18 Loss: 0.4584 Accuracy: 0.7900 AUC: 0.0000 Data Time: 1.0121 Batch Time: 2.3182
+2024-06-25 19:48:03,659 - INFO - TRAIN Epoch: 43 Step: 5/18 Loss: 0.4656 Accuracy: 0.7847 AUC: 0.0000 Data Time: 0.9881 Batch Time: 2.4213
+2024-06-25 19:48:06,313 - INFO - TRAIN Epoch: 43 Step: 6/18 Loss: 0.4639 Accuracy: 0.7869 AUC: 0.0000 Data Time: 0.9758 Batch Time: 2.4541
+2024-06-25 19:48:09,021 - INFO - TRAIN Epoch: 43 Step: 7/18 Loss: 0.4532 Accuracy: 0.7948 AUC: 0.0000 Data Time: 0.9673 Batch Time: 2.4857
+2024-06-25 19:48:11,795 - INFO - TRAIN Epoch: 43 Step: 8/18 Loss: 0.4504 Accuracy: 0.7963 AUC: 0.0000 Data Time: 0.9598 Batch Time: 2.5176
+2024-06-25 19:48:15,183 - INFO - TRAIN Epoch: 43 Step: 9/18 Loss: 0.4499 Accuracy: 0.7950 AUC: 0.0000 Data Time: 0.9985 Batch Time: 2.6043
+2024-06-25 19:48:18,202 - INFO - TRAIN Epoch: 43 Step: 10/18 Loss: 0.4489 Accuracy: 0.7947 AUC: 0.0000 Data Time: 1.0073 Batch Time: 2.6418
+2024-06-25 19:48:21,031 - INFO - TRAIN Epoch: 43 Step: 11/18 Loss: 0.4435 Accuracy: 0.7972 AUC: 0.0000 Data Time: 0.9957 Batch Time: 2.6573
+2024-06-25 19:48:24,255 - INFO - TRAIN Epoch: 43 Step: 12/18 Loss: 0.4429 Accuracy: 0.7987 AUC: 0.0000 Data Time: 1.0096 Batch Time: 2.7008
+2024-06-25 19:48:27,546 - INFO - TRAIN Epoch: 43 Step: 13/18 Loss: 0.4400 Accuracy: 0.8006 AUC: 0.0000 Data Time: 1.0217 Batch Time: 2.7427
+2024-06-25 19:48:30,847 - INFO - TRAIN Epoch: 43 Step: 14/18 Loss: 0.4400 Accuracy: 0.8006 AUC: 0.0000 Data Time: 1.0361 Batch Time: 2.7798
+2024-06-25 19:48:33,561 - INFO - TRAIN Epoch: 43 Step: 15/18 Loss: 0.4421 Accuracy: 0.7984 AUC: 0.0000 Data Time: 1.0385 Batch Time: 2.7755
+2024-06-25 19:48:36,071 - INFO - TRAIN Epoch: 43 Step: 16/18 Loss: 0.4334 Accuracy: 0.8054 AUC: 0.0000 Data Time: 1.0353 Batch Time: 2.7597
+2024-06-25 19:48:36,676 - INFO - TRAIN Epoch: 43 Step: 17/18 Loss: 0.4327 Accuracy: 0.8057 AUC: 0.0000 Data Time: 0.9970 Batch Time: 2.6399
+2024-06-25 19:48:36,682 - INFO - AUC Score: 0.7671
+2024-06-25 19:48:39,217 - INFO - VAL Epoch: 43 Step: 0/5 Loss: 0.4498 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.7973 Batch Time: 2.5328
+2024-06-25 19:48:41,881 - INFO - VAL Epoch: 43 Step: 1/5 Loss: 0.4199 Accuracy: 0.8250 AUC: 0.0000 Data Time: 0.8187 Batch Time: 2.5970
+2024-06-25 19:48:44,586 - INFO - VAL Epoch: 43 Step: 2/5 Loss: 0.4120 Accuracy: 0.8306 AUC: 0.0000 Data Time: 0.8238 Batch Time: 2.6322
+2024-06-25 19:48:47,428 - INFO - VAL Epoch: 43 Step: 3/5 Loss: 0.4352 Accuracy: 0.8167 AUC: 0.0000 Data Time: 0.8389 Batch Time: 2.6843
+2024-06-25 19:48:48,290 - INFO - VAL Epoch: 43 Step: 4/5 Loss: 0.4519 Accuracy: 0.8092 AUC: 0.0000 Data Time: 0.7429 Batch Time: 2.3191
+2024-06-25 19:48:48,294 - INFO - AUC Score: 0.7144
+2024-06-25 19:48:48,389 - INFO - Starting Epoch: 45
+2024-06-25 19:48:51,176 - INFO - TRAIN Epoch: 44 Step: 0/18 Loss: 0.4602 Accuracy: 0.7917 AUC: 0.0000 Data Time: 0.8309 Batch Time: 2.7832
+2024-06-25 19:48:54,052 - INFO - TRAIN Epoch: 44 Step: 1/18 Loss: 0.4768 Accuracy: 0.7750 AUC: 0.0000 Data Time: 0.8340 Batch Time: 2.8282
+2024-06-25 19:48:57,001 - INFO - TRAIN Epoch: 44 Step: 2/18 Loss: 0.4550 Accuracy: 0.7889 AUC: 0.0000 Data Time: 0.8361 Batch Time: 2.8681
+2024-06-25 19:49:01,019 - INFO - TRAIN Epoch: 44 Step: 3/18 Loss: 0.4579 Accuracy: 0.7937 AUC: 0.0000 Data Time: 1.1386 Batch Time: 3.1552
+2024-06-25 19:49:03,868 - INFO - TRAIN Epoch: 44 Step: 4/18 Loss: 0.4538 Accuracy: 0.7933 AUC: 0.0000 Data Time: 1.1449 Batch Time: 3.0935
+2024-06-25 19:49:06,458 - INFO - TRAIN Epoch: 44 Step: 5/18 Loss: 0.4420 Accuracy: 0.8000 AUC: 0.0000 Data Time: 1.1012 Batch Time: 3.0094
+2024-06-25 19:49:09,158 - INFO - TRAIN Epoch: 44 Step: 6/18 Loss: 0.4379 Accuracy: 0.8071 AUC: 0.0000 Data Time: 1.0728 Batch Time: 2.9649
+2024-06-25 19:49:11,665 - INFO - TRAIN Epoch: 44 Step: 7/18 Loss: 0.4406 Accuracy: 0.8052 AUC: 0.0000 Data Time: 1.0761 Batch Time: 2.9073
+2024-06-25 19:49:14,412 - INFO - TRAIN Epoch: 44 Step: 8/18 Loss: 0.4372 Accuracy: 0.8083 AUC: 0.0000 Data Time: 1.0808 Batch Time: 2.8892
+2024-06-25 19:49:17,244 - INFO - TRAIN Epoch: 44 Step: 9/18 Loss: 0.4276 Accuracy: 0.8150 AUC: 0.0000 Data Time: 1.0840 Batch Time: 2.8833
+2024-06-25 19:49:20,194 - INFO - TRAIN Epoch: 44 Step: 10/18 Loss: 0.4304 Accuracy: 0.8121 AUC: 0.0000 Data Time: 1.0932 Batch Time: 2.8890
+2024-06-25 19:49:22,764 - INFO - TRAIN Epoch: 44 Step: 11/18 Loss: 0.4350 Accuracy: 0.8069 AUC: 0.0000 Data Time: 1.1014 Batch Time: 2.8622
+2024-06-25 19:49:25,567 - INFO - TRAIN Epoch: 44 Step: 12/18 Loss: 0.4324 Accuracy: 0.8090 AUC: 0.0000 Data Time: 1.0801 Batch Time: 2.8576
+2024-06-25 19:49:28,267 - INFO - TRAIN Epoch: 44 Step: 13/18 Loss: 0.4352 Accuracy: 0.8065 AUC: 0.0000 Data Time: 1.0652 Batch Time: 2.8462
+2024-06-25 19:49:30,629 - INFO - TRAIN Epoch: 44 Step: 14/18 Loss: 0.4322 Accuracy: 0.8078 AUC: 0.0000 Data Time: 1.0549 Batch Time: 2.8137
+2024-06-25 19:49:33,025 - INFO - TRAIN Epoch: 44 Step: 15/18 Loss: 0.4288 Accuracy: 0.8099 AUC: 0.0000 Data Time: 1.0442 Batch Time: 2.7875
+2024-06-25 19:49:36,369 - INFO - TRAIN Epoch: 44 Step: 16/18 Loss: 0.4298 Accuracy: 0.8078 AUC: 0.0000 Data Time: 1.0549 Batch Time: 2.8200
+2024-06-25 19:49:37,356 - INFO - TRAIN Epoch: 44 Step: 17/18 Loss: 0.4319 Accuracy: 0.8062 AUC: 0.0000 Data Time: 1.0155 Batch Time: 2.7181
+2024-06-25 19:49:37,360 - INFO - AUC Score: 0.7675
+2024-06-25 19:49:40,364 - INFO - VAL Epoch: 44 Step: 0/5 Loss: 0.4487 Accuracy: 0.8083 AUC: 0.0000 Data Time: 0.9312 Batch Time: 3.0030
